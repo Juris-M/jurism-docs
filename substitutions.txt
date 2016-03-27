@@ -1,0 +1,43 @@
+.. |CCBYSA| image:: ./media/cc-by-sa-80x15.png
+
+.. _CCBYSA: http://creativecommons.org/licenses/by-sa/3.0/
+
+.. |br| raw:: html
+
+   <br />
+
+.. |cites-target| raw:: html
+
+   <div id="csl-outer-block">
+     <div id="csl-inner-block" class="csl-hide">
+       <div id="csl-content-block"></div>
+     </div>
+   </div>
+
+.. |cites-button| raw:: html
+
+   <button id="csl-cites-button" onclick="toggleCslDiv();">Generate citations</button>
+
+.. |citeproc-js| raw:: html
+
+   <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">citeproc-js</span>
+
+.. |git| raw:: html
+
+   <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">git</span>
+
+.. |jing| raw:: html
+
+   <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">jing</span>
+
+.. |python| raw:: html
+
+   <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">python</span>
+
+.. |rhino| raw:: html
+
+   <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">rhino</span>
+
+.. |--| unicode:: U+2013
+   :trim:
+
