@@ -33,8 +33,9 @@ Juris-M itself, note the following:
    translators has been fixed.
 
 **Simpler legal style modules**
-   The legal style modules have been revised to follow the new,
-   smarter framework for legal cites (see link above).
+   The legal style modules have been revised to follow a new,
+   smarter framework for legal cites. We are now set to begin
+   extending jurisdiction coverage.
 
 **Style development tutorial update**
    The `Juris-M Style Development editor <https://juris-m.github.io>`_
