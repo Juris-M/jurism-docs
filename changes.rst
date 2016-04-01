@@ -73,10 +73,12 @@ the Firefox plugin. The changes are few but meaningful. Highlights:
    Zotero," I left the Zotero ID unchanged. Times are changing, and I
    gave JM for Firefox its own ID last year. I cheated in JM
    Standalone, though, until a week ago---and when I made the change
-   to improve consistency, JM Standalone refused to install ZotFile,
+   to improve consistency, JM Standalone refused to install `ZotFile`_,
    an add-on with some very nice features for managing PDFs.
 
-   The developer of ZotFile has kindly added to Juris-M ID to the
+   .. _ZotFile: http://zotfile.com/
+
+   The developer of ZotFile has kindly added the Juris-M ID to the
    plugin's list of accepted companion tools. I have also added
    a clone of ZotFile to the Juris-M site that will update itself
    automatically when new versions come out, and bundled it with
