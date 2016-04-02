@@ -21,7 +21,7 @@ A consequence of the &ldquo;minimal changes&rdquo; approach is that
 |jurism| plays well with existing Zotero systems. |jurism| does not
 affect an existing Zotero database when installed, but instead creates
 a copy of the Zotero original; and its libraries can be synced to the
-user&lsquo;s existing Zotero account.
+user's existing Zotero account.
 
 The project began life in 2010 as the "Multilingual
 Zotero" plugin for the Firefox browser (MLZ). When changes to
