@@ -20,5 +20,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 1
 
+   introduction.rst
    changes.rst
-   
+   jurism-extras.rst
+   multilingual-usage.rst
