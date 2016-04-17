@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-citeproc-js
-===========
+Juris-M
+=======
 
-A JavaScript implementation of the Citation Style Language
+A reference manager based on Zotero with support for legal and multilingual referencing
 
 .. include:: substitutions.txt
 |CCBYSA|_ `Frank Bennett <https://twitter.com/fgbjr>`_
