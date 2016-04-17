@@ -8,6 +8,79 @@ Release Announcements
 ------------------------
 
 ---------------
+`v4.0.29.8m64`_
+---------------
+
+.. _v4.0.29.8m64: https://github.com/Juris-M/zotero/commits/v4.0.29.8m64
+
+This release is an update to address a number of minor bugs uncovered
+since v4.0.29.6m62 went live, and to merge in some upstream changes
+from Zotero.
+
+^^^^^^^^^^^^^
+Juris-M fixes
+^^^^^^^^^^^^^
+
+**Bugfixes for document cite extraction**
+   Thanks to patient feedback from Hem Sras, bugs introduced by the document
+   cite extraction code have been fixed. If you experienced stability issues
+   in the word processor plugins, these should be resolved in this release.
+
+**Import translation fixes**
+   Thanks to detailed feedback from Emiliano Heyns, the author and maintainer
+   of the Better BibTeX plugin for Zotero, numerous bugs in Juris-M import
+   have been fixed. Failures ranged from records that could crash the
+   import translator, to records that would lose data or place it in the
+   wrong field. Export and import of ``CSL JSON`` and Zotero RDF records,
+   in particular (the two formats capable of losslessly round-tripping
+   Juris-M records) should now be more satisfactory.
+
+**Proper composition of synced items**
+   This is a change with no visible effects. The Zotero sync
+   servers recognize only fields that are present in official Zotero.
+   To make Juris-M sync-compatible with Zotero, at sync time the extra
+   field data added to Juris-M records is removed from sync items, and
+   placed in the **Extra** field. When server-side items are then
+   synced to another Juris-M client, the encoded data is *meant to be*
+   restored to the relevant fields. This is invisible to the user in
+   the Juris-M client (although the encoded data is visible in the
+   online view of some items).
+
+   The bug was that on sync-down, this extra information was being
+   stored in the *database* Juris-M record, although it was properly
+   assigned to fields when the items were opened. This would
+   potentially be a problem during some upgrades, when database
+   records are accessed directly before Juris-M startup. No such
+   upgrade will happen in the medium term, but after Zotero 5.0 goes
+   live, we will need to perform migration steps. By fixing this 
+   small anomaly now, we can assure a smoother transition to the
+   new architecture, probably toward the end of this calendar year.
+
+^^^^^^^^^^^^^^^^^^^^^
+``citeproc-js`` fixes
+^^^^^^^^^^^^^^^^^^^^^
+
+   See the changes for `citeproc-js v1.1.98`_ for details.
+
+.. _`citeproc-js v1.1.96`: https://citeproc-js.readthedocs.org/en/latest/changes.html
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Fixes inherited from Zotero
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Zotero IDs**
+   In another change with no visible impact to the user, new code has
+   been backported from Zotero 5.0 to generate internal IDs applied
+   to Zotero (and Juris-M) items.
+
+**Search-as-you-type and TAB key in creator fields**
+   For manual entry, a patch from Zotero to which I contributed in a minor way
+   now properly sets two-author names from the search-as-you-type list
+   in the ``lastName`` and ``firstName`` fields when the ``TAB`` key
+   is pressed.
+
+---------------
 `v4.0.29.6m62`_
 ---------------
 
