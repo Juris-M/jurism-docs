@@ -62,7 +62,7 @@ Juris-M fixes
 
    See the changes for `citeproc-js v1.1.98`_ for details.
 
-.. _`citeproc-js v1.1.96`: https://citeproc-js.readthedocs.org/en/latest/changes.html
+.. _`citeproc-js v1.1.98`: https://citeproc-js.readthedocs.org/en/latest/changes.html
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
