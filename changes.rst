@@ -8,10 +8,10 @@ Release Announcements
 ------------------------
 
 ---------------
-`v4.0.29.8m64`_
+`v4.0.29.8m66`_
 ---------------
 
-.. _v4.0.29.8m64: https://github.com/Juris-M/zotero/commits/v4.0.29.8m64
+.. _v4.0.29.8m66: https://github.com/Juris-M/zotero/commits/v4.0.29.8m66
 
 This release is an update to address a number of minor bugs uncovered
 since v4.0.29.6m62 went live, and to merge in some upstream changes
@@ -25,6 +25,10 @@ Juris-M fixes
    Thanks to patient feedback from Hem Sras, bugs introduced by the document
    cite extraction code have been fixed. If you experienced stability issues
    in the word processor plugins, these should be resolved in this release.
+
+   I am happy to confirm that document cite extraction is at last
+   working well, as of this 4.0.29.8m66 release, after bugfixes on several
+   fronts.
 
 **Import translation fixes**
    Thanks to detailed feedback from Emiliano Heyns, the author and maintainer
