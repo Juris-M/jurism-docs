@@ -8,8 +8,179 @@ Release Announcements
 ------------------------
 
 ---------------
-`v4.0.29.8m66`_
+`v4.0.29.10m76`_
 ---------------
+
+.. _v4.0.29.10m76: https://github.com/Juris-M/zotero/commits/v4.0.29.10m76
+
+**Language Preferences**
+  (1) The earlier change that limited "language" and "script"
+  selections to their respective roles has been reversed.
+  The data on which the menus are based (the IANA Language
+  Subtag Registry) is not sufficient rigorous in classifying
+  tags, and this was causing show-stopping problems for some
+  users. Removing the restriction seems the best way of
+  resolving the issue.
+  
+  (2) The page layout of the top half of the Language Preferences pane
+  has been reorganized. The presentation may be a little cleaner on
+  some systems---and it is much easier for developers (including me)
+  to follow.
+
+**Extra field in Reports**
+  I have placed a border around Extra comments in generated reports.
+  We use this to return comments on bibliography entries to
+  our students (in the Nagoya University Faculty of Law),
+  and the emphasis improves the readability of feedback reports.
+
+**Client name**
+  The name of the client was still showing as "ML-Zotero" in
+  tab mode. This has been fixed.
+
+**Legal items in the center pane**
+  Some further code changes help assure that something meaningful
+  appears in the Title column of the center pane for legal items.
+
+**Race condition avoided**
+  I recently enabled the re-saving of item data, to force the
+  hacked-in data for Juris-M items to be properly allocated in
+  the database. This proved an obsession too far, as it triggered
+  a race condition (an infinite loop) on some database entries.
+  The change has been reversed.
+
+**Jurisdictions**
+  The data behind the Jurisdiction search-as-you-type field and the 
+  citation process has been updated from the `Legal Resource Registry`_.
+
+.. _`https://fbennett.github.io/legal-resource-registry`
+
+**Upgrade citeproc-js**
+  See the changes up to `citeproc-js v1.1.103`_ for details.
+
+.. _`citeproc-js v1.1.103`: https://citeproc-js.readthedocs.org/en/latest/changes.html
+
+---------------
+`v4.0.29.9m75`_
+---------------
+
+.. _v4.0.29.9m75: https://github.com/Juris-M/zotero/commits/v4.0.29.9m75
+
+**Sync mask for Genre field in Patent**
+  The previous release missed out a sync mask for this extended
+  field, causing sync to fail when data was present in it. This
+  has been fixed.
+
+**Import translation fixes**
+  While working on multilingual data across databases, I discovered
+  that some multilingual data was not being imported. This has been fixed.
+
+---------------
+`v4.0.29.9m74`_
+---------------
+
+.. _v4.0.29.9m74: https://github.com/Juris-M/zotero/commits/v4.0.29.9m74
+
+**Search-as-you-type conditions for Court**
+  The search facility in the Court field recognized only text from
+  the beginning of the target entry. This was proving to be a royal
+  pain with U.S. federal court decisions, so I have loosen the
+  conditions: search will now select entries that match the
+  entered text anywhere in the field.
+
+**Genre field for Patent**
+  One of our M.A. finalists has cited several trademark filings
+  in his thesis. After some casting about, I decided that
+  the Patent type is a reasonably good fit for many types of
+  filings. The addition of a Genre field gives it flexibility
+  for multi-purposing.
+
+**Translator for all legal types**
+  Primary legal resources are cited in translation frequently
+  enough to justify adding the Translator creator to all
+  legal types, so I have done that.
+
+**Firefox 46 compatibility fix**
+  Firefox 46 brought an upgrade to the browser JavaScript engine,
+  and the upgrade broke some legacy code in the Juris-M version\
+  of the CSL editor. This has been fixed.
+
+**Help link in Language Preferences**
+
+  The help link in the Language Preferences pane was pointing
+  to an unhelpful location. Emilian Heyns kindly filed a pull
+  request with the URL of a more meaningful target page.
+
+**Jurisdictions**
+  The data behind the Jurisdiction search-as-you-type field and the 
+  citation process has been updated from the `Legal Resource Registry`_.
+
+.. _`https://fbennett.github.io/legal-resource-registry`
+
+---------------
+`v4.0.29.8m72`_
+---------------
+
+.. _v4.0.29.8m72: https://github.com/Juris-M/zotero/commits/v4.0.29.8m72
+
+**Fix scoping error**
+
+  The fix introduced by ``m70`` was broken due to a scoping
+  error (a call to a variable that did not exist in the
+  context of the caller). This has been fixed.
+
+---------------
+`v4.0.29.8m71`_
+---------------
+
+.. _v4.0.29.8m71: https://github.com/Juris-M/zotero/commits/v4.0.29.8m71
+
+**Bump Firefox version**
+  This release permits Juris-M to run on Firefox 46. Oops.
+  There were no other changes in this release.
+
+---------------
+`v4.0.29.8m70`_
+---------------
+
+.. _v4.0.29.8m70: https://github.com/Juris-M/zotero/commits/v4.0.29.8m70
+
+
+**Bump Firefox version**
+  Firefox continues to issue releases at a blistering pace.
+  This fixes some compatibility issues in legacy Juris-M code.
+
+**Update citeproc-js**
+  The citeproc-js citation engine was upgraded to 1.1.101.
+
+
+---------------
+`v4.0.29.8m69`_
+---------------
+
+.. _v4.0.29.8m69: https://github.com/Juris-M/zotero/commits/v4.0.29.8m69
+
+**Multilingual ``conferenceName``**
+  The Conference Name field was not multilingualize-able. This has been fixed.
+
+**Upgrade citeproc-js**
+  Update citeproc-js to 1.1.99.
+
+---------------
+`v4.0.29.8m68`_
+---------------
+
+.. _v4.0.29.8m68: https://github.com/Juris-M/zotero/commits/v4.0.29.8m68
+
+Update jurisdictions from Legal Resource Registry
+
+---------------
+`v4.0.29.8m67`_
+---------------
+
+.. _v4.0.29.8m67: https://github.com/Juris-M/zotero/commits/v4.0.29.8m67
+
+**Translator for legal cases**
+  Added the Translator creator to the Case type.
 
 .. _v4.0.29.8m66: https://github.com/Juris-M/zotero/commits/v4.0.29.8m66
 
