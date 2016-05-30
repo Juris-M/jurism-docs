@@ -7,9 +7,9 @@ Release Announcements
 
 ------------------------
 
----------------
+----------------
 `v4.0.29.10m76`_
----------------
+----------------
 
 .. _v4.0.29.10m76: https://github.com/Juris-M/zotero/commits/v4.0.29.10m76
 
@@ -52,7 +52,7 @@ Release Announcements
   The data behind the Jurisdiction search-as-you-type field and the 
   citation process has been updated from the `Legal Resource Registry`_.
 
-.. _`https://fbennett.github.io/legal-resource-registry`
+.. _`Legal Resource Registry`: https://fbennett.github.io/legal-resource-registry
 
 **Upgrade citeproc-js**
   See the changes up to `citeproc-js v1.1.103`_ for details.
@@ -114,7 +114,7 @@ Release Announcements
   The data behind the Jurisdiction search-as-you-type field and the 
   citation process has been updated from the `Legal Resource Registry`_.
 
-.. _`https://fbennett.github.io/legal-resource-registry`
+.. _`Legal Resource Registry`: https://fbennett.github.io/legal-resource-registry
 
 ---------------
 `v4.0.29.8m72`_
@@ -171,7 +171,7 @@ Release Announcements
 
 .. _v4.0.29.8m68: https://github.com/Juris-M/zotero/commits/v4.0.29.8m68
 
-Update jurisdictions from Legal Resource Registry
+Update jurisdictions from `Legal Resource Registry`_.
 
 ---------------
 `v4.0.29.8m67`_
