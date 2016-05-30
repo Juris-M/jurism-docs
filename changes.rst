@@ -11,7 +11,7 @@ Release Announcements
 `v4.0.29.10m76`_
 ----------------
 
-.. _v4.0.29.10m76: https://github.com/Juris-M/zotero/commits/v4.0.29.10m76
+.. _v4.0.29.10m76: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.10m76
 
 **Language Preferences**
   (1) The earlier change that limited "language" and "script"
@@ -63,7 +63,7 @@ Release Announcements
 `v4.0.29.9m75`_
 ---------------
 
-.. _v4.0.29.9m75: https://github.com/Juris-M/zotero/commits/v4.0.29.9m75
+.. _v4.0.29.9m75: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.9m75
 
 **Sync mask for Genre field in Patent**
   The previous release missed out a sync mask for this extended
@@ -78,7 +78,7 @@ Release Announcements
 `v4.0.29.9m74`_
 ---------------
 
-.. _v4.0.29.9m74: https://github.com/Juris-M/zotero/commits/v4.0.29.9m74
+.. _v4.0.29.9m74: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.9m74
 
 **Search-as-you-type conditions for Court**
   The search facility in the Court field recognized only text from
@@ -120,7 +120,7 @@ Release Announcements
 `v4.0.29.8m72`_
 ---------------
 
-.. _v4.0.29.8m72: https://github.com/Juris-M/zotero/commits/v4.0.29.8m72
+.. _v4.0.29.8m72: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.8m72
 
 **Fix scoping error**
 
@@ -132,7 +132,7 @@ Release Announcements
 `v4.0.29.8m71`_
 ---------------
 
-.. _v4.0.29.8m71: https://github.com/Juris-M/zotero/commits/v4.0.29.8m71
+.. _v4.0.29.8m71: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.8m71
 
 **Bump Firefox version**
   This release permits Juris-M to run on Firefox 46. Oops.
@@ -142,7 +142,7 @@ Release Announcements
 `v4.0.29.8m70`_
 ---------------
 
-.. _v4.0.29.8m70: https://github.com/Juris-M/zotero/commits/v4.0.29.8m70
+.. _v4.0.29.8m70: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.8m70
 
 
 **Bump Firefox version**
@@ -157,7 +157,7 @@ Release Announcements
 `v4.0.29.8m69`_
 ---------------
 
-.. _v4.0.29.8m69: https://github.com/Juris-M/zotero/commits/v4.0.29.8m69
+.. _v4.0.29.8m69: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.8m69
 
 **Multilingual ``conferenceName``**
   The Conference Name field was not multilingualize-able. This has been fixed.
@@ -169,7 +169,7 @@ Release Announcements
 `v4.0.29.8m68`_
 ---------------
 
-.. _v4.0.29.8m68: https://github.com/Juris-M/zotero/commits/v4.0.29.8m68
+.. _v4.0.29.8m68: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.8m68
 
 Update jurisdictions from `Legal Resource Registry`_.
 
@@ -177,12 +177,12 @@ Update jurisdictions from `Legal Resource Registry`_.
 `v4.0.29.8m67`_
 ---------------
 
-.. _v4.0.29.8m67: https://github.com/Juris-M/zotero/commits/v4.0.29.8m67
+.. _v4.0.29.8m67: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.8m67
 
 **Translator for legal cases**
   Added the Translator creator to the Case type.
 
-.. _v4.0.29.8m66: https://github.com/Juris-M/zotero/commits/v4.0.29.8m66
+.. _v4.0.29.8m66: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.8m66
 
 This release is an update to address a number of minor bugs uncovered
 since v4.0.29.6m62 went live, and to merge in some upstream changes
@@ -259,7 +259,7 @@ Fixes inherited from Zotero
 `v4.0.29.6m62`_
 ---------------
 
-.. _v4.0.29.6m62: https://github.com/Juris-M/zotero/commits/v4.0.29.6m62
+.. _v4.0.29.6m62: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.6m62
 
 This is a followup release to v4.0.29.6m60, covering JM Standalone and
 the Firefox plugin. The changes are few but meaningful. Highlights:
@@ -337,7 +337,7 @@ the Firefox plugin. The changes are few but meaningful. Highlights:
 `v4.0.29.6m60`_
 ---------------
 
-.. _v4.0.29.6m60: https://github.com/Juris-M/zotero/commits/v4.0.28.7m60
+.. _v4.0.29.6m60: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.6m60
 
 There are many changes to the infrastructure behind this release, and
 few changes to functionality apart from bug fixes. This back-room work
