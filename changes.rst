@@ -8,6 +8,17 @@ Release Announcements
 ------------------------
 
 ----------------
+`v4.0.29.10m78`_
+----------------
+
+.. _v4.0.29.10m78: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.10m78
+
+**Jurisdiction updates**
+
+  Add jurisdiction data for Australia, Switzerland and Singapore, and High Court
+  data for England and Wales.
+
+----------------
 `v4.0.29.10m76`_
 ----------------
 
