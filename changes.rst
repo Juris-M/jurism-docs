@@ -7,6 +7,8 @@ Release Announcements
 
 ------------------------
 
+.. _citeproc-js docs: http://citeproc-js.readthedocs.io/en/latest/changes.html
+
 ----------------
 `v4.0.29.10m87`_
 ----------------
@@ -17,8 +19,7 @@ Release Announcements
   This should happen more often!
 
 **Update citeproc-js to 1.1.113**
-  See the `citeproc-js docs <http://citeproc-js.readthedocs.io/en/latest/changes.html>` for details
-
+  See the `citeproc-js docs`_ for details
 
 ----------------
 `v4.0.29.10m86`_
@@ -27,7 +28,7 @@ Release Announcements
 .. _v4.0.29.10m86: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.10m86
 
 **Update citeproc-js to 1.1.112**
-  See the `citeproc-js docs <http://citeproc-js.readthedocs.io/en/latest/changes.html>` for details
+  See the `citeproc-js docs`_ for details
 
 
 ----------------
@@ -56,7 +57,7 @@ archive before making fresh release attempts.*
   Simple change to the install configuration.
 
 **Upgrade to citeproc-js 1.1.108**
-  See the `citeproc-js docs <http://citeproc-js.readthedocs.io/en/latest/changes.html>` for details
+  See the `citeproc-js docs`_ for details
 
 ----------------
 `v4.0.29.10m78`_
