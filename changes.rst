@@ -8,6 +8,57 @@ Release Announcements
 ------------------------
 
 ----------------
+`v4.0.29.10m87`_
+----------------
+
+.. _v4.0.29.10m87: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.10m87
+
+**Update translators and styles**
+  This should happen more often!
+
+**Update citeproc-js to 1.1.113**
+  See the `citeproc-js docs <http://citeproc-js.readthedocs.io/en/latest/changes.html>` for details
+
+
+----------------
+`v4.0.29.10m86`_
+----------------
+
+.. _v4.0.29.10m86: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.10m86
+
+**Update citeproc-js to 1.1.112**
+  See the `citeproc-js docs <http://citeproc-js.readthedocs.io/en/latest/changes.html>` for details
+
+
+----------------
+`v4.0.29.10m85`_
+----------------
+
+.. _v4.0.29.10m85: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.10m85
+
+*Note that several version increments are skipped here. This was due
+to repeated failures of the Firefox plugin signing mechanism, on a day
+when I did not have time and patience to reset the state of the
+archive before making fresh release attempts.*
+
+**Pass genre value to CSL**
+  This value was apparently not being included in citations in
+  Juris-M, where it is sometimes set under its native database name of
+  ``genre`` without internal remapping.
+
+----------------
+`v4.0.29.10m79`_
+----------------
+
+.. _v4.0.29.10m79: https://github.com/Juris-M/zotero/releases/tag/v4.0.29.10m79
+
+**Allow installs on Firefox 47**
+  Simple change to the install configuration.
+
+**Upgrade to citeproc-js 1.1.108**
+  See the `citeproc-js docs <http://citeproc-js.readthedocs.io/en/latest/changes.html>` for details
+
+----------------
 `v4.0.29.10m78`_
 ----------------
 
