@@ -48,7 +48,16 @@ Jurism
 Getting bibliographic information into Jurism
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[forthcoming]
+One of Jurism's great strengths is its ability to work with your web browser to recognize and grab bibliographic information contained in web pages. Here let's do two Google Scholar searches, one for an English book and one for a Japanese book, and add the results to our database.
+
+First, let's search for Jonathan Haidt's The Righteous Mind. When the results appear in Google Scholar, a folder icon shows up in the menu bar which means Jurism has found multiple references in this page. We click on the folder, select the first item, and it is added to our Jurism database.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/3lZxyWU1k9M" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
