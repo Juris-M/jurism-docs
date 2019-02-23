@@ -24,4 +24,3 @@ Table of Contents
    changes.rst
    tutorial.rst
    jurism-extras.rst
-   multilingual-usage.rst

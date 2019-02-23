@@ -1,32 +1,23 @@
-========
-Tutorial
-========
+========================================================
+User guide: multilingual publications and bibliographies
+========================================================
 
 .. include:: substitutions.txt
-|CCBYSA|_ `Jonathan Lewis`_
+|CCBYSA|_ `Jonathan Lewis <http://www.soc.hit-u.ac.jp/en/academics/faculty/lewis.html>`_
 
-----------------------------------------------------
-Jurism: multilingual publications and bibliographies
-----------------------------------------------------
+~~~~~~~~~~~~
+Introduction
+~~~~~~~~~~~~
 
+You are a social scientist (or a humanities scholar, or some other kind of researcher). You read and cite previous research written in English, Japanese and other languages, and you need a way to record and manage all those references. You write articles in both English and Japanese.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-Introduction: The use case
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You are a social scientist. You read and cite previous research written in English, Japanese and other languages, and you need a way to record and manage all those references. You write articles in both English and Japanese.
-
-Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in a Japanese journal you will just use the original author, title and so on, but when you cite the same work in an English journal you may have to write the author and title in romaji and add an English translation of the title.  With Jurism you can store all the information necessary to produce these different citation formats in one place. This means you can maintain one database of all your
+Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in a Japanese journal you will just use the original author, title and so on, but when you cite the same work in an English journal you may have to write the author and title in romaji and add an English translation of the title.  With `Jurism <https://juris-m.github.io>`_ you can store all the information necessary to produce these different citation formats in one place. This means you can maintain one database of all your
 citations and keep all information about each work in one place, regardless of which language that information is in. Best of all, you can use Jurism to automatically generate bibliographies in the format required by whichever journal you are writing for, whether you are writing in Japanese or English.
 
-This tutorial will show you how to set up Jurism to store information about works written in Japanese, English and other languages. It will then show you how to add citations
+Zotero itself provides some nice multilingual support, and it is continuously improving. All content is stored in Unicode; the locale used for labels and date forms in generic styles can be changed easily; and search functions recognize Asian scripts.
+
+Juris-M adds the ability to store language variants of individual fields, and flexible support for selecting the variants used in citation output. Those two features add significant complexity, and some functionality, and conventions for its use, are not obvious on the surface. This tutorial will show you how to set up Jurism to store information about works written in Japanese, English and other languages. It will then show you how to add citations
 and create a bibliography when writing an article in Japanese for the Japanese Journal of Sociology. Finally, it will show you how to add citations and create a bibliography when writing an article in English for the British Journal of Japanese Studies, citing Japanese works. In both cases you will be using Microsoft Word.
-
-~~~~~~
-Jurism
-~~~~~~
-
-`Jurism <https://juris-m.github.io>`_ is a version of the open source bibliographic management tool `Zotero <https://zotero.org>`_ that offers multilingual capabilities in addition to all of Zotero's fantastic features. Jurism runs on MacOS, Windows and Linux, and can harvest bibliographic information displayed in Google Chrome or Firefox.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Getting bibliographic information into Jurism
@@ -34,7 +25,7 @@ Getting bibliographic information into Jurism
 
 One of Jurism's great strengths is its ability to work with your web browser to recognize and grab bibliographic information contained in web pages. Let's do two web searches, one for an English book and one for a Japanese book, and add the results to our database. We need to start the Jurism application before doing the web search.
 
-First, let's search Google Scholar for Jonathan Haidt's The Righteous Mind. When the results appear in Google Scholar a folder icon shows up in the menu bar which means Jurism has found multiple references in this page. We click on the folder, select the first item, and it is added to our Jurism database.
+First, let's search Google Scholar for Jonathan Haidt's The Righteous Mind. When the results appear in Google Scholar a folder icon shows up in the menu bar which means Jurism has found multiple references in this page. We click on the folder icon, select the first item, and it is added to our Jurism database.
 
 .. raw:: html
 
@@ -53,6 +44,22 @@ Next, let's search Japanese Amazon for Kouichirou Itoh's book about causality an
 
 
 You can manage all your references in Jurism by creating folders and adding tags. You can also attach links to PDF files. For further information see the "Using Zotero" section of the `Zotero documentation <https://www.zotero.org/support/>`_ .
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Original-language metadata
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The first and most important principle is that item metadata should
+always be recorded in the original language in the first instance.
+Translations and transliterations can be entered later as they are
+needed; but the purpose of a citation is to lead the reader or the
+researcher back to the original source. If the title of a document in
+Russian, Khmer, Laotian or Japanese is entered as an English
+translation, data is lost---the reader is forced to guess at the
+original title if they want to find the original document. Therefore,
+all item metadata (except for dates) should be recorded in the
+original language. The variants can be added separately at a later
+time.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
