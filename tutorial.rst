@@ -11,7 +11,7 @@ Introduction
 
 You are a social scientist (or a humanities scholar, or some other kind of researcher). You read and cite previous research written in two or more languages, and you need a way to record and manage all those references. You write articles in both English and another language.
 
-Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in a Japanese journal you will just use the original author, title and so on, but when you cite the same work in an English journal you may have to write the author and title in romaji and add an English translation of the title.  With `jurism <https://jurism.github.io>`_ you can store all the information necessary to produce these different citation formats in one place. This means you can maintain one database of all your
+Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in a Japanese journal you will just use the original author, title and so on, but when you cite the same work in an English journal you may have to write the author and title in roman characters and add an English translation of the title.  With `jurism <https://jurism.github.io>`_ you can store all the information necessary to produce these different citation formats in one place. This means you can maintain one database of all your
 citations and keep all information about each work in one place, regardless of which language that information is in. Best of all, you can use |jurism| to automatically generate bibliographies in the format required by whichever journal you are writing for, whichever language you are writing in.
 
 `Zotero <https://zotero.org>`_ itself provides some nice multilingual support, and it is continuously improving. All content is stored in Unicode; the locale used for labels and date forms in generic styles can be changed easily; and search functions recognize Asian scripts.
@@ -62,7 +62,7 @@ You can manage all your references in |jurism| by creating folders and adding ta
 Setting up |jurism| for citing works in English and Japanese
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If we want to cite a Japanese work in an English article we will need to write the title, author etc. in romaji rather than kanji and kana. Similarly, if we are writing an article in Japanese and the bibliography must be sorted according to the kana reading of the authors' names, we need to add the yomikata of the authors' names to our database.
+If we want to cite a Japanese work in an English article we will need to write the title, author etc. in roman characters rather than kanji and kana. Similarly, if we are writing an article in Japanese and the bibliography must be sorted according to the kana reading of the authors' names, we need to add the yomikata of the authors' names to our database.
 
 In order to do these things we add entries for English, Japanese, romaji and kana to |jurism|'s language preferences, as the following video shows. After opening |jurism|'s Preferences in the menu we click the Languages tab. Then we click "Add a Language" and add English; we change the nickname from en to English (the nickname can be anything you like; you can leave it as en if you prefer). Next we add Japanese in the same way. After that we click the Plus sign next to Japanese and from the Variant sub-menu we select "ALA-RC Romanization, 1997 Edition". We change the nickname from "ja-alalc97" to Romaji. Finally we once again click the Plus sign next to Japanese and from the "script" sub-menu we select "Japanese syllabaries (alias for Hiragana + Katakana) -- Hrkt". We change the nicknames from "ja-Hrkt" to Kana.
 
@@ -78,7 +78,7 @@ In order to do these things we add entries for English, Japanese, romaji and kan
 Adding multilingual information about works
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Suppose we want to quote Itoh's book in an article we are writing in English. We need to add romaji versions of the title, author etc. and also an English translation of the title. The following video shows how to do this. First we have to tell |jurism| which language a field's current information is in -- in this case it's Japanese. We do this by right-clicking on the label to the left of the data, clicking "Set Field Language" and selecting Japanese. Then we right-click the label once more, choose "Add Variant", and enter either the romaji or an English translation of the item.
+Suppose we want to quote Itoh's book in an article we are writing in English. We need to add roman versions of the title, author etc. and also an English translation of the title. The following video shows how to do this. First we have to tell |jurism| which language a field's current information is in -- in this case it's Japanese. We do this by right-clicking on the label to the left of the data, clicking "Set Field Language" and selecting Japanese. Then we right-click the label once more, choose "Add Variant", and enter either the transliteration into roman characters or an English translation of the item.
 
 .. raw:: html
 
