@@ -22,5 +22,6 @@ Table of Contents
 
    introduction.rst
    changes.rst
+   tutorial.rst
    jurism-extras.rst
    multilingual-usage.rst
