@@ -9,15 +9,14 @@ User guide: multilingual publications and bibliographies
 Introduction
 ~~~~~~~~~~~~
 
-You are a social scientist (or a humanities scholar, or some other kind of researcher). You read and cite previous research written in English, Japanese and other languages, and you need a way to record and manage all those references. You write articles in both English and Japanese.
+You are a social scientist (or a humanities scholar, or some other kind of researcher). You read and cite previous research written in two or more languages, and you need a way to record and manage all those references. You write articles in both English and another language.
 
-Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in a Japanese journal you will just use the original author, title and so on, but when you cite the same work in an English journal you may have to write the author and title in romaji and add an English translation of the title.  With `Jurism <https://juris-m.github.io>`_ you can store all the information necessary to produce these different citation formats in one place. This means you can maintain one database of all your
-citations and keep all information about each work in one place, regardless of which language that information is in. Best of all, you can use Jurism to automatically generate bibliographies in the format required by whichever journal you are writing for, whether you are writing in Japanese or English.
+Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in a Japanese journal you will just use the original author, title and so on, but when you cite the same work in an English journal you may have to write the author and title in romaji and add an English translation of the title.  With `Jurism <https://Jurism.github.io>`_ you can store all the information necessary to produce these different citation formats in one place. This means you can maintain one database of all your
+citations and keep all information about each work in one place, regardless of which language that information is in. Best of all, you can use Jurism to automatically generate bibliographies in the format required by whichever journal you are writing for, whichever language you are writing in.
 
-Zotero itself provides some nice multilingual support, and it is continuously improving. All content is stored in Unicode; the locale used for labels and date forms in generic styles can be changed easily; and search functions recognize Asian scripts.
+`Zotero <https://zotero.org>`_ itself provides some nice multilingual support, and it is continuously improving. All content is stored in Unicode; the locale used for labels and date forms in generic styles can be changed easily; and search functions recognize Asian scripts.
 
-Juris-M adds the ability to store language variants of individual fields, and flexible support for selecting the variants used in citation output. Those two features add significant complexity, and some functionality, and conventions for its use, are not obvious on the surface. This tutorial will show you how to set up Jurism to store information about works written in Japanese, English and other languages. It will then show you how to add citations
-and create a bibliography when writing an article in Japanese for the Japanese Journal of Sociology. Finally, it will show you how to add citations and create a bibliography when writing an article in English for the British Journal of Japanese Studies, citing Japanese works. In both cases you will be using Microsoft Word.
+Jurism adds the ability to store language variants of individual fields, and flexible support for selecting the variants used in citation output. Those two features add significant complexity, and some functionality, and conventions for its use, are not obvious on the surface. This tutorial will show you how to set up Jurism to store information about works written in English and Japanese. It will then show you how to add citations and create a bibliography when writing an article in Japanese for the Japanese Journal of Sociology. Finally, it will show you how to add citations and create a bibliography when writing an article in English for the British Journal of Japanese Studies, citing Japanese works. In both cases you will be using Microsoft Word.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Getting bibliographic information into Jurism
@@ -78,9 +77,9 @@ In order to do these things we add entries for English, Japanese, romaji and kan
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Adding multilingual information about works in Jurism
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding multilingual information about works
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Suppose we want to quote Itoh's book in an article we are writing in English. We need to add romaji versions of the title, author etc. and also an English translation of the title. The following video shows how to do this. First we have to tell Jurism which language a field's current information is in -- in this case it's Japanese. We do this by right-clicking on the label to the left of the data, clicking "Set Field Language" and selecting Japanese. Then we right-click the label once more, choose "Add Variant", and enter either the romaji or an English translation of the item.
 
@@ -91,14 +90,14 @@ Suppose we want to quote Itoh's book in an article we are writing in English. We
     </div>
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Using Jurism to manage citations in a Japanese article
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating citations and a bibliography in a Japanese article
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [forthcoming]
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Using Jurism to manage multilingual citations in an English article
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Multilingual citations in an English article
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [forthcoming]
