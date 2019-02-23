@@ -46,6 +46,8 @@ Jurism
 Setting up Jurism for working with Japanese and English
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: ./media/LangPrefs1.png
+
 [forthcoming]
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
