@@ -28,8 +28,9 @@ citations and keep all information about each work in one place,
 regardless of which language that information is in. Best of all, you
 can use Jurism to automatically generate bibliographies in the format
 required by whichever journal you are writing for, whether you are
-writing in Japanese, English or another language.  This tutorial will
-show you how to set up Jurism to store information about works written
+writing in Japanese, English or another language.
+
+This tutorial will show you how to set up Jurism to store information about works written
 in Japanese and English. It will then show you how to add citations
 and create a bibliography when writing an article in Japanese for the
 Japanese Journal of Sociology. Finally, it will show you how to add
