@@ -85,6 +85,7 @@ Suppose we want to quote Itoh's book in an article we are writing in English. We
         <iframe src="https://www.youtube.com/embed/Uu6R1Xz-zSY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
+(Yes, it is frustrating to have to do Set Field Language on every field, especially as the language of this item is already set. I hope a future version of |jurism| will make this unnecessary.)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Multilingual citations in an English article
