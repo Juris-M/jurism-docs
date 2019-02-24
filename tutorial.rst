@@ -90,6 +90,8 @@ Suppose we want to quote Itoh's book in an article we are writing in English. We
 Multilingual citations in an English article
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+We're preparing a manuscript for submission to the Journal of Asian Studies. The Journal's `information page <https://www.cambridge.org/core/journals/journal-of-asian-studies/information/instructions-contributors>`_ tells us to folow Chapter 15 of the Chicago Manual of Style, 16th edition.
+
 [forthcoming]
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
