@@ -44,7 +44,7 @@ First, let's search Google Scholar for Jonathan Haidt's The Righteous Mind. When
     </div>
 	
 
-Next, let's search Japanese Amazon for Kouichirou Itoh's book about causality and data analysis. Once again, |jurism| makes a new record for this book and stores the title, author names etc. in the appropriate fields.
+Next, let's search Japanese Amazon for Itō Kōichirō's book about causality and data analysis. Once again, |jurism| makes a new record for this book and stores the title, author names etc. in the appropriate fields.
 
 .. raw:: html
 
@@ -77,15 +77,13 @@ In order to do these things we add entries for English, Japanese, romaji and kan
 Adding multilingual information about works
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Suppose we want to quote Itoh's book in an article we are writing in English. We need to add roman versions of the title, author etc. and also an English translation of the title. The following video shows how to do this. First we have to tell |jurism| which language a field's current information is in -- in this case it's Japanese. We do this by right-clicking on the label to the left of the data, clicking "Set Field Language" and selecting Japanese. Then we right-click the label once more, choose "Add Variant", and enter either the transliteration into roman characters or an English translation of the item.
+Suppose we want to quote Itō's book in an article we are writing in English. We need to add roman versions of the title, author etc. and also an English translation of the title. The following video shows how to do this. First we have to tell |jurism| which language the item is in. We do this by writing "ja" in the language field. NOTE: we have to use the two-letter language code and not the name of the language e.g. English, 日本語 etc. So if the language field has already been set to the name of a language you will need to change it to the two-letter code. Once we have done that we right-click the label next to each relevant field, choose "Add Variant", and enter the transliteration into roman characters and then an English translation of the item.
 
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/Uu6R1Xz-zSY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtu.be/jV6Ee3FKzd8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
-
-(Yes, it is frustrating to have to do Set Field Language on every field, especially as the language of this item is already set. I hope a future version of |jurism| will make this unnecessary.)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Multilingual citations in an English article
