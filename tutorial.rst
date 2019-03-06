@@ -89,7 +89,7 @@ Suppose we want to quote Itō's book in an article we are writing in English. We
 Multilingual citations in an English article
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We're preparing a manuscript for submission to the Journal of Asian Studies. The Journal's information page <https://www.cambridge.org/core/journals/journal-of-asian-studies/information/instructions-contributors>`_ tells us to follow `Chapter 15 <https://www.chicagomanualofstyle.org/16/ch15/ch15_toc.html>`_ of the Chicago Manual of Style, 16th edition.
+We're preparing a manuscript for submission to the Journal of Asian Studies. The Journal's `information page <https://www.cambridge.org/core/journals/journal-of-asian-studies/information/instructions-contributors>`_ tells us to follow `Chapter 15 <https://www.chicagomanualofstyle.org/16/ch15/ch15_toc.html>`_ of the Chicago Manual of Style, 16th edition.
 
 [forthcoming]
 
@@ -97,11 +97,11 @@ We're preparing a manuscript for submission to the Journal of Asian Studies. The
 Multilingual citations in a Japanese article
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We're writing an article in Japanese for submission to the Japanese Sociological Review. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`. Jurism has implemented this style so, as long as we have the right information in each item's appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
+We're writing an article in Japanese for submission to the Japanese Sociological Review. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_. Jurism has implemented this style so, as long as we have the right information in each item's appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
 
-In this example we'll borrow a couple of paragraphs from the `Japanese Wikipedia page on sociology <https://ja.wikipedia.org/wiki/社会学>` and pretend that they are the text of our article. We already have the necessary bibliography items in Jurism. We are going to cite a Japanese book, a Japanese article, an English book in translation, and an English book in the original.
+In this example we'll borrow a couple of paragraphs from the `Japanese Wikipedia page on sociology <https://ja.wikipedia.org/wiki/社会学>_` and pretend that they are the text of our article. We already have the necessary bibliography items in Jurism. We are going to cite a Japanese book, a Japanese article, an English book in translation, and an English book in the original.
 
-If you want to check that your items are formatted correctly, you might want to join the `shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>` we used when building the style. 
+If you want to check that your items are formatted correctly, you might want to join the `shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_ we used when building the style. 
 
 ... video coming soon.
 
