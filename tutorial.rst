@@ -82,7 +82,7 @@ Suppose we want to quote Itō's book in an article we are writing in English. We
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/jV6Ee3FKzd8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://www.youtube.com/embed/jV6Ee3FKzd8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -99,7 +99,7 @@ Multilingual citations in a Japanese article
 
 We're writing an article in Japanese for submission to the Japanese Sociological Review. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_. Jurism has implemented this style so, as long as we have the right information in each item's appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
 
-In this example we'll borrow a couple of paragraphs from the `Japanese Wikipedia page on sociology <https://ja.wikipedia.org/wiki/社会学>_` and pretend that they are the text of our article. We already have the necessary bibliography items in Jurism. We are going to cite a Japanese book, a Japanese article, an English book in translation, and an English book in the original.
+In this example we'll borrow a couple of paragraphs from the `Japanese Wikipedia page on sociology <https://ja.wikipedia.org/wiki/社会学>`_ and pretend that they are the text of our article. We already have the necessary bibliography items in Jurism. We are going to cite a Japanese book, a Japanese article, an English book in translation, and an English book in the original.
 
 If you want to check that your items are formatted correctly, you might want to join the `shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_ we used when building the style. 
 
