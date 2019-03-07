@@ -109,13 +109,16 @@ Note that for some reason when we add a citation in Word, the red-bordered windo
         <iframe src="https://www.youtube.com/embed/FgwUmDMSm8A" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-Jurism allows you to format your bibliography exactly as the journal's editors want it; it even formats complex entries such as translations and republications. In order to understand what you need to do to get those more complex items to display correctly, please check out the `shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_. The library contains all the different items and variations mentioned in the journal's style guide.
+Jurism formats your bibliography exactly as the journal's editors want it; it even formats complex entries such as translations and republications. In order to understand what you need to do to get those more complex items to display correctly, please check out the `shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_. The library contains all the different items and variations mentioned in the journal's style guide.
 
 (Actually, there is one tiny but annoying instruction in the JSR style guide that Jurism can't deal with automatically. That's the case of a co-written work where at least one of the authors writes their name in katakana. The characters separating all the authors' names are supposed to change from ・ to ／. So for example
 
 宮島喬・梶田孝道・伊藤るり，1985，『先進社会のジレンマ』有斐閣．
+
 But
 
-西垣通／ジョナサン・ルイス，2001，『インターネットで日本語はどうなるか』岩波書店．
+西垣通／ジョナサン・ルイス，2001，『インターネットで日本語はどうなるか』岩波書店
+
 If you are citing such works, I'm afraid you will have to edit the bibliography manually before submission.)
 
+If you have any questions please email the `Jurism-support <https://mail.law.nagoya-u.ac.jp/mailman/listinfo/jurism-support>`_ or `Jurism-freshers <https://mail.law.nagoya-u.ac.jp/mailman/listinfo/jurism-freshers>`_ email lists.
