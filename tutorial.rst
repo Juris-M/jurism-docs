@@ -63,7 +63,7 @@ Setting up Jurism for citing works in English and Japanese
 
 If we want to cite a Japanese work in an English article we will need to write the title, author etc. in roman characters rather than kanji and kana. Similarly, if we are writing an article in Japanese and the bibliography must be sorted according to the kana reading of the authors' names, we need to add the yomikata of the authors' names to our database.
 
-In order to do these things we add entries for English, Japanese, romaji and kana to Jurism's language preferences, as the following video shows. After opening Jurism's Preferences in the menu we click the Languages tab. Then we click "Add a Language" and add English; we change the nickname from en to English (the nickname can be anything you like; you can leave it as en if you prefer). Next we add Japanese in the same way. After that we click the Plus sign next to Japanese and from the Variant sub-menu we select "ALA-RC Romanization, 1997 Edition". We change the nickname from "ja-alalc97" to Romaji. Finally we once again click the Plus sign next to Japanese and from the "script" sub-menu we select "Japanese syllabaries (alias for Hiragana + Katakana) -- Hrkt". We change the nicknames from "ja-Hrkt" to Kana.
+In order to do these things we add entries for English, Japanese, romaji and kana to Jurism's language preferences, as the following video shows. After opening Jurism's Preferences in the menu we click the Languages tab. Then we click "Add a Language" and add English; we change the nickname from en to English (the nickname can be anything you like; you can leave it as en if you prefer). Next we add Japanese in the same way. After that we click the Plus sign next to Japanese and from the Variant sub-menu we select "ALA-RC Romanization, 1997 Edition". We change the nickname from "ja-alalc97" to Romaji. Finally we once again click the Plus sign next to Japanese and from the "script" sub-menu we select "Japanese syllabaries (alias for Hiragana + Katakana) -- Hrkt". We change the nickname from "ja-Hrkt" to Kana.
 
 .. raw:: html
 
@@ -97,12 +97,25 @@ We're preparing a manuscript for submission to the Journal of Asian Studies. The
 Multilingual citations in a Japanese article
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We're writing an article in Japanese for submission to the Japanese Sociological Review. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_. Jurism has implemented this style so, as long as we have the right information in each item's appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
+We're writing an article in Japanese for submission to the Japanese Sociological Review. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_. Jurism has implemented this style so, as long as we have the right information in the appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
 
-In this example we'll borrow a couple of paragraphs from the `Japanese Wikipedia page on sociology <https://ja.wikipedia.org/wiki/社会学>`_ and pretend that they are the text of our article. We already have the necessary bibliography items in Jurism. We are going to cite a Japanese book, a Japanese article, an English book in translation, and an English book in the original.
+In this example we'll borrow a couple of paragraphs from the `Japanese Wikipedia page on sociology <https://ja.wikipedia.org/wiki/社会学>`_ and pretend that they are the text of our article which we are writing in Microsoft Word. We already have the necessary bibliography items in Jurism, and have the Jurism application running. We are going to cite a Japanese book, a Japanese article, an English book, and an English book in translation.
 
-If you want to check that your items are formatted correctly, you might want to join the `shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_ we used when building the style. 
+Note that for some reason when we add a citation in Word, the red-bordered window that apppears allows us to find works using roman characters ("Douglas", "Freedom" etc.) but not Japanese text. In order to insert citations to Japanese works we need to click the Jurism icon, then "Classic View", and then select the item we want to cite.
 
-... video coming soon.
+.. raw:: html
 
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/FgwUmDMSm8A" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+Jurism allows you to format your bibliography exactly as the journal's editors want it; it even formats complex entries such as translations and republications. In order to understand what you need to do to get those more complex items to display correctly, please check out the `shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_. The library contains all the different items and variations mentioned in the journal's style guide.
+
+(Actually, there is one tiny but annoying instruction in the JSR style guide that Jurism can't deal with automatically. That's the case of a co-written work where at least one of the authors writes their name in katakana. The characters separating all the authors' names are supposed to change from ・ to ／. So for example
+
+宮島喬・梶田孝道・伊藤るり，1985，『先進社会のジレンマ』有斐閣．
+But
+
+西垣通／ジョナサン・ルイス，2001，『インターネットで日本語はどうなるか』岩波書店．
+If you are citing such works, I'm afraid you will have to edit the bibliography manually before submission.)
 
