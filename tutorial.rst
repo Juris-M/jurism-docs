@@ -121,6 +121,7 @@ Jurism formats the bibliography exactly as the journal's editors want it; it eve
 You might be thinking: "Ah, but now I've added information about the translation of Dolin's book, the next time I cite it in an English article the Japanese translation will get cited." Fear not: Jurism will detect from the style settings that you are writing for an English journal and will only provide details of the original book.
 
 ------------
+
 (Actually, there is one tiny but annoying instruction in the JSR style guide that Jurism can't deal with. That's the case of a co-written work where at least one of the authors writes their name in katakana. In such cases the characters separating the authors' names are supposed to change from ・ to ／. So for example
 
 宮島喬・梶田孝道・伊藤るり，1985，『先進社会のジレンマ』有斐閣．
