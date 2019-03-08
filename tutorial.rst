@@ -1,5 +1,5 @@
 ========================================================
-User guide: multilingual publications and bibliographies
+Tutorial: multilingual publications and bibliographies
 ========================================================
 
 .. include:: substitutions.txt
@@ -21,9 +21,9 @@ Setting up Jurism to store multilingual information
 
 If we want to cite a Japanese work in an English article we will need to write the title, author etc. in roman characters rather than kanji and kana. Similarly, if we are writing an article in Japanese and the bibliography must be sorted according to the kana reading of the authors' names, we need to add the yomikata of the authors' names to our database.
 
-In order to do these things we add entries for English, Japanese, romaji and kana to Jurism's language preferences, as the following video shows. After opening Jurism's Preferences in the menu we click the Languages tab. Then we click *Add a Language* and add *English*; we change the nickname from *en* to *English* (the nickname can be anything you like; you can leave it as *en* if you prefer). Next we add *Japanese* in the same way. After that we click the Plus sign next to Japanese and from the Variant sub-menu we select *ALA-RC Romanization, 1997 Edition*. We change the nickname from *ja-alalc97* to *Romaji*. Finally we once again click the Plus sign next to Japanese and from the *script* sub-menu we select *Japanese syllabaries (alias for Hiragana + Katakana) -- Hrkt*. We change the nickname from *ja-Hrkt* to *Kana*.
+In order to do these things we add entries for English, Japanese, romaji and kana to Jurism's language preferences, as the following video shows. After opening Jurism's Preferences in the menu we click the Languages tab. Then we click *Add a Language* and add *English*; we change the nickname from *en* to *English* (the nickname can be anything you like; you can leave it as *en* if you prefer). Next we add *Japanese* in the same way. After that we click the Plus sign next to Japanese and from the *Variant* sub-menu we select *ALA-RC Romanization, 1997 Edition*. We change the nickname from *ja-alalc97* to *Romaji*. Finally we once again click the Plus sign next to Japanese and from the *script* sub-menu we select *Japanese syllabaries (alias for Hiragana + Katakana) -- Hrkt*. We change the nickname from *ja-Hrkt* to *Kana*.
 
-We only have to do these settings once; they are good for as long as we use Jurism. And even if you delete a language from these settings, you won't lose any data about your collected items.
+We only have to do these settings once; they are good for as long as we use Jurism. And even if we delete a language from these settings, we won't lose any data about our collected items.
 
 .. raw:: html
 
@@ -37,7 +37,7 @@ Getting bibliographic information into Jurism
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-One of Jurism's great strengths is its ability to work with your web browser to recognize and grab bibliographic information contained in web pages. The following video shows us creating a new collection in Jurism, then adding four whaling-related items. We'll search CiNii for items about whaling and add a Japanese article by Morishita, go to Japanese Amazon to find information about Dolin's book in English, then to Google Scholar for one of Blok's articles in English, and finally back to Japanese Amazon to get details of Akamaine's Japanese book. You'll see how the items get added to the currently selected collection in Jurism.
+One of Jurism's great strengths is its ability to work with our web browser to recognize and grab bibliographic information contained in web pages. The following video shows us creating a new collection in Jurism, then adding four whaling-related items. We'll search CiNii for items about whaling and add a Japanese article by Morishita, go to Japanese Amazon to find information about Dolin's book in English, then to Google Scholar for one of Blok's articles in English, and finally back to Japanese Amazon to get details of Akamaine's Japanese book. Notice how the items get added to the currently selected collection in Jurism.
 
 .. raw:: html
 
@@ -46,7 +46,7 @@ One of Jurism's great strengths is its ability to work with your web browser to 
     </div>
 	
 
-You can manage all your references in Jurism by creating folders and adding tags. The same item can be put into multiple folders. You can also attach links to PDF files. For further information see the "Using Zotero" section of the `Zotero documentation <https://www.zotero.org/support/>`_ .
+We can manage all our references in Jurism by creating folders and adding tags. The same item can be put into multiple folders. We can also attach links to PDF files. For further information see the "Using Zotero" section of the `Zotero documentation <https://www.zotero.org/support/>`_ .
 
 As you have probably already realized, the first and most important principle for storing information in Jurism is that item metadata should always be recorded in the original language in the first instance. Translations and transliterations can be entered later as they are needed; but the purpose of a citation is to lead the reader or the researcher back to the original source. If the title of a document in Russian, Khmer, Laotian or Japanese is entered as an English translation, data is lost---the reader is forced to guess at the original title if they want to find the original document. Therefore, all item metadata (except for dates) should be recorded in the original language. The variants can be added separately at a later time.
 
@@ -58,8 +58,6 @@ Multilingual citations in an English article
 We're preparing a manuscript for submission to the *Journal of Asian Studies*. The Journal's `information page <https://www.cambridge.org/core/journals/journal-of-asian-studies/information/instructions-contributors>`_ tells us to follow the *Chicago Manual of Style*, 16th edition.
 
 Looking at the sample article on the journal's web page, we see that non-English works are written as follows in the bibliography:
-
-AYMONIER, ÉTIENNE. 1904. *Le Cambodge. Le groupe d’Angkor et l’histoire* [Cambodia: The Angkor complex and history]. Paris: Leroux.
 
 BAN CHẤP HÀNH ĐẢNG BỘ TỈNH BẠC LIÊU. 2002. *Lịch sử Đảng bộ tỉnh Bạc Liêu (1927– 1975)* [History of the party in Bạc Liêu Province]. Vol. 1. Bạc Liêu: Ban Thường Vụ Tỉnh Ủy.
 
@@ -78,6 +76,8 @@ When we are ready to start citing works in our article, we set up Jurism's langu
 
 .. image:: ./media/LanguagePrefsForEnglishArticle.png
 
+(I have German and French in my settings because I have cited works in those languages elsewhere.)
+
 The settings in the top half of the table tell Jurism to use the "script" version of the primary language, which in this case means Japanese is rendered in roman characters. Also, titles of Japanese works will have an English translation added in square brackets.
 
 The settings in the bottom half of the table tell Jurism how to sort the bibliography; Japanese works will be sorted according to the romanized version of the author name.
@@ -95,9 +95,9 @@ Now we can go ahead and add citations and a bibliography to our English article.
 Multilingual citations in a Japanese article
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Our second article on whaling is in Japanese, for submission to the Japanese Sociological Review. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_. Jurism has implemented this style so, as long as we have the right information in the appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
+Our second article on whaling is in Japanese, for submission to the *Japanese Sociological Review*. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_. Jurism has implemented this style so, as long as we have the right information in the appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
 
-We will quote the same four sources as we did in the English article.  We already have an entry for each item in Jurism so can get on with the writing and citing. However, we know Dolin's book has been translated into Japanese and we want to cite the translation in the Japanese article. We set the item's Language field to "en>ja" and put information about the translation into the item's Extra field as shown below. Note that each translator gets a separate <alt-translator> entry, and that the translators' family and given names are divided by double bar characters "||".
+We will quote the same four sources as we did in the English article.  We already have an entry for each item in Jurism so can get on with the writing and citing. However, we know Dolin's book has been translated into Japanese and we want to cite the translation. So we set the item's Language field to "en>ja" and put information about the translation into the item's Extra field as shown below. Note that each translator gets a separate <alt-translator> entry, and that the translators' family and given names are divided by double bar characters "||".
 
 .. image:: ./media/AddingTranslationInfo.png
 
