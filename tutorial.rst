@@ -15,50 +15,13 @@ Each journal has its own requirements about how to format bibliographies. For ex
 
 `Zotero <https://zotero.org>`_ itself provides some nice multilingual support, and it is continuously improving. All content is stored in Unicode; the locale used for labels and date forms in generic styles can be changed easily; and search functions recognize Asian scripts.
 
-Jurism adds the ability to store language variants of individual fields, and flexible support for selecting the variants used in citation output. Those two features add significant complexity, and some functionality, and conventions for its use, are not obvious on the surface. This tutorial will show you how to set up Jurism to store information about works written in English and Japanese. It will show you how to add citations and create a bibliography for an article to be submitted to the Journal of Asian Studies, which follows the Chicago Manual of Style. Finally, it will show you how to add citations to works in Japanese and English and create a bibliography for an article written in Japanese to be submitted to the Japanese Journal of Sociology. In both cases you will be using Microsoft Word.
+Jurism adds the ability to store language variants of individual fields, and flexible support for selecting the variants used in citation output. Those two features add significant complexity, and some functionality, and conventions for its use, are not obvious on the surface.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Getting bibliographic information into Jurism
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The first and most important principle is that item metadata should
-always be recorded in the original language in the first instance.
-Translations and transliterations can be entered later as they are
-needed; but the purpose of a citation is to lead the reader or the
-researcher back to the original source. If the title of a document in
-Russian, Khmer, Laotian or Japanese is entered as an English
-translation, data is lost---the reader is forced to guess at the
-original title if they want to find the original document. Therefore,
-all item metadata (except for dates) should be recorded in the
-original language. The variants can be added separately at a later
-time.
-
-One of Jurism's great strengths is its ability to work with your web browser to recognize and grab bibliographic information contained in web pages. Let's do two web searches, one for an English book and one for a Japanese book, and add the results to our database. We need to start the Jurism application before doing the web search.
-
-First, let's search Google Scholar for Jonathan Haidt's The Righteous Mind. When the results appear in Google Scholar a folder icon shows up in the menu bar which means Jurism has found multiple references in this page. We click on the folder icon, select the first item, and it is added to our Jurism database.
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/3lZxyWU1k9M" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-	
-
-Next, let's search Japanese Amazon for Itō Kōichirō's book about causality and data analysis. Once again, Jurism makes a new record for this book and stores the title, author names etc. in the appropriate fields.
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/B43czQDfJhA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
-
-You can manage all your references in Jurism by creating folders and adding tags. You can also attach links to PDF files. For further information see the "Using Zotero" section of the `Zotero documentation <https://www.zotero.org/support/>`_ .
-
+In this tutorial we will imagine we are doing research on Japanese whaling; we collect information on the subject in English and Japanese, and write two articles, one in English and one in Japanese.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Setting up Jurism for citing works in English and Japanese
+Setting up Jurism to store multilingual information about items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If we want to cite a Japanese work in an English article we will need to write the title, author etc. in roman characters rather than kanji and kana. Similarly, if we are writing an article in Japanese and the bibliography must be sorted according to the kana reading of the authors' names, we need to add the yomikata of the authors' names to our database.
@@ -72,12 +35,43 @@ In order to do these things we add entries for English, Japanese, romaji and kan
     </div>
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Getting bibliographic information into Jurism
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Adding multilingual information about works
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Suppose we want to quote Itō's book in an article we are writing in English. We need to add roman versions of the title, author etc. and also an English translation of the title. The following video shows how to do this. First we have to tell Jurism which language the item is in. We do this by writing "ja" in the language field. NOTE: we have to use the two-letter language code and not the name of the language e.g. English, 日本語 etc. So if the language field has already been set to the name of a language you will need to change it to the two-letter code. Once we have done that we right-click the label next to each relevant field, choose "Add Variant", and enter the transliteration into roman characters and then an English translation of the item.
+One of Jurism's great strengths is its ability to work with your web browser to recognize and grab bibliographic information contained in web pages. Let's do two web searches, one for an English book and one for a Japanese book, and add the results to our database. We need to start the Jurism application before doing the web search.
+
+The following video shows us creating a new collection in Jurism, then searching CiNii for a Japanese article, Japanese Amazon for an English book, Google Scholar for an English article, and Japanese Amazon again for a Japanese book on the subject of whaling. You'll see how the items get added to the currently selected collection in Jurism.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/8a-enPbggWM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+	
+
+You can manage all your references in Jurism by creating folders and adding tags. The same item can be put into multiple folders. You can also attach links to PDF files. For further information see the "Using Zotero" section of the `Zotero documentation <https://www.zotero.org/support/>`_ .
+
+As you have probably already realized, the first and most important principle for storing information in Jurism is that item metadata should always be recorded in the original language in the first instance. Translations and transliterations can be entered later as they are needed; but the purpose of a citation is to lead the reader or the researcher back to the original source. If the title of a document in Russian, Khmer, Laotian or Japanese is entered as an English translation, data is lost---the reader is forced to guess at the original title if they want to find the original document. Therefore, all item metadata (except for dates) should be recorded in the original language. The variants can be added separately at a later time.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Multilingual citations in an English article
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+We're preparing a manuscript for submission to the Journal of Asian Studies. The Journal's `information page <https://www.cambridge.org/core/journals/journal-of-asian-studies/information/instructions-contributors>`_ tells us to follow `Chapter 15 <https://www.chicagomanualofstyle.org/16/ch15/ch15_toc.html>`_ of the Chicago Manual of Style, 16th edition.
+
+Looking at the sample article on the journal's web page, we see that non-English works are written as follows in the bibliography:
+
+AYMONIER, ÉTIENNE. 1904. *Le Cambodge. Le groupe d’Angkor et l’histoire* [Cambodia: The Angkor complex and history]. Paris: Leroux.
+
+BAN CHẤP HÀNH ĐẢNG BỘ TỈNH BẠC LIÊU. 2002. *Lịch sử Đảng bộ tỉnh Bạc Liêu (1927– 1975)* [History of the party in Bạc Liêu Province]. Vol. 1. Bạc Liêu: Ban Thường Vụ Tỉnh Ủy.
+
+So we need to render all Japanese text in roman characters and add an English translation of titles in square brackets.
+
+We want to quote the Japanese article by Morishita and the book by Akamine in an article we are writing in English. At the moment we only have the titles, authors etc. in kanji/kana so we need to add roman transliterations of these, plus an English translation of the title of Akamine's book. First we have to tell Jurism which language each item is in. We do this by writing the two-letter language code ("ja","en" etc.) in the language field. NOTE: we have to use the two-letter language code and not the name of the language e.g. English, 日本語 etc. So if the language field has already been set to the name of a language you will need to change it to the two-letter code. Once we have done that we right-click the label next to each relevant field, choose "Add Variant", and enter the transliteration into roman characters and then an English translation of the item.
 
 .. raw:: html
 
@@ -85,28 +79,44 @@ Suppose we want to quote Itō's book in an article we are writing in English. We
         <iframe src="https://www.youtube.com/embed/jV6Ee3FKzd8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Multilingual citations in an English article
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We're preparing a manuscript for submission to the Journal of Asian Studies. The Journal's `information page <https://www.cambridge.org/core/journals/journal-of-asian-studies/information/instructions-contributors>`_ tells us to follow `Chapter 15 <https://www.chicagomanualofstyle.org/16/ch15/ch15_toc.html>`_ of the Chicago Manual of Style, 16th edition.
+When we are ready to start citing works in our article, we set up Jurism's language preferences as follows:
 
-[forthcoming]
+.. image:: ./media/LanguagePrefsForEnglishArticle.png
+
+The settings in the top half of the table tell Jurism to use the "script" version of the primary language, which in this case means Japanese is rendered in roman characters. Also, titles of Japanese works have an English translation added in square brackets.
+
+The settings in the bottom half of the table tell Jurism how to sort the bibliography; Japanese works are sorted according to the romanized version of the author name.
+
+Now we can go ahead and add citations and bibliography to our English article. Remember to check Jurism's language preferences before adding the first citation; it should be possible to change the preferences afterwards but it will save confusion if we get things right from the beginning. Once you have put your first citation into a document, Jurism's language preferences are copied to the document, so you can change the language settings in Jurism without affecting the layout of your bibliography in Word.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/7lcx3gohTyw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Multilingual citations in a Japanese article
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We're writing an article in Japanese for submission to the Japanese Sociological Review. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_. Jurism has implemented this style so, as long as we have the right information in the appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
+Our second article on whaling is in Japanese, for submission to the Japanese Sociological Review. The journal has a detailed `style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_. Jurism has implemented this style so, as long as we have the right information in the appropriate fields, we can simply add citations throughout our article and let Jurism do the work of compiling a properly formatted bibliography.
 
-In this example we'll borrow a couple of paragraphs from the `Japanese Wikipedia page on sociology <https://ja.wikipedia.org/wiki/社会学>`_ and pretend that they are the text of our article which we are writing in Microsoft Word. We already have the necessary bibliography items in Jurism, and have the Jurism application running. We are going to cite a Japanese book, a Japanese article, an English book, and an English book in translation.
+We will quote the same four sources as we did in the English article.  We already have an entry for each item in Jurism so can get on with the writing and citing. However, we know Dolin's book has been translated into Japanese and we want to cite the translation in the Japanese article. We set the item's Language field to "en>ja" and put information about the translation into the item's Extra field as shown below. Note that each translator gets a separate <alt-translator> entry, and that the translators' family and given names are divided by double bar characters "||".
 
-Note that for some reason when we add a citation in Word, the red-bordered window that apppears allows us to find works using roman characters ("Douglas", "Freedom" etc.) but not Japanese text. In order to insert citations to Japanese works we need to click the Jurism icon, then "Classic View", and then select the item we want to cite.
+.. image:: ./media/AddingTranslationInfo.png
+
+Before we start adding citations to our article in Word, we need to set up Jurism's language preferences again. The settings in the top half of the preferences become very simple because we don't need to transliterate Japanese text or add English translations. However, this style says that all works (in whichever language) have to be sorted by the romanized version of the author's name. Therefore we need to tell Jurism to use the romanized version of Japanese authors' names for sorting. Of course, this means we need to add the romanized version of the author/editor information for every Japanese work we cite, even though the roman characters won't be displayed.
+
+.. image:: ./media/LangPrefsForJapaneseArticle.png
+
+Now it's time to write our article. Note that for some reason when we add a citation in Word, the red-bordered window that apppears allows us to find works using roman characters ("Douglas", "Freedom" etc.) but not Japanese text. In order to insert citations to Japanese works we need to click the Jurism icon, then "Classic View", and then select the item we want to cite. Notice that details of the translation of Dolin's book are formatted correctly in the bibliography.
 
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/FgwUmDMSm8A" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://www.youtube.com/embed/HFsRLQIDjN4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
 Jurism formats your bibliography exactly as the journal's editors want it; it even formats complex entries such as translations and republications. In order to understand what you need to do to get those more complex items to display correctly, please check out the `shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_. The library contains all the different items and variations mentioned in the journal's style guide.
