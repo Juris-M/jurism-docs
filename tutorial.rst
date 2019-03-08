@@ -9,6 +9,8 @@ Tutorial: multilingual publications and bibliographies
 Introduction
 ~~~~~~~~~~~~
 
+NOTE: This tutorial uses the latest Beta version of Jurism, released in March 2019.
+
 You are a social scientist (or a humanities scholar, or some other kind of researcher). You read and cite previous research written in two or more languages, and you need a way to record and manage all those references. You write articles in both English and another language.
 
 Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in an English article you may have to write the author, title and so on in roman characters and add an English translation of the title, but when you cite the same work in a Japanese article you will just use the original information.  With Jurism you can store all the data necessary to produce these different citation formats in one place. This means you can maintain one database of all your citations and keep all information about each work together, regardless of which language that information is in. Even better, you can use Jurism to automatically generate bibliographies in the format required by whichever journal you are writing for, whichever language you are writing in.
@@ -118,6 +120,7 @@ Jurism formats the bibliography exactly as the journal's editors want it; it eve
 
 You might be thinking: "Ah, but now I've added information about the translation of Dolin's book, the next time I cite it in an English article the Japanese translation will get cited." Fear not: Jurism will detect from the style settings that you are writing for an English journal and will only provide details of the original book.
 
+------------
 (Actually, there is one tiny but annoying instruction in the JSR style guide that Jurism can't deal with. That's the case of a co-written work where at least one of the authors writes their name in katakana. In such cases the characters separating the authors' names are supposed to change from ・ to ／. So for example
 
 宮島喬・梶田孝道・伊藤るり，1985，『先進社会のジレンマ』有斐閣．
