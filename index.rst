@@ -23,4 +23,5 @@ Table of Contents
    introduction.rst
    changes.rst
    tutorial.rst
+   tutorial-ja.rst
    jurism-extras.rst
