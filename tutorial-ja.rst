@@ -55,7 +55,7 @@ Jurismの強みの一つは、ウェブブラウザ―から、文献目録情�
     </div>
 	
 
-フォルダーを生成し、タグを追加することで、すべての参考文献をJurismにて管理することができます。同じ項目は、マルチフォルダーの中に入れることができます。PDFのリンクを追加することもできます。詳細については、`Zotero documentation <https://www.zotero.org/support/>`_の「Using Zotero」を参照してください。
+フォルダーを生成し、タグを追加することで、すべての参考文献をJurismにて管理することができます。同じ項目は、マルチフォルダーの中に入れることができます。PDFのリンクを追加することもできます。詳細については、 `Zotero documentation <https://www.zotero.org/support/>`_ の「Using Zotero」を参照してください。
 
 既にお気づきでしょうが、Jurismに情報を保管するための第一かつもっとも重要な原則は、メタデータは常に、第一にまずオリジナルの言語で記録する、ということです。翻訳や音訳は必要に応じて後から入力することができます。しかし、引用の目的は読者あるいは研究者に原文を辿れるようにすることにあります。英語の翻訳として、ロシア語、クメール、ラオ後あるいは日本語で題名が記載されていたら、原文を探したいと思う読者は、原文のタイトルを想像するよりありません、そして、データが見つからない事態に。したがって、すべてのメタデータ（日付を除き）は。原文の言語で記録されるべきです。異なる言語は、後日、別に追加することができるのです。
 
@@ -63,7 +63,7 @@ Jurismの強みの一つは、ウェブブラウザ―から、文献目録情�
 英語論文の中での多言語の引用
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-ここに、「Journal of Asian Studies」へ提出するための現行を用意しました。このジャーナルの`information page <https://www.cambridge.org/core/journals/journal-of-asian-studies/information/instructions-contributors>`_には、シカゴマニュアル様式16版に従うようにという指示があります。
+ここに、「Journal of Asian Studies」へ提出するための現行を用意しました。このジャーナルの`information page <https://www.cambridge.org/core/journals/journal-of-asian-studies/information/instructions-contributors>`_ には、シカゴマニュアル様式16版に従うようにという指示があります。
 
 ジャーナルのウェブページ上にある事例を参照しますと、非英語の論文は下記の書誌に基づいて書かれています。
 
@@ -107,7 +107,7 @@ BAN CHẤP HÀNH ĐẢNG BỘ TỈNH BẠC LIÊU. 2002. *Lịch sử Đả
 日本語の論文における多言語引用
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-次に取り上げるのは、「Japanese Sociological Review (日本社会学会)」誌のための日本語による捕鯨の論文です。この学会誌には、詳細な様式ガイド`style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_があります。Jurismはこの様式を改良し、正しい情報を適切なフィールドに入力しているかぎり、簡単に、引用を自分の論文の中に追加するだけで、Jurismには適切な様式の文献目録のための収集作業を行せることができます。
+次に取り上げるのは、「Japanese Sociological Review (日本社会学会)」誌のための日本語による捕鯨の論文です。この学会誌には、詳細な様式ガイド`style guide <http://www.gakkai.ne.jp/jss/bulletin/guide.php>`_ があります。Jurismはこの様式を改良し、正しい情報を適切なフィールドに入力しているかぎり、簡単に、引用を自分の論文の中に追加するだけで、Jurismには適切な様式の文献目録のための収集作業を行せることができます。
 
 ここで、英語の論文で用いたものと同じ４つのソースを引用します。すでに各文献は、Jurismの中に取り込まれていますので、それを引用し、記述することができます。なお私たちは、Dolinの書籍を日本語に翻訳されていることを知っていますし、その翻訳を使いたいところです。そこで、下記に示すように、この文献の言語フィールドを“en>ja”とし、この文献の追加フィールドの中に、翻訳情報を入力します。
 各翻訳者はそれぞれ<alt-translator>に入力します。さらに翻訳者の姓名は、複縦線“||”によって分けて入力します。
@@ -127,7 +127,7 @@ Wordで記載する論文に引用文献を追加し始める前に、私たち�
     </div>
 
 
-Jurismは、学会編集の要求する様式が、翻訳や再刊などのような複雑な入力を様式化していたとしても、正確にその要求に従って様式化します。より複雑な項目を正しく表示する方法について理解するためには、この`shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_を参照してください。このライブラリには、ジャーナルの様式ガイドの中に示されている異なる事項やバリエーションが含まれています。
+Jurismは、学会編集の要求する様式が、翻訳や再刊などのような複雑な入力を様式化していたとしても、正確にその要求に従って様式化します。より複雑な項目を正しく表示する方法について理解するためには、この`shared library <https://www.zotero.org/groups/2295917/japan_sociological_society_examples?>`_ を参照してください。このライブラリには、ジャーナルの様式ガイドの中に示されている異なる事項やバリエーションが含まれています。
 
 ここで、あなたはこう思うかもしれません。「あっ、でも今、Dolisの書籍の翻訳についての情報を追加した。次回、英語の論文で、日本語翻訳版を引用するし」と。大丈夫。Jurismはあなたが英文ジャーナルのために記載している様式設定の中から、見つけ出し、原書の詳細のみを提供します。
 
@@ -147,4 +147,4 @@ Jurismは、学会編集の要求する様式が、翻訳や再刊などのよ�
 
 もし、このような文献を引用する際には、文献目録を提出前に手入力で編集しなければなりません。)
 
-もしわからない点があれば、`Jurism-support <https://mail.law.nagoya-u.ac.jp/mailman/listinfo/jurism-support>`_ 又は `Jurism-freshers <https://mail.law.nagoya-u.ac.jp/mailman/listinfo/jurism-freshers>`_にメールしてください。
+もしわからない点があれば、`Jurism-support <https://mail.law.nagoya-u.ac.jp/mailman/listinfo/jurism-support>`_ 又は `Jurism-freshers <https://mail.law.nagoya-u.ac.jp/mailman/listinfo/jurism-freshers>`_ にメールしてください。
