@@ -13,7 +13,7 @@ NOTE: This tutorial uses the latest Beta version of Jurism, released in March 20
 
 You are a social scientist (or a humanities scholar, or some other kind of researcher). You read and cite previous research written in two or more languages, and you need a way to record and manage all those references. You write articles in both English and another language.
 
-Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in an English article you may have to write the author, title and so on in roman characters and add an English translation of the title, but when you cite the same work in a Japanese article you will just use the original information.  With Jurism you can store all the data necessary to produce these different citation formats in one place. This means you can maintain one database of all your citations and keep all information about each work together, regardless of which language that information is in. Even better, you can use Jurism to automatically generate bibliographies in the format required by whichever journal you are writing for, whichever language you are writing in.
+Each journal has its own requirements about how to format bibliographies. For example, when you cite a Japanese work in an English article you may have to write the author, title and so on in roman characters and add an English translation of the title, but when you cite the same work in a Japanese article you will just use the original information.  With Jurism you can store all the data necessary to produce these different citation formats in one place. This means you can maintain one database of all your citations and keep all information about each work together, regardless of which language that information is in. Even better, you can use Jurism to automatically generate bibliographies in the format required by whichever journal you are writing for, whichever language you are writing in (either by choosing from one of the styles supplied with Jurism, or writing your own.)
 
 In this tutorial we will imagine we are doing research on Japanese whaling; we collect information on the subject in English and Japanese, and write two articles, one in English and one in Japanese.
 
@@ -84,7 +84,9 @@ The settings in the top half of the table tell Jurism to use the "script" versio
 
 The settings in the bottom half of the table tell Jurism how to sort the bibliography; Japanese works will be sorted according to the romanized version of the author name.
 
-Now we can go ahead and add citations and a bibliography to our English article. Remember to check Jurism's language preferences before adding the first citation; it should be possible to change the preferences afterwards but it will save confusion if we get things right from the beginning. When we add the first citation to a document, Jurism's language preferences at that moment are copied to the document, so we can subsequently change the language settings in Jurism without affecting the formatting of the bibliography in Word.
+Now we can go ahead and add citations and a bibliography to our English article. Remember to set Jurism's language preferences before adding the first citation; it should be possible to change the preferences afterwards but it will save confusion if we get things right from the beginning. When we add the first citation to a document, Jurism's language preferences at that moment are copied to the document, so we can subsequently change the language settings in Jurism without affecting the formatting of the bibliography in Word.
+
+When we add a citation to our Word document a red-bordered search box is displayed. If we write English author names or keywords ("Blok", "Leviathan" etc.) then items in our Jurism database are immediately displayed and we can choose the one we want. If we write Japanese text ("赤嶺","捕鯨" etc.) then we need to write a space after the word in order to get the candidate items to display. If we can't remember the author or keyword we can click the Jurism icon, then "Classic View", and then select the item we want to cite.
 
 .. raw:: html
 
@@ -107,7 +109,7 @@ Before we start adding citations to our article in Word, we need to set up Juris
 
 .. image:: ./media/LangPrefsForJapaneseArticle.png
 
-Now it's time to add citations and a bibliography to our article. For some reason when we add a citation in Word, the red-bordered window that appears allows us to find works using roman characters ("Blok", "Leviathan" etc.) but not Japanese text. In order to insert citations to Japanese works we need to click the Jurism icon, then "Classic View", and then select the item we want to cite.
+Now it's time to add citations and a bibliography to our article. For some reason when we add a citation in Word, the red-bordered window that appears allows us to find works using roman characters  but not Japanese text. In order to insert citations to Japanese works we need to click the Jurism icon, then "Classic View", and then select the item we want to cite.
 
 .. raw:: html
 
@@ -122,7 +124,7 @@ You might be thinking: "Ah, but now I've added information about the translation
 
 ------------
 
-(Actually, there is one tiny but annoying instruction in the JSR style guide that Jurism can't deal with. That's the case of a co-written work where at least one of the authors writes their name in katakana. In such cases the characters separating the authors' names are supposed to change from ・ to ／. So for example
+(Actually, there is one instruction in the JSR style guide that Jurism can't deal with. That's the case of a co-written work where at least one of the authors writes their name in katakana. In such cases the characters separating the authors' names are supposed to change from ・ to ／. So for example
 
 宮島喬・梶田孝道・伊藤るり，1985，『先進社会のジレンマ』有斐閣．
 
