@@ -109,7 +109,7 @@ Before we start adding citations to our article in Word, we need to set up Juris
 
 .. image:: ./media/LangPrefsForJapaneseArticle.png
 
-Now it's time to add citations and a bibliography to our article. For some reason when we add a citation in Word, the red-bordered window that appears allows us to find works using roman characters  but not Japanese text. In order to insert citations to Japanese works we need to click the Jurism icon, then "Classic View", and then select the item we want to cite.
+Now it's time to add citations and a bibliography to our article.
 
 .. raw:: html
 
