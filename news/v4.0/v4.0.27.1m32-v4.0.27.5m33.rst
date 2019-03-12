@@ -1,0 +1,551 @@
+========================================================
+v4.0.27.1m32-v4.0.27.5m33
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27.5m33
+
+:commit:
+    `c7be42b <https://github.com/Juris-M/zotero/commit/c7be42bf52144e8aacca046da3d492da1772c9f9>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 23:17 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m33beta12
+
+:commit:
+    `c50e9cd <https://github.com/Juris-M/zotero/commit/c50e9cd3df30f9153825f4ae47fafb34091dd0de>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 18:14 (JST)
+
+
+------
+
+Latest CSL locales
+
+:commit:
+    `3f30ed2 <https://github.com/Juris-M/zotero/commit/3f30ed22771f597e266f40926c130ef2162b0edb>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 18:13 (JST)
+
+
+------
+
+Merge branch 'jurism' of github.com:Juris-M/zotero into jurism
+
+:commit:
+    `703afc0 <https://github.com/Juris-M/zotero/commit/703afc08a5d0cb661aaad6c90d10c3222f6bc058>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 18:11 (JST)
+
+
+------
+
+Include install_check in repo
+
+:commit:
+    `e6fad0d <https://github.com/Juris-M/zotero/commit/e6fad0dc76039ee43c09e69a21d33a9e41fe1c9b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 18:11 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m33beta11
+
+:commit:
+    `a5c12d3 <https://github.com/Juris-M/zotero/commit/a5c12d37376942fb758ed67170f2004737744c14>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 11:44 (JST)
+
+
+------
+
+Fix typo
+
+:commit:
+    `eeb5e6c <https://github.com/Juris-M/zotero/commit/eeb5e6cb2b47a458e72c3ef0907951f51e1f0e1f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 11:43 (JST)
+
+
+------
+
+Use upstream locales
+
+:commit:
+    `a5414d8 <https://github.com/Juris-M/zotero/commit/a5414d8b008e2260de844fc4b9a602dd934aaff6>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 11:43 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m33beta10
+
+:commit:
+    `4a56dde <https://github.com/Juris-M/zotero/commit/4a56dde5cc8d8f8937807256ea808411e2c6c8f8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-19 16:50 (JST)
+
+
+------
+
+Deliver preview as HTML
+
+:commit:
+    `9d32611 <https://github.com/Juris-M/zotero/commit/9d32611897e3b391772182dd0e834f6c902521af>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-19 12:44 (JST)
+
+
+------
+
+Revert to original version string
+
+:commit:
+    `3a86085 <https://github.com/Juris-M/zotero/commit/3a86085c5c99aaf6eaa76c54d2f1b407ee4c31c2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-19 12:43 (JST)
+
+
+------
+
+Merge branch '4.0' of github.com:zotero/zotero into jurism-dev
+
+:commit:
+    `c3d5e95 <https://github.com/Juris-M/zotero/commit/c3d5e9546fa0bcd8b52a3b0a8b82d892a884836f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-18 18:13 (JST)
+
+Conflicts:
+	translators
+
+
+------
+
+Updating install.rdf to version 4.0.27.5jurism33beta9
+
+:commit:
+    `e30932f <https://github.com/Juris-M/zotero/commit/e30932f4045c7f14b8bf5d966d6816fd33976696>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-18 00:29 (JST)
+
+
+------
+
+Another attempt to fix version string
+
+:commit:
+    `2474681 <https://github.com/Juris-M/zotero/commit/247468174e37d3b3d3b5f8c2d8ee900ff096e1ce>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-18 00:28 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5.SOURCE.ActuallyThisIsJurism.v33beta8
+
+:commit:
+    `4cbc493 <https://github.com/Juris-M/zotero/commit/4cbc49330d801159306241cdc01b5ab4d190181f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-18 00:06 (JST)
+
+
+------
+
+Attempt compatibility fix
+
+:commit:
+    `8f97346 <https://github.com/Juris-M/zotero/commit/8f973465216a9d93e3d998e39ffa79bae8916b2d>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-18 00:03 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m33beta7
+
+:commit:
+    `fe05a8a <https://github.com/Juris-M/zotero/commit/fe05a8aea84f30be9d0edc852c8089f16de451a2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-17 23:12 (JST)
+
+
+------
+
+Fix version stub in build script
+
+:commit:
+    `b24dd74 <https://github.com/Juris-M/zotero/commit/b24dd744505198af81cae93db1b669fcd93bbcad>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-17 23:09 (JST)
+
+
+------
+
+Restore missing updateQuickCopyHTMLCheckbox()
+
+:commit:
+    `4e0a8da <https://github.com/Juris-M/zotero/commit/4e0a8da6dc6f775f1bbc039a74c32126929da639>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-17 23:09 (JST)
+
+
+------
+
+Fix broken install.rdf
+
+:commit:
+    `bce069d <https://github.com/Juris-M/zotero/commit/bce069dae52672ab8ac0dd9221366576dad1b04a>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-17 23:08 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `509e750 <https://github.com/Juris-M/zotero/commit/509e750e238627b553876d3387258ecb38840c3e>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-17 23:08 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.1m33beta6
+
+:commit:
+    `7914d78 <https://github.com/Juris-M/zotero/commit/7914d781bca03536ec2f153578476e35ba1a17b3>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-13 00:27 (JST)
+
+
+------
+
+Add first-run guidance locale string from upstream 4.0
+
+:commit:
+    `eee808d <https://github.com/Juris-M/zotero/commit/eee808d443d5b826dd2d02d1fb7cfe0422ea4132>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-13 00:25 (JST)
+
+
+------
+
+Merge changes from 4.0
+
+:commit:
+    `ccc2cf5 <https://github.com/Juris-M/zotero/commit/ccc2cf54b2e444e1aeaed62964a1bfccc6c725b8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-13 00:21 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.1m33beta5
+
+:commit:
+    `7af680c <https://github.com/Juris-M/zotero/commit/7af680c1995ffc7a3823fa1293f58d850d70dbdc>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-11 07:54 (JST)
+
+
+------
+
+Upgrade citeproc-js to version 1.1.40
+
+:commit:
+    `f52a247 <https://github.com/Juris-M/zotero/commit/f52a24771e415c5ee47dac19de39261c5ff5e2a8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-11 07:52 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.1m33beta4
+
+:commit:
+    `a3e1a32 <https://github.com/Juris-M/zotero/commit/a3e1a32949af4b65880c86874fa0dc77b018c840>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-09 00:23 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `e8adbca <https://github.com/Juris-M/zotero/commit/e8adbca34add9a4089d754bed54c51d724c7dffe>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-09 00:22 (JST)
+
+
+------
+
+Suppress change record with loadIn flag on decodeMlzFields()
+
+:commit:
+    `ced4849 <https://github.com/Juris-M/zotero/commit/ced48497706689a9e0afe32250b48d548eacdb6f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-09 00:20 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.1m33beta3
+
+:commit:
+    `eabf937 <https://github.com/Juris-M/zotero/commit/eabf9373b193d46d584397cee0161550e19740d3>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-07 22:38 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.1m33beta2
+
+:commit:
+    `7d5a2ee <https://github.com/Juris-M/zotero/commit/7d5a2eedde3ea15ea71913c9b85b929c4b45e588>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-07 22:31 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.1m33beta1
+
+:commit:
+    `8d6e137 <https://github.com/Juris-M/zotero/commit/8d6e137d925d1781a13b0d2920735b56317880fb>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-07 20:32 (JST)
+
+
+------
+
+Add debug chatter option to hasChanged()
+
+:commit:
+    `c599ab6 <https://github.com/Juris-M/zotero/commit/c599ab665bfa900a2545e9c9904e05451628b26c>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-07 20:31 (JST)
+
+
+------
+
+Fix translator cgi script
+
+:commit:
+    `5addc93 <https://github.com/Juris-M/zotero/commit/5addc93f8819d12e368828d7cf5b8601c4a0647e>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-04 23:33 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `726ff19 <https://github.com/Juris-M/zotero/commit/726ff194dcfe74383f229b1a7510c22656908094>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-04 20:02 (JST)
+
+
+------
+
+Merge branch 'jurism' of github.com:Juris-M/zotero into jurism
+
+:commit:
+    `20504ab <https://github.com/Juris-M/zotero/commit/20504ab793c792730dece1fad78dda165e0ef683>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-03 21:26 (JST)
+
+
+------
+
+Merge branch 'jurism-dev' into jurism
+
+:commit:
+    `e1e2852 <https://github.com/Juris-M/zotero/commit/e1e285225d24272aadb94d47b594c1842b173616>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-03 21:25 (JST)
+
+
+------
+
+Add updates to non-English locales from 4.0
+
+:commit:
+    `d6bf007 <https://github.com/Juris-M/zotero/commit/d6bf00784e56f07a517fcb0366186dcd1e5ae5ad>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-03 21:25 (JST)
+
+
+------
+
+Merge branch '4.0' of github.com:zotero/zotero into jurism-dev
+
+:commit:
+    `7dc30e3 <https://github.com/Juris-M/zotero/commit/7dc30e32fcea4fd521c56cead6a6ffe7bf0f9cb8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-03 21:23 (JST)
+
+Conflicts:
+	chrome/locale/et-EE/zotero/about.dtd
+	chrome/locale/et-EE/zotero/preferences.dtd
+	chrome/locale/et-EE/zotero/standalone.dtd
+	chrome/locale/et-EE/zotero/zotero.dtd
+	chrome/locale/et-EE/zotero/zotero.properties
+	chrome/locale/fr-FR/zotero/zotero.dtd
+	install.rdf
+	resource/config.js
+	translators
+	update.rdf
+
+
+------
+
+Update translators
+
+:commit:
+    `ef94c2f <https://github.com/Juris-M/zotero/commit/ef94c2fde6c12f04d9d602b70d2878b142318210>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-03 14:33 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `4e042dd <https://github.com/Juris-M/zotero/commit/4e042dd67cb247be7a6cb283e78970f0df17eab7>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-03 08:35 (JST)
+
+
+------
+
+Actual running zotero-translators-thing.py
+
+:commit:
+    `bc2479e <https://github.com/Juris-M/zotero/commit/bc2479efc88ccf9506cd5ae7744811821f3effe6>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-03 08:30 (JST)
+
+
+------
+
+Do not refactor chrome URLs. Not necessary, and it breaks companion plugins.
+
+:commit:
+    `24fe89b <https://github.com/Juris-M/zotero/commit/24fe89bd1f3747b7f4d80ec9eaec9adbdef5d315>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-03 08:29 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.1m32
+
+:commit:
+    `4e2344e <https://github.com/Juris-M/zotero/commit/4e2344ea6a402cf229eacacd6f8d8c7cd14dd0bf>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 19:41 (JST)
+

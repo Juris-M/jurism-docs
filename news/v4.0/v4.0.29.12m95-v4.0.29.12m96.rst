@@ -1,0 +1,116 @@
+========================================================
+v4.0.29.12m95-v4.0.29.12m96
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.12m96
+
+:commit:
+    `e3419f3 <https://github.com/Juris-M/zotero/commit/e3419f3ede8b0036af93a621b8de78011ef41d63>`_
+:author:
+    fbennett
+:date:
+    2016-09-24 15:54 (JST)
+
+
+------
+
+Upgrade citeproc-js to beta 1.1.136
+
+:commit:
+    `08370af <https://github.com/Juris-M/zotero/commit/08370afbe57722124b1d1144119aa8bf3850b736>`_
+:author:
+    fbennett
+:date:
+    2016-09-24 15:47 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.12m96beta2
+
+:commit:
+    `cad191d <https://github.com/Juris-M/zotero/commit/cad191db7a63a1f9cda4c108c6a509afeed70e1b>`_
+:author:
+    fbennett
+:date:
+    2016-09-23 13:42 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.12m96beta1
+
+:commit:
+    `8563380 <https://github.com/Juris-M/zotero/commit/8563380d0ae4ed28b3231aa2564398d5b3236ede>`_
+:author:
+    fbennett
+:date:
+    2016-09-23 13:39 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.134
+
+:commit:
+    `408a50b <https://github.com/Juris-M/zotero/commit/408a50b02b53498a2533fce35b13f02fdb0ef3ed>`_
+:author:
+    fbennett
+:date:
+    2016-09-23 13:37 (JST)
+
+
+------
+
+Merge branch '4.0' of https://github.com/zotero/zotero into dev
+
+:commit:
+    `d768c5a <https://github.com/Juris-M/zotero/commit/d768c5a9624cad6df8528692738ea16384809b22>`_
+:author:
+    fbennett
+:date:
+    2016-09-18 00:47 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.130
+
+:commit:
+    `41b9fa6 <https://github.com/Juris-M/zotero/commit/41b9fa619ce279fcb39b68cefff51d7795ce6837>`_
+:author:
+    fbennett
+:date:
+    2016-09-18 00:45 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `2a34630 <https://github.com/Juris-M/zotero/commit/2a3463074a115a236b14f671d9675d17132c9185>`_
+:author:
+    fbennett
+:date:
+    2016-09-09 09:54 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.12m95
+
+:commit:
+    `421bb5d <https://github.com/Juris-M/zotero/commit/421bb5dadd774890bcf45c14a79b5068a93f56bc>`_
+:author:
+    fbennett
+:date:
+    2016-09-09 09:51 (JST)
+

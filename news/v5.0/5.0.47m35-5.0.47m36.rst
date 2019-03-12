@@ -1,0 +1,116 @@
+========================================================
+5.0.47m35-5.0.47m36
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Bump version
+
+:commit:
+    `4d83461 <https://github.com/Juris-M/zotero/commit/4d8346144554f95da865d77b7814c37950464071>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-06 09:25 (JST)
+
+
+------
+
+Bump repotime
+
+:commit:
+    `5aca8e4 <https://github.com/Juris-M/zotero/commit/5aca8e4d2249a624f245f4fba60fc59c9f43df48>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-06 08:35 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `4a0ea5e <https://github.com/Juris-M/zotero/commit/4a0ea5e27e32c8ddc301e33df67b0179eeaa84de>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-06 08:35 (JST)
+
+
+------
+
+Adapt locale changes from upstream
+
+:commit:
+    `01c3a77 <https://github.com/Juris-M/zotero/commit/01c3a7748f68b2b7dbcbfbf88e4e2e6208c52cd9>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-06 08:31 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `9ba2580 <https://github.com/Juris-M/zotero/commit/9ba25807d7e232ec9562027e4feafa215a0efa04>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-06 08:28 (JST)
+
+
+------
+
+Rebrand locale strings after upstream merge
+
+:commit:
+    `0a08ac4 <https://github.com/Juris-M/zotero/commit/0a08ac4f970d7a770d1b419e2ff8721f6a3d3750>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-05 20:50 (JST)
+
+
+------
+
+Refer to juris-m.github.io as home where appropriate
+
+:commit:
+    `3608a18 <https://github.com/Juris-M/zotero/commit/3608a183183553386cc5ebe78938ab542ab80e36>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-05 19:53 (JST)
+
+
+------
+
+Set min connector to 5.0.47.2
+
+:commit:
+    `8aff401 <https://github.com/Juris-M/zotero/commit/8aff401a7dd053fc0298b3b90a62291e0a7f3e67>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-05 17:32 (JST)
+
+
+------
+
+Bump version to 5.0.47m35
+
+:commit:
+    `17b4e77 <https://github.com/Juris-M/zotero/commit/17b4e770d85b551d4ec4f208343df8e297ea541d>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-05 17:29 (JST)
+

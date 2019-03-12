@@ -1,0 +1,84 @@
+========================================================
+v4.0.29.10m90-v4.0.29.10m91
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.10m91
+
+:commit:
+    `7d7a7d6 <https://github.com/Juris-M/zotero/commit/7d7a7d6abb05c6fe346831f6beca1edc228b673e>`_
+:author:
+    Frank Bennett
+:date:
+    2016-09-05 14:55 (JST)
+
+
+------
+
+Update submodules
+
+:commit:
+    `5b11d3c <https://github.com/Juris-M/zotero/commit/5b11d3c1962a19e5d0fe49f41a81ba2b9e523d3a>`_
+:author:
+    Frank Bennett
+:date:
+    2016-09-05 14:55 (JST)
+
+
+------
+
+Update submodules
+
+:commit:
+    `dd186d5 <https://github.com/Juris-M/zotero/commit/dd186d5e249e36ddf1e5b1617d1693eff02777fe>`_
+:author:
+    fbennett
+:date:
+    2016-09-05 10:34 (JST)
+
+
+------
+
+Merge branch 'jurism' of github.com:Juris-M/zotero into jurism
+
+:commit:
+    `c457d7a <https://github.com/Juris-M/zotero/commit/c457d7abe11cd669531754e088e635a04feabbe1>`_
+:author:
+    fbennett
+:date:
+    2016-09-05 10:33 (JST)
+
+Conflicts:
+	chrome/content/zotero/xpcom/citeproc.js
+	update-TEMPLATE.rdf
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `71a92a6 <https://github.com/Juris-M/zotero/commit/71a92a63b287646ec97fe43e729ca548897c4c5e>`_
+:author:
+    Frank Bennett
+:date:
+    2016-09-02 12:33 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.10m90
+
+:commit:
+    `5d270bb <https://github.com/Juris-M/zotero/commit/5d270bb3a9373e088cb062b40a148132a9c3df6f>`_
+:author:
+    Frank Bennett
+:date:
+    2016-09-02 12:31 (JST)
+

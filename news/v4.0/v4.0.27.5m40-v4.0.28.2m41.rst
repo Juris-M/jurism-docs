@@ -1,0 +1,80 @@
+========================================================
+v4.0.27.5m40-v4.0.28.2m41
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.28.2m41
+
+:commit:
+    `1802f62 <https://github.com/Juris-M/zotero/commit/1802f62bf44f29537fa47fb87b7dae42b6f0bbb5>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 18:49 (JST)
+
+
+------
+
+Update locale files
+
+:commit:
+    `865ffb0 <https://github.com/Juris-M/zotero/commit/865ffb0eccbb5e6c599f8eab04bac37774b4056b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 18:43 (JST)
+
+
+------
+
+Fix indenting
+
+:commit:
+    `84e124f <https://github.com/Juris-M/zotero/commit/84e124f4d3c83c7815a2c4e803c33527ae592dde>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 18:39 (JST)
+
+
+------
+
+Fix bug in Juris-M multi creator pre-factor
+
+:commit:
+    `65eb989 <https://github.com/Juris-M/zotero/commit/65eb989a679714e2436ee2ad80a2971f53a4c7e1>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 18:38 (JST)
+
+
+------
+
+Merge changes from Zotero upstream 4.0
+
+:commit:
+    `a2d05da <https://github.com/Juris-M/zotero/commit/a2d05da19339e13c0862afa3085d97ae0c06da5c>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 18:09 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m40
+
+:commit:
+    `bf6978f <https://github.com/Juris-M/zotero/commit/bf6978f9300e269201f04833545f25ab15623a4e>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 16:57 (JST)
+

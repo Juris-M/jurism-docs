@@ -1,0 +1,272 @@
+========================================================
+5.0.47m36-5.0.52m40
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Update translators, tweak lookup test, bump version to m40
+
+:commit:
+    `543b7c5 <https://github.com/Juris-M/zotero/commit/543b7c5dc4066f7a1065795a285532166d7cb5ee>`_
+:author:
+    Frank Bennett
+:date:
+    2018-07-06 10:20 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.207
+
+:commit:
+    `8b4b8ab <https://github.com/Juris-M/zotero/commit/8b4b8abe14b044b552f282fe9333e21fc614aba9>`_
+:author:
+    Frank Bennett
+:date:
+    2018-06-20 17:40 (JST)
+
+
+------
+
+Use right database name
+
+:commit:
+    `b04a303 <https://github.com/Juris-M/zotero/commit/b04a303cd87a042a0049e241974f9680655d74d6>`_
+:author:
+    Frank Bennett
+:date:
+    2018-06-20 17:13 (JST)
+
+
+------
+
+Update locales from upstream
+
+:commit:
+    `03a729e <https://github.com/Juris-M/zotero/commit/03a729e7785158022e28d3ed231a6eadaf4f4f20>`_
+:author:
+    Frank Bennett
+:date:
+    2018-06-20 16:22 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0-dev
+
+:commit:
+    `d1174f4 <https://github.com/Juris-M/zotero/commit/d1174f4f74968bf8701cafcebaad54d6f7b28ab6>`_
+:author:
+    Frank Bennett
+:date:
+    2018-06-20 16:19 (JST)
+
+
+------
+
+Fix lang change option on creator variants
+
+:commit:
+    `b7f44b3 <https://github.com/Juris-M/zotero/commit/b7f44b3c83cfad02b343b22b92d473aa32a92ff2>`_
+:author:
+    Frank Bennett
+:date:
+    2018-06-02 08:50 (JST)
+
+
+------
+
+Modify test to match Juris-M result
+
+:commit:
+    `7e91e25 <https://github.com/Juris-M/zotero/commit/7e91e25fb5b0c988c833d5192c4e66c1e506dd26>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-24 14:36 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `a16e734 <https://github.com/Juris-M/zotero/commit/a16e73493ab51ab68a0fdcff6ebd735261749ca2>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-24 13:54 (JST)
+
+
+------
+
+Align test with result
+
+:commit:
+    `26a0836 <https://github.com/Juris-M/zotero/commit/26a0836fbfc83f1aa87dec870b915dd4654a3e45>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-21 06:42 (JST)
+
+
+------
+
+Bump version
+
+:commit:
+    `d58abbf <https://github.com/Juris-M/zotero/commit/d58abbff99ec8bdbb7f4753bed402d4da8aa1e9d>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-19 09:43 (JST)
+
+
+------
+
+Merge from upstream
+
+:commit:
+    `13da46a <https://github.com/Juris-M/zotero/commit/13da46a6bf9af7fd5821ec26821284d7533cbd20>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-19 09:42 (JST)
+
+
+------
+
+Bump version and repotime
+
+:commit:
+    `3b33484 <https://github.com/Juris-M/zotero/commit/3b334846ce8f518601af7c09eb54a5eb15a123ea>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-17 12:41 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `e61ee9b <https://github.com/Juris-M/zotero/commit/e61ee9b8baf5f87dd2dc673c32a69eb262370139>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-17 12:41 (JST)
+
+
+------
+
+Add jurisdiction field to filter spec for standards type
+
+:commit:
+    `7d23ea0 <https://github.com/Juris-M/zotero/commit/7d23ea00ff921ad775e30c8471250e601384068c>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-17 12:37 (JST)
+
+
+------
+
+Move feeds above groups
+
+:commit:
+    `a519015 <https://github.com/Juris-M/zotero/commit/a519015f630db7ae3beae37edb445e54cf49bcd3>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-17 12:37 (JST)
+
+
+------
+
+Update translators, bump repotime
+
+:commit:
+    `227010c <https://github.com/Juris-M/zotero/commit/227010c26869821ba766572899fae7f1e15aaedb>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-09 07:47 (JST)
+
+
+------
+
+Add codeNumber/volume to untitled statute/reg displayTitle
+
+:commit:
+    `7aaa4a3 <https://github.com/Juris-M/zotero/commit/7aaa4a3a8645077db40f01df20e3069b1a96936a>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-08 17:25 (JST)
+
+
+------
+
+Update translators, bump repotime
+
+:commit:
+    `2ffdb9a <https://github.com/Juris-M/zotero/commit/2ffdb9aded27662db4846cfe12c3bb52dcfbe589>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-08 17:24 (JST)
+
+
+------
+
+Preserve space when removing terminal periods.
+
+:commit:
+    `6f5c068 <https://github.com/Juris-M/zotero/commit/6f5c068ca71967096e8691e1ec220166ecb32ec4>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-07 10:06 (JST)
+
+
+------
+
+When renaming, remove terminal periods, make delimiter periods hyphen.
+
+:commit:
+    `2e4d0f5 <https://github.com/Juris-M/zotero/commit/2e4d0f5fab300d9dbcd39b4a74de3e8534b548ad>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-07 10:04 (JST)
+
+
+------
+
+Use displayTitle when renaming attachments
+
+:commit:
+    `811b87d <https://github.com/Juris-M/zotero/commit/811b87dcbbd78cacc77b097389be09c272f74223>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-07 10:01 (JST)
+
+
+------
+
+Bump version
+
+:commit:
+    `4d83461 <https://github.com/Juris-M/zotero/commit/4d8346144554f95da865d77b7814c37950464071>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-06 09:25 (JST)
+

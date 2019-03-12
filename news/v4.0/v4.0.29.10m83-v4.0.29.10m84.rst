@@ -1,0 +1,32 @@
+========================================================
+v4.0.29.10m83-v4.0.29.10m84
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.10m84
+
+:commit:
+    `4836e07 <https://github.com/Juris-M/zotero/commit/4836e077cdf95ae7c771c97e8edb68934b91e2f2>`_
+:author:
+    fbennett
+:date:
+    2016-06-20 19:22 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.10m83
+
+:commit:
+    `b7e8d73 <https://github.com/Juris-M/zotero/commit/b7e8d7361692e25ad0082be152627fee9e794915>`_
+:author:
+    fbennett
+:date:
+    2016-06-20 19:19 (JST)
+

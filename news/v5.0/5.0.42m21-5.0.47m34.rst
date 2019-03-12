@@ -1,0 +1,895 @@
+========================================================
+5.0.42m21-5.0.47m34
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Update repotime
+
+:commit:
+    `d7a9bbb <https://github.com/Juris-M/zotero/commit/d7a9bbb6b343268f09b160c541a719cf578d23b8>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-04 11:43 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `46701b4 <https://github.com/Juris-M/zotero/commit/46701b4d3de1fcac1b081123cf3e7432ce341749>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-04 11:40 (JST)
+
+
+------
+
+Update locale strings from upstream
+
+:commit:
+    `cdded37 <https://github.com/Juris-M/zotero/commit/cdded378a89840a6581483e52f6efb575d05eb96>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-04 11:38 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `4b184fc <https://github.com/Juris-M/zotero/commit/4b184fce3da7dd73127df6ce2a3912e70477f427>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-03 19:21 (JST)
+
+
+------
+
+Bump version to 5.0.45m33
+
+:commit:
+    `ab055a9 <https://github.com/Juris-M/zotero/commit/ab055a9d1a70f5403866a4ae0a3fd0ec62e72c79>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-23 06:32 (JST)
+
+
+------
+
+Set test to use Oxford comma. Again.
+
+:commit:
+    `e1547c6 <https://github.com/Juris-M/zotero/commit/e1547c6a04b746a42c9ae881ba72c679e16d889f>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-23 06:31 (JST)
+
+
+------
+
+Remove Reporter column.
+
+:commit:
+    `008a05f <https://github.com/Juris-M/zotero/commit/008a05fa92201ee04876a76237a26abf9f7c5719>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-23 05:37 (JST)
+
+Adding this column seems to have triggered selection of ALL columns when running
+Zotero and Juris-M alternately. In any case, adding a special column
+for this value is the wrong solution to the problem. Reporter should
+show up in the Publication column.
+
+
+------
+
+Bump version to 5.0.45m32
+
+:commit:
+    `b98179e <https://github.com/Juris-M/zotero/commit/b98179e90a593273a5ec93d24ebb61ffc0c38435>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-17 19:09 (JST)
+
+
+------
+
+Update to add AG of ECJ to jurisdictions
+
+:commit:
+    `588a9a2 <https://github.com/Juris-M/zotero/commit/588a9a2250c1bbec9446aeae34108307d4938189>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-17 19:08 (JST)
+
+
+------
+
+Bump version to 5.0.45m31
+
+:commit:
+    `6dfb77d <https://github.com/Juris-M/zotero/commit/6dfb77d25396c0b37fb42671310c23fc8db20c32>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-17 16:44 (JST)
+
+
+------
+
+Update jurisdiction data (chambers of ECJ)
+
+:commit:
+    `383ecc5 <https://github.com/Juris-M/zotero/commit/383ecc51fd99dd440cbbdd7243401c62f1bad1ae>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-17 16:43 (JST)
+
+
+------
+
+Bump version to 5.0.45m30
+
+:commit:
+    `ae3cb20 <https://github.com/Juris-M/zotero/commit/ae3cb203cab31f7b4c11a1ee3e019154ed9b87cd>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-16 12:19 (JST)
+
+
+------
+
+Adjust test result
+
+:commit:
+    `0148fcc <https://github.com/Juris-M/zotero/commit/0148fcc119a0bc25f8c0a7608342e30a2465881e>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-16 12:18 (JST)
+
+
+------
+
+Except court and jurisdiction from b6cfa95c, allow removal of jurisdiction values where optional
+
+:commit:
+    `d71329d <https://github.com/Juris-M/zotero/commit/d71329da8d1cff149a610ef27f156daeef3158b7>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-16 11:33 (JST)
+
+
+------
+
+Bump version to 5.0.45m29
+
+:commit:
+    `08a14f3 <https://github.com/Juris-M/zotero/commit/08a14f3463022370c46029e4b007d15481be258c>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-16 07:58 (JST)
+
+
+------
+
+Assign merge-tracking relations properly when merging >2 items
+
+:commit:
+    `a4a3ba3 <https://github.com/Juris-M/zotero/commit/a4a3ba3630ee97a43c8d653e7fccdd4e475c0496>`_
+:author:
+    Dan Stillman
+:date:
+    2018-04-16 06:05 (JST)
+
+https://forums.zotero.org/discussion/71459/incorrect-document-refresh-after-three-item-merge
+
+
+------
+
+Allow higher local object version during full sync
+
+:commit:
+    `7badc0c <https://github.com/Juris-M/zotero/commit/7badc0c6f6b07387737110940c97d4126f252c63>`_
+:author:
+    Dan Stillman
+:date:
+    2018-04-15 05:40 (JST)
+
+Local object versions can be higher than remote versions, because we
+upload in batches and only record the version from the last batch.
+
+This could cause trouble if an object failed to upload during a Restore
+to Online Library, causing it to be retried later with version 0 (unlike
+during a restore when the version is omitted), causing the library to be
+reset, causing any local objects with higher local versions to be
+redownloaded.
+
+
+------
+
+Set 'control' attribute for item box fields
+
+:commit:
+    `b6cfa95 <https://github.com/Juris-M/zotero/commit/b6cfa95c955e7e5b9051cae8f369ee3e41741d79>`_
+:author:
+    Dan Stillman
+:date:
+    2018-04-15 02:25 (JST)
+
+Set 'control' to the id of either the value label or the textbox,
+depending on whether the field is being edited. This causes NVDA to read
+the label associated with the textbox, but seemingly only the first time
+it's selected.
+
+Unfortunately NVDA also does some other unpleasant things, like reading
+a description from the duplicate-merging pane, which isn't the active
+element in the deck, and reading the entire text, including all field
+labels, of the item box) I'm not sure how much we can improve this until
+we're on Electron.
+
+VoiceOver doesn't read the textbox's label either, even though it does
+so in the bookmarks window in Firefox. Maybe things have improved since
+Firefox 52, so we can text again after upgrading to Firefox 60.
+
+Addresses #1411
+
+
+------
+
+Restore proper incompatible DB message
+
+:commit:
+    `306b971 <https://github.com/Juris-M/zotero/commit/306b97158000ea8b8c53bdcdfa46b9df0956653d>`_
+:author:
+    Dan Stillman
+:date:
+    2018-04-15 00:38 (JST)
+
+Fixes #1446
+
+
+------
+
+Show "Export Collection…" if there are items in subcollections
+
+:commit:
+    `973555d <https://github.com/Juris-M/zotero/commit/973555d9545ae5726e2198837fbb26c10c8e1f81>`_
+:author:
+    Dan Stillman
+:date:
+    2018-04-15 00:32 (JST)
+
+And generate collection context menu asynchronously
+
+Closes #1482
+
+
+------
+
+Don't let an progress window block shutdown
+
+:commit:
+    `e67ce13 <https://github.com/Juris-M/zotero/commit/e67ce13cc4eddec85c893dcc4941fef268f60c87>`_
+:author:
+    Dan Stillman
+:date:
+    2018-04-14 23:09 (JST)
+
+Closes #1485
+
+
+------
+
+Merge and rebrand upstream locale strings
+
+:commit:
+    `ae23852 <https://github.com/Juris-M/zotero/commit/ae2385270460792b1345578a3547815cb03bc20a>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-14 19:10 (JST)
+
+
+------
+
+Merge from upstream
+
+:commit:
+    `236dd0b <https://github.com/Juris-M/zotero/commit/236dd0be5d38af9a914ac2f36e9a59206fa03bb8>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-14 19:03 (JST)
+
+
+------
+
+Bump version to 5.0.45m28
+
+:commit:
+    `f3349cc <https://github.com/Juris-M/zotero/commit/f3349ccbdc1413344d1817cf44b29e9edf49ca44>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-13 08:57 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `0c14ae2 <https://github.com/Juris-M/zotero/commit/0c14ae27f22d2ee851bb7fc85c26da8b22b33c03>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-13 08:16 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.205
+
+:commit:
+    `9a3ed00 <https://github.com/Juris-M/zotero/commit/9a3ed0075efc1a76b8e4032835dc82cd39370ee9>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-13 07:43 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.204
+
+:commit:
+    `04e354b <https://github.com/Juris-M/zotero/commit/04e354b0095ab92cffcfc4bfb234984e9d2fbfad>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-13 07:17 (JST)
+
+
+------
+
+Bump version to 5.0.45m27
+
+:commit:
+    `02cd94f <https://github.com/Juris-M/zotero/commit/02cd94f24fbcd607a744534e02f68bb73c08a93e>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-12 07:38 (JST)
+
+
+------
+
+Rebranded strings. Darnit.
+
+:commit:
+    `6b02f5c <https://github.com/Juris-M/zotero/commit/6b02f5c711ac7fa73951604f5a436befa0cb287d>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-12 07:19 (JST)
+
+
+------
+
+NOW a working script for rebranding
+
+:commit:
+    `a15f3c2 <https://github.com/Juris-M/zotero/commit/a15f3c26aa8cc33fdc546952c531f5dbcfa29523>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-12 07:19 (JST)
+
+
+------
+
+Revert "Rebrand locale strings"
+
+:commit:
+    `734efad <https://github.com/Juris-M/zotero/commit/734efadb25b4aa47cf479bc598fb2283bde9e542>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 23:02 (JST)
+
+This reverts commit b1cb46aa00896b0c0bfc205a52e1e15e2476fc12.
+
+
+------
+
+Revert "Revert b1cb46aa00896b0c0bfc205a52e1e15e2476fc12"
+
+:commit:
+    `2b4d027 <https://github.com/Juris-M/zotero/commit/2b4d0277db112177f7917d8cfd9095f6a690a3fa>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 23:02 (JST)
+
+This reverts commit 66067247327fab28c3aab14ccc117cf11a878493.
+
+
+------
+
+Revert "Rebrand locale strings"
+
+:commit:
+    `a2e929c <https://github.com/Juris-M/zotero/commit/a2e929c455902e10ced319f00cc2846d9cb0027f>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 23:02 (JST)
+
+This reverts commit c5fb0319f94d53306b67d80e4abec16de019aa98.
+
+
+------
+
+Merge changes from upstream
+
+:commit:
+    `f370fc2 <https://github.com/Juris-M/zotero/commit/f370fc2df912ad19a5eaaca4562fa7491071ddb4>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 10:12 (JST)
+
+
+------
+
+Bump version to 5.0.44m25
+
+:commit:
+    `4147f9d <https://github.com/Juris-M/zotero/commit/4147f9d654cb54cddd0d31677cc5562c78bdfed1>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 08:44 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.203
+
+:commit:
+    `5933c90 <https://github.com/Juris-M/zotero/commit/5933c904eb8678c7f9f46969179b360ee0ee2566>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 08:31 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.202
+
+:commit:
+    `1c6c899 <https://github.com/Juris-M/zotero/commit/1c6c89968e03a5d9ce01d5838deaef427360891d>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 07:31 (JST)
+
+
+------
+
+Rebrand locale strings
+
+:commit:
+    `c5fb031 <https://github.com/Juris-M/zotero/commit/c5fb0319f94d53306b67d80e4abec16de019aa98>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 06:02 (JST)
+
+
+------
+
+Fix bug in branding script
+
+:commit:
+    `0a962c8 <https://github.com/Juris-M/zotero/commit/0a962c82b5fb82e0a25add94e30f3fdfa5cd0e12>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 06:00 (JST)
+
+
+------
+
+Revert b1cb46aa00896b0c0bfc205a52e1e15e2476fc12
+
+:commit:
+    `6606724 <https://github.com/Juris-M/zotero/commit/66067247327fab28c3aab14ccc117cf11a878493>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-11 05:56 (JST)
+
+
+------
+
+Update
+
+:commit:
+    `abf4f61 <https://github.com/Juris-M/zotero/commit/abf4f61d67306c9038b32020866fe1698b067d76>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-10 22:37 (JST)
+
+
+------
+
+Locale rebranding scripts
+
+:commit:
+    `0c226cf <https://github.com/Juris-M/zotero/commit/0c226cff20290acc1a9384294c68d738ada03ba3>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-10 22:34 (JST)
+
+
+------
+
+Rebrand locale strings
+
+:commit:
+    `b1cb46a <https://github.com/Juris-M/zotero/commit/b1cb46aa00896b0c0bfc205a52e1e15e2476fc12>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-10 22:33 (JST)
+
+
+------
+
+Use getAsync() to acquire subject in Zotero.Relations.getByObject()
+
+:commit:
+    `96c3b27 <https://github.com/Juris-M/zotero/commit/96c3b275258dd5d0d969fbfda2468b6e7c6912a7>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-08 19:12 (JST)
+
+
+------
+
+Test merge of item with unloaded link partneer
+
+:commit:
+    `bbc5206 <https://github.com/Juris-M/zotero/commit/bbc5206d8089472dcfa584d1e4b09a1592936eb3>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-10 00:30 (JST)
+
+
+------
+
+Bump version to 5.0.44m24
+
+:commit:
+    `430a4e7 <https://github.com/Juris-M/zotero/commit/430a4e763110eb8adbc043bfde8d5c1915e87011>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-09 08:17 (JST)
+
+
+------
+
+Bump version to 5.0.44m24
+
+:commit:
+    `75e809b <https://github.com/Juris-M/zotero/commit/75e809b932b424306f2eb7e0271ff4d23b7672b3>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-09 08:17 (JST)
+
+
+------
+
+Remove needless return value
+
+:commit:
+    `5e4c641 <https://github.com/Juris-M/zotero/commit/5e4c6417d52ef48b7d43ac954e8d8667f910a9e2>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-09 07:50 (JST)
+
+
+------
+
+Asyncify Zotero.Relations.getByObject(), called only from item merge.
+
+:commit:
+    `688f915 <https://github.com/Juris-M/zotero/commit/688f9158e8c4759ad52ea4919533d744c1c160d5>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-08 19:12 (JST)
+
+
+------
+
+Basic support for setting item title display lang
+
+:commit:
+    `bfb056d <https://github.com/Juris-M/zotero/commit/bfb056d489228c4b0a5b9849806ac772b838fbe5>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-08 19:09 (JST)
+
+
+------
+
+Remove replicated code block, protect against undefined var, fix tabbing to end of infobox
+
+:commit:
+    `2141ef9 <https://github.com/Juris-M/zotero/commit/2141ef91512be86a760265a5641153034e498ebc>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-08 19:08 (JST)
+
+
+------
+
+Remove a couple of stray comments
+
+:commit:
+    `057c9c7 <https://github.com/Juris-M/zotero/commit/057c9c78285c043b87b101d7f111633bef3261f0>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-08 19:06 (JST)
+
+
+------
+
+Fix bad function call.
+
+:commit:
+    `45680be <https://github.com/Juris-M/zotero/commit/45680be1af97cef666342472b04cdfedfd1ba101>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-08 19:05 (JST)
+
+
+------
+
+Lengthen timeout on lookupTest.js, for PMID
+
+:commit:
+    `a10f907 <https://github.com/Juris-M/zotero/commit/a10f9076dfe54468e51143aba4c5d01013cc05d0>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-07 19:17 (JST)
+
+
+------
+
+Upgrade to citeproc-js 1.1.201
+
+:commit:
+    `b6911d7 <https://github.com/Juris-M/zotero/commit/b6911d79cdcbb25d48d1a2ffc45d5b51506fddc2>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-07 18:20 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `32a3f1a <https://github.com/Juris-M/zotero/commit/32a3f1a6f3bed8391b79ca13517d4b012ff58b8f>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-07 09:02 (JST)
+
+
+------
+
+Update locales from upstream
+
+:commit:
+    `b9a6d5f <https://github.com/Juris-M/zotero/commit/b9a6d5f42301ee8e1397adc60af7b215ce95f4a0>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-06 10:58 (JST)
+
+
+------
+
+Bump version
+
+:commit:
+    `ae324cc <https://github.com/Juris-M/zotero/commit/ae324cc8cf6c8f3bb54f8ff677aa11c95e6fbbe2>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-05 17:45 (JST)
+
+
+------
+
+Fix jurisdiction swap and bad retrieval of court value for editing
+
+:commit:
+    `ae6e845 <https://github.com/Juris-M/zotero/commit/ae6e84524913323fbd905c483a3820d3d199dc16>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-05 17:44 (JST)
+
+
+------
+
+Protect against duplicate extraction of cites in a document
+
+:commit:
+    `293e377 <https://github.com/Juris-M/zotero/commit/293e37702ad0b55c096949b051f3593db7e4afc4>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-05 07:46 (JST)
+
+
+------
+
+Adjust version
+
+:commit:
+    `2de62fd <https://github.com/Juris-M/zotero/commit/2de62fd68486d5fcc79c11cf9fd0b3c767c69b75>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-05 06:33 (JST)
+
+
+------
+
+Fix display of jurisdiction item type change
+
+:commit:
+    `cc38d7f <https://github.com/Juris-M/zotero/commit/cc38d7fe8a3c18a2853bd8e8628bd34cc6b55e26>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-05 06:29 (JST)
+
+
+------
+
+Remove comment
+
+:commit:
+    `5083b1e <https://github.com/Juris-M/zotero/commit/5083b1eb966d52586956ea037d26fc49e72f51dc>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-05 00:52 (JST)
+
+
+------
+
+Fix bug in JM version of setType
+
+:commit:
+    `0972af4 <https://github.com/Juris-M/zotero/commit/0972af43c08a0a87a40db949b3b0ec18ddea8a7a>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-05 00:51 (JST)
+
+
+------
+
+Merge from upstream
+
+:commit:
+    `88979c3 <https://github.com/Juris-M/zotero/commit/88979c3cfa029bb1a16787f3aa27a7c78a5124ae>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-04 23:24 (JST)
+
+
+------
+
+Version bump to 5.0.42m21
+
+:commit:
+    `ccbe4a1 <https://github.com/Juris-M/zotero/commit/ccbe4a1062265a8a542053a45a724f2bb51fba88>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-04 22:51 (JST)
+
+
+------
+
+Small update to jurisdictions
+
+:commit:
+    `eec467d <https://github.com/Juris-M/zotero/commit/eec467d487814a1a5c7957f368b2d9681f309343>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-04 22:51 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.200
+
+:commit:
+    `8c30bc9 <https://github.com/Juris-M/zotero/commit/8c30bc9f5246cdc6749d7baa91008733c576b323>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-04 07:31 (JST)
+
+
+------
+
+Fix display glitch when changing item type
+
+:commit:
+    `6a46547 <https://github.com/Juris-M/zotero/commit/6a46547a945bbfab3aa2b2720f8e6b1c8742829b>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-03 07:57 (JST)
+
+
+------
+
+Report out the pushed hash
+
+:commit:
+    `3a03cc3 <https://github.com/Juris-M/zotero/commit/3a03cc38fe5a64dbe57b1337f677d21dd30d804f>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-01 14:30 (JST)
+

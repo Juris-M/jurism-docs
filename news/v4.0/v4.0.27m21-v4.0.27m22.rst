@@ -1,0 +1,80 @@
+========================================================
+v4.0.27m21-v4.0.27m22
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m22
+
+:commit:
+    `f44dd3a <https://github.com/Juris-M/zotero/commit/f44dd3a9971ce3f507df7e9089ca36b3f1326dd1>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 00:37 (JST)
+
+
+------
+
+Mark integration debugging trace comments with HHH
+
+:commit:
+    `d6a52a3 <https://github.com/Juris-M/zotero/commit/d6a52a3e54d28eb3f911b9dbbb3dea9f99182a73>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 00:36 (JST)
+
+
+------
+
+Widen prefs popup
+
+:commit:
+    `1a24134 <https://github.com/Juris-M/zotero/commit/1a241340ea4e27ba520b5d0ece6b889ed9dba3c2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 00:35 (JST)
+
+
+------
+
+Upgrade citeproc-js to version 1.1.32
+
+:commit:
+    `abaf91e <https://github.com/Juris-M/zotero/commit/abaf91e244830c6f0b40ebd04bc5fb3d1b5fe3cb>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 00:34 (JST)
+
+
+------
+
+Mapping for parentTreaty
+
+:commit:
+    `bc1d5e3 <https://github.com/Juris-M/zotero/commit/bc1d5e3b521dcc2e467fec6ba9afba47620a4974>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 00:34 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m21
+
+:commit:
+    `2bed117 <https://github.com/Juris-M/zotero/commit/2bed1172b87c07ade16183864ef669481efe03e4>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-22 10:24 (JST)
+

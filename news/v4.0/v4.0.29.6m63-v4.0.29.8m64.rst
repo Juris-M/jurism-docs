@@ -1,0 +1,597 @@
+========================================================
+v4.0.29.6m63-v4.0.29.8m64
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.8m64
+
+:commit:
+    `e89cc3a <https://github.com/Juris-M/zotero/commit/e89cc3ac4df3ee875bcc7c5fe21583217358b1b0>`_
+:author:
+    fbennett
+:date:
+    2016-04-18 08:06 (JST)
+
+
+------
+
+Merge branch '4.0' of https://github.com/zotero/zotero into jurism-dev
+
+:commit:
+    `f6a5d38 <https://github.com/Juris-M/zotero/commit/f6a5d388d83cfcfb19383bc51219315841d06e84>`_
+:author:
+    fbennett
+:date:
+    2016-04-18 08:04 (JST)
+
+Conflicts:
+	install.rdf
+	resource/config.js
+
+
+------
+
+Protect against repeated parsing of invalid extended data embeds
+
+:commit:
+    `a61383b <https://github.com/Juris-M/zotero/commit/a61383b6b394fcc7ce56276ed85b078a97d039d3>`_
+:author:
+    fbennett
+:date:
+    2016-04-17 11:28 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.98
+
+:commit:
+    `738cbf6 <https://github.com/Juris-M/zotero/commit/738cbf6149430bfbee84adad37989899cf5bd800>`_
+:author:
+    fbennett
+:date:
+    2016-04-17 11:26 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.8m64beta19
+
+:commit:
+    `04abe69 <https://github.com/Juris-M/zotero/commit/04abe6941905960c5ed0cd1b2fe1d313c8b468e4>`_
+:author:
+    fbennett
+:date:
+    2016-04-16 23:10 (JST)
+
+
+------
+
+Set hack-field single-field names as literal when parsing.
+
+:commit:
+    `a0872f7 <https://github.com/Juris-M/zotero/commit/a0872f7f5d3d837d99f12add7291f3313e2bb9d1>`_
+:author:
+    fbennett
+:date:
+    2016-04-16 23:10 (JST)
+
+
+------
+
+Bump version to reflect current Zotero release
+
+:commit:
+    `eb86b50 <https://github.com/Juris-M/zotero/commit/eb86b506519b121b39334917082e0fc535f143fc>`_
+:author:
+    fbennett
+:date:
+    2016-04-16 16:00 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta18
+
+:commit:
+    `91cf26b <https://github.com/Juris-M/zotero/commit/91cf26bd4768d7c9145c5060e6934ae440de33e5>`_
+:author:
+    fbennett
+:date:
+    2016-04-16 14:19 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.96
+
+:commit:
+    `cbf670b <https://github.com/Juris-M/zotero/commit/cbf670b6c7dcbb6d7d208f93fb561f9aa39fc607>`_
+:author:
+    fbennett
+:date:
+    2016-04-16 14:18 (JST)
+
+
+------
+
+Merge branch 'jurism-dev' into jurism
+
+:commit:
+    `f72830a <https://github.com/Juris-M/zotero/commit/f72830a90fd7420b861ad5da7c5d827b99f079d8>`_
+:author:
+    fbennett
+:date:
+    2016-04-16 10:26 (JST)
+
+
+------
+
+Give hacked-in jurisdiction priority over default
+
+:commit:
+    `1cb83c0 <https://github.com/Juris-M/zotero/commit/1cb83c0b0ab4c04f4f36ef79370286750bc7d0ac>`_
+:author:
+    fbennett
+:date:
+    2016-04-16 10:25 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta17
+
+:commit:
+    `43e1306 <https://github.com/Juris-M/zotero/commit/43e1306908263e7794b650fd3d5f0f931971ab3e>`_
+:author:
+    fbennett
+:date:
+    2016-04-16 08:35 (JST)
+
+
+------
+
+Update styles
+
+:commit:
+    `a0a5273 <https://github.com/Juris-M/zotero/commit/a0a5273c98d09489e8c1a24500a7f38b42dfa902>`_
+:author:
+    fbennett
+:date:
+    2016-04-15 09:51 (JST)
+
+
+------
+
+Discriminate between valid and invalid fields when importing field-hack data
+
+:commit:
+    `354ad04 <https://github.com/Juris-M/zotero/commit/354ad04ac21da1dadb5e38fea02c68caa6855dc7>`_
+:author:
+    fbennett
+:date:
+    2016-04-15 09:50 (JST)
+
+
+------
+
+Merge branch '4.0' of https://github.com/zotero/zotero into jurism-dev
+
+:commit:
+    `5efe48a <https://github.com/Juris-M/zotero/commit/5efe48a55916eceaead08f339b30b1343ed98794>`_
+:author:
+    fbennett
+:date:
+    2016-04-15 07:33 (JST)
+
+Conflicts:
+	chrome/content/zotero/bindings/itembox.xml
+	chrome/content/zotero/xpcom/citeproc.js
+	chrome/content/zotero/xpcom/id.js
+	translators
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta16
+
+:commit:
+    `39b6af4 <https://github.com/Juris-M/zotero/commit/39b6af45a143f4599791384767cf7e0a76545c00>`_
+:author:
+    fbennett
+:date:
+    2016-04-14 11:00 (JST)
+
+
+------
+
+Map hack-syntax fields on import to the extent possible
+
+:commit:
+    `67109b8 <https://github.com/Juris-M/zotero/commit/67109b8bfc9b53a214381f2c83d20260e6b265ef>`_
+:author:
+    fbennett
+:date:
+    2016-04-14 10:57 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.93
+
+:commit:
+    `55e8d83 <https://github.com/Juris-M/zotero/commit/55e8d83b9c6a701537a1334abe49beb574bd3dbb>`_
+:author:
+    fbennett
+:date:
+    2016-04-14 10:56 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `7be29ee <https://github.com/Juris-M/zotero/commit/7be29ee4d5316f0527a38c6ba6535e6f0741e5b9>`_
+:author:
+    fbennett
+:date:
+    2016-04-14 10:55 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta15
+
+:commit:
+    `fcc17f8 <https://github.com/Juris-M/zotero/commit/fcc17f882bb9036489678c560a618d2488e23461>`_
+:author:
+    fbennett
+:date:
+    2016-04-13 20:51 (JST)
+
+
+------
+
+Limit number typing to embeddedLibraryID
+
+:commit:
+    `e0f0c6f <https://github.com/Juris-M/zotero/commit/e0f0c6f2980cbfef33553b571af7a077d95f5922>`_
+:author:
+    fbennett
+:date:
+    2016-04-13 20:49 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta14
+
+:commit:
+    `84bcb9a <https://github.com/Juris-M/zotero/commit/84bcb9ac37cd9857343ff38665dcd16db9e4377b>`_
+:author:
+    fbennett
+:date:
+    2016-04-13 13:58 (JST)
+
+
+------
+
+Fix code-o
+
+:commit:
+    `e3c970d <https://github.com/Juris-M/zotero/commit/e3c970d5cb11fa6858abe1cc84b3aa0ca4ff5a2c>`_
+:author:
+    Frank Bennett
+:date:
+    2016-04-13 13:53 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta13
+
+:commit:
+    `8e2938d <https://github.com/Juris-M/zotero/commit/8e2938da9f86048e93c98720756b8e9e6d82e6ad>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 23:05 (JST)
+
+
+------
+
+Merge branch 'jurism' of github.com:Juris-M/zotero into jurism
+
+:commit:
+    `acd7d0b <https://github.com/Juris-M/zotero/commit/acd7d0bc8044acb20cb9bbfa4dec9ba7dbaeaf67>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 23:05 (JST)
+
+Conflicts:
+	chrome/content/zotero/xpcom/integration.js
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta12
+
+:commit:
+    `0e9ba3e <https://github.com/Juris-M/zotero/commit/0e9ba3e55d32a81b5154fb603a7fee3eb2fa0bbc>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 23:03 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta11
+
+:commit:
+    `aca48ed <https://github.com/Juris-M/zotero/commit/aca48ed550daee26f07da785165888b737350546>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 23:02 (JST)
+
+
+------
+
+Three fixes
+
+:commit:
+    `f20405b <https://github.com/Juris-M/zotero/commit/f20405b9b460aa6ea38c6204f7963268730a9f07>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 23:00 (JST)
+
+* Removes bad for each (code already written for simple for)
+* Resave item after decoding Juris-M fields to push
+  encoded fields into item
+* Treat numeric strings (extractedLibraryID) pulled from
+  document XML storage as number type.
+
+
+------
+
+Three fixes
+
+:commit:
+    `1f2a0cd <https://github.com/Juris-M/zotero/commit/1f2a0cd1b5ba815cdf3eea7504b6e4c4e41a39e6>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 22:52 (JST)
+
+* Removes bad for each (code already written for simple for)
+* Resave item after decoding Juris-M fields to push encoded fields
+  into item
+* Treat numeric strings (extractedLibraryID) pulled from document
+  XML storage as number type.
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta10
+
+:commit:
+    `927aa04 <https://github.com/Juris-M/zotero/commit/927aa0411112088b683946bf520aeaee77e137c8>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 11:32 (JST)
+
+
+------
+
+Loosen test for loosely typed variable
+
+:commit:
+    `bc5f2fd <https://github.com/Juris-M/zotero/commit/bc5f2fdac72e0ddcc382bb695898caca7118ea61>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 11:30 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta9
+
+:commit:
+    `6e82191 <https://github.com/Juris-M/zotero/commit/6e82191816c76643a42ea73bd6397907dcc63dc1>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 09:49 (JST)
+
+
+------
+
+Remove _lst for once and for all
+
+:commit:
+    `18d07ab <https://github.com/Juris-M/zotero/commit/18d07ab9e3ade1d7f3454aa9678bfa069193191b>`_
+:author:
+    fbennett
+:date:
+    2016-04-12 09:48 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta8
+
+:commit:
+    `2695858 <https://github.com/Juris-M/zotero/commit/2695858b050ee260a1a4adc4e3a7d448b6a2ed6d>`_
+:author:
+    fbennett
+:date:
+    2016-04-10 20:16 (JST)
+
+
+------
+
+Avoid crash on types with no extended fields.
+
+:commit:
+    `500c2c3 <https://github.com/Juris-M/zotero/commit/500c2c3cd18f1f5b881128771dcb40d4c48718cc>`_
+:author:
+    fbennett
+:date:
+    2016-04-10 20:16 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta7
+
+:commit:
+    `c110c54 <https://github.com/Juris-M/zotero/commit/c110c54048c4b0401ee5450c2293621cceb5342f>`_
+:author:
+    fbennett
+:date:
+    2016-04-10 09:15 (JST)
+
+
+------
+
+Fix dates in itemFromCSLJSON()
+
+:commit:
+    `341ec3f <https://github.com/Juris-M/zotero/commit/341ec3fc6b74a1b78bbb39b853f3410e466beadb>`_
+:author:
+    fbennett
+:date:
+    2016-04-10 09:14 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta6
+
+:commit:
+    `19c7525 <https://github.com/Juris-M/zotero/commit/19c752599369e3633c95d51258db41aff253c77d>`_
+:author:
+    fbennett
+:date:
+    2016-04-05 19:30 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta5
+
+:commit:
+    `081bb85 <https://github.com/Juris-M/zotero/commit/081bb858e08d9e5f6507d14511adb539534f04ad>`_
+:author:
+    fbennett
+:date:
+    2016-04-05 16:28 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta4
+
+:commit:
+    `9b75aec <https://github.com/Juris-M/zotero/commit/9b75aec0b4cd395c19b12e4eb340bc73a907ec96>`_
+:author:
+    fbennett
+:date:
+    2016-04-05 16:25 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta3
+
+:commit:
+    `d620507 <https://github.com/Juris-M/zotero/commit/d6205075d38c6ee20bf85baeb10fc72811cf9bee>`_
+:author:
+    fbennett
+:date:
+    2016-04-05 16:22 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta2
+
+:commit:
+    `bac211c <https://github.com/Juris-M/zotero/commit/bac211c83637b6fbf93f22364e8cf951fee0c3c8>`_
+:author:
+    fbennett
+:date:
+    2016-04-05 16:19 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m64beta1
+
+:commit:
+    `e8054fb <https://github.com/Juris-M/zotero/commit/e8054fb5d050a6c424525ecdc10d7ec5b3037e0f>`_
+:author:
+    fbennett
+:date:
+    2016-04-05 16:17 (JST)
+
+
+------
+
+Bump citeproc version
+
+:commit:
+    `5912057 <https://github.com/Juris-M/zotero/commit/5912057816ca2443b177228eec83ba9116d3a123>`_
+:author:
+    fbennett
+:date:
+    2016-04-05 16:16 (JST)
+
+
+------
+
+Update styles
+
+:commit:
+    `c3ace45 <https://github.com/Juris-M/zotero/commit/c3ace459187ba26f1267f6c451e0f6cdedd71798>`_
+:author:
+    fbennett
+:date:
+    2016-04-04 22:09 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `0ee6865 <https://github.com/Juris-M/zotero/commit/0ee68653b00072e44e6ce14e1df5058de0d2d977>`_
+:author:
+    fbennett
+:date:
+    2016-04-04 18:21 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.6m63
+
+:commit:
+    `65911b4 <https://github.com/Juris-M/zotero/commit/65911b466ee1c232d526bca6a5e4ad68ed9b5063>`_
+:author:
+    fbennett
+:date:
+    2016-04-04 18:19 (JST)
+

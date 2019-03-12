@@ -1,0 +1,56 @@
+========================================================
+v4.0.28.7m49-v4.0.28.7m50
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.28.7m50
+
+:commit:
+    `ff41bb9 <https://github.com/Juris-M/zotero/commit/ff41bb920321acb57f010dc3dbd2da374727ddb2>`_
+:author:
+    fbennett
+:date:
+    2016-01-24 09:11 (JST)
+
+
+------
+
+Update citeproc to 1.1.69
+
+:commit:
+    `6ada23b <https://github.com/Juris-M/zotero/commit/6ada23ba73e6f2d1b1af083d95d4d3f7053b36bf>`_
+:author:
+    fbennett
+:date:
+    2016-01-24 09:08 (JST)
+
+
+------
+
+Add missing searchCondition strings
+
+:commit:
+    `6110747 <https://github.com/Juris-M/zotero/commit/6110747d872a6f72dcdf91924943b8ab9315c720>`_
+:author:
+    fbennett
+:date:
+    2016-01-21 06:01 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m49
+
+:commit:
+    `ea1be12 <https://github.com/Juris-M/zotero/commit/ea1be124ce13f74d7703251c99aabd29690ac5d0>`_
+:author:
+    fbennett
+:date:
+    2016-01-19 09:02 (JST)
+

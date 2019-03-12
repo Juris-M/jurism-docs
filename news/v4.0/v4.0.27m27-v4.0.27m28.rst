@@ -1,0 +1,44 @@
+========================================================
+v4.0.27m27-v4.0.27m28
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m28
+
+:commit:
+    `c3bff03 <https://github.com/Juris-M/zotero/commit/c3bff03c07c159e9b902be836e2b98ed01d9a7dc>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-29 06:45 (JST)
+
+
+------
+
+Pull in ddf3ff9b from 4.0 to avoid error in Set Doc Prefs
+
+:commit:
+    `abac2b3 <https://github.com/Juris-M/zotero/commit/abac2b378adba70f63b96dc7c8a5b4d254fe02cf>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-29 06:43 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m27
+
+:commit:
+    `dc21663 <https://github.com/Juris-M/zotero/commit/dc216630c9db45b7e81a8650e485377aac23112b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-29 06:12 (JST)
+

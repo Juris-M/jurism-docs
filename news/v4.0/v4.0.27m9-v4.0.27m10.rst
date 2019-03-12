@@ -1,0 +1,60 @@
+========================================================
+v4.0.27m9-v4.0.27m10
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m10
+
+:commit:
+    `b4c120d <https://github.com/Juris-M/zotero/commit/b4c120d594f303c69295f1b82b39ad3d0608e4be>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-14 23:17 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m10beta1
+
+:commit:
+    `564a06c <https://github.com/Juris-M/zotero/commit/564a06c400f0404f266acfb83aa147ce62e5d6eb>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-14 23:13 (JST)
+
+
+------
+
+Drop main lang tag for field when there is a clash
+
+:commit:
+    `2d4deb7 <https://github.com/Juris-M/zotero/commit/2d4deb7278fded6b2e39b8bb541ebf8233405543>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-14 23:07 (JST)
+
+This condition can arise during sync, and it should not
+block the edit to the item. Losing the main field language
+tag minimizes the potential information loss.
+
+
+------
+
+Updating install.rdf to version 4.0.27m9
+
+:commit:
+    `bfbb63d <https://github.com/Juris-M/zotero/commit/bfbb63dbeb87aa8ea6e64c0f4dc8c82cb795b049>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-11 19:08 (JST)
+

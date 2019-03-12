@@ -1,0 +1,425 @@
+========================================================
+v4.0.27m2-v4.0.27m3
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m3
+
+:commit:
+    `a796284 <https://github.com/Juris-M/zotero/commit/a79628444233978c21669dab17ed8ba4698bbdf9>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 09:26 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m3beta3
+
+:commit:
+    `840c3a9 <https://github.com/Juris-M/zotero/commit/840c3a97eaf8118f4fc2a1441064e3f59e32afb1>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 09:19 (JST)
+
+
+------
+
+Fix numerous errors and omissions in citeprocJSON multilingual output
+
+:commit:
+    `7356fc7 <https://github.com/Juris-M/zotero/commit/7356fc751aaa98ec6053abb61cb4051e4a4372e3>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 09:17 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m3beta2
+
+:commit:
+    `b2f924b <https://github.com/Juris-M/zotero/commit/b2f924b9a525904ab2e46701ffb438951754cfc3>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 08:33 (JST)
+
+
+------
+
+Merge branch 'jurism-z4.0' into jurism
+
+:commit:
+    `493cef1 <https://github.com/Juris-M/zotero/commit/493cef18298ad545f926759b52b09a2794fef091>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 08:30 (JST)
+
+
+------
+
+Fix stray commas in citeProcJSExport and journalArticle data
+
+:commit:
+    `e3a7559 <https://github.com/Juris-M/zotero/commit/e3a755952116753429a3b83857cecebb41e472d9>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 08:23 (JST)
+
+
+------
+
+Skip multi segment in populateDBWithSampleData test
+
+:commit:
+    `b25cbf6 <https://github.com/Juris-M/zotero/commit/b25cbf67b206c5d063ed2d9c32504a818a7e1dbf>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 08:22 (JST)
+
+
+------
+
+Fix indenting
+
+:commit:
+    `5acd8ac <https://github.com/Juris-M/zotero/commit/5acd8ac5fd6a9c7ad843d1c2d964494350fd41ea>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 08:20 (JST)
+
+
+------
+
+Avoid stray null values in CSL export object
+
+:commit:
+    `7c807fa <https://github.com/Juris-M/zotero/commit/7c807fa8998e32cb69d296886f6abf5fd7267245>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 08:19 (JST)
+
+
+------
+
+Multi test data
+
+:commit:
+    `af5ba99 <https://github.com/Juris-M/zotero/commit/af5ba993298ee56c69d8f0f19b3d654569aefd1a>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 07:06 (JST)
+
+
+------
+
+Include multi fields in tests and test data
+
+:commit:
+    `a9273f3 <https://github.com/Juris-M/zotero/commit/a9273f3584d8e2e4ff0fa50edd9a924541086ed9>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 07:05 (JST)
+
+
+------
+
+Stir multi handling into toJSON()
+
+:commit:
+    `f640bfb <https://github.com/Juris-M/zotero/commit/f640bfb53261d589d3ab3a20e812f0fa823ed7b0>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 07:04 (JST)
+
+
+------
+
+Multi version of allTypesAndFields.js
+
+:commit:
+    `ae310ef <https://github.com/Juris-M/zotero/commit/ae310ef95d474e0817b2317728c5e66974b93ec3>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 05:09 (JST)
+
+
+------
+
+Extend timeout (takes about 25000 on dev laptop)
+
+:commit:
+    `e5aabe8 <https://github.com/Juris-M/zotero/commit/e5aabe88f382173fab1cb399acf8ab8c591116ff>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 05:09 (JST)
+
+
+------
+
+Catch some potential globals
+
+:commit:
+    `81965b4 <https://github.com/Juris-M/zotero/commit/81965b4d185e61224e771a2547d8ee0fc6ce8823>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 05:08 (JST)
+
+
+------
+
+Add publisher to report type
+
+:commit:
+    `99f039f <https://github.com/Juris-M/zotero/commit/99f039f6d83094243d3febdc2b06fbb5d8b76e63>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 05:08 (JST)
+
+
+------
+
+Use the right ID
+
+:commit:
+    `a53f812 <https://github.com/Juris-M/zotero/commit/a53f81222c6fd2567165cf27ee281394168fd72f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-30 20:21 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `a0229bf <https://github.com/Juris-M/zotero/commit/a0229bf82f659703a51d466291690283b2bd1dfa>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-29 20:44 (JST)
+
+
+------
+
+MARC tweak (this is not working well)
+
+:commit:
+    `13e1e7d <https://github.com/Juris-M/zotero/commit/13e1e7d13ddd9e3d845abd9b8daa90ba930c594c>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-29 09:51 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m3beta1
+
+:commit:
+    `1263292 <https://github.com/Juris-M/zotero/commit/12632921fd982cc5b746a34b298d34543d9fffd0>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-28 17:24 (JST)
+
+
+------
+
+Add non-English locale strings for upstream 4.0
+
+:commit:
+    `aeeb949 <https://github.com/Juris-M/zotero/commit/aeeb9497bba1e73bbaafdd9f2fec2b74d893d1b1>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-28 17:21 (JST)
+
+
+------
+
+Merge branch '4.0' of github.com:zotero/zotero into jurism-z4.0
+
+:commit:
+    `b1ffbcc <https://github.com/Juris-M/zotero/commit/b1ffbcc24ada5448a0b2bab9c5094827f0c1e4a9>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-28 17:05 (JST)
+
+Conflicts:
+	chrome/content/zotero/bindings/itembox.xml
+	chrome/content/zotero/xpcom/utilities.js
+	chrome/locale/af-ZA/zotero/preferences.dtd
+	chrome/locale/af-ZA/zotero/zotero.dtd
+	chrome/locale/af-ZA/zotero/zotero.properties
+	chrome/locale/ar/zotero/preferences.dtd
+	chrome/locale/ar/zotero/zotero.dtd
+	chrome/locale/ar/zotero/zotero.properties
+	chrome/locale/bg-BG/zotero/preferences.dtd
+	chrome/locale/bg-BG/zotero/zotero.dtd
+	chrome/locale/bg-BG/zotero/zotero.properties
+	chrome/locale/ca-AD/zotero/preferences.dtd
+	chrome/locale/ca-AD/zotero/zotero.dtd
+	chrome/locale/ca-AD/zotero/zotero.properties
+	chrome/locale/cs-CZ/zotero/preferences.dtd
+	chrome/locale/cs-CZ/zotero/zotero.dtd
+	chrome/locale/cs-CZ/zotero/zotero.properties
+	chrome/locale/da-DK/zotero/preferences.dtd
+	chrome/locale/da-DK/zotero/zotero.dtd
+	chrome/locale/da-DK/zotero/zotero.properties
+	chrome/locale/de/zotero/preferences.dtd
+	chrome/locale/de/zotero/zotero.dtd
+	chrome/locale/de/zotero/zotero.properties
+	chrome/locale/el-GR/zotero/preferences.dtd
+	chrome/locale/el-GR/zotero/zotero.dtd
+	chrome/locale/el-GR/zotero/zotero.properties
+	chrome/locale/en-US/zotero/preferences.dtd
+	chrome/locale/en-US/zotero/zotero.dtd
+	chrome/locale/en-US/zotero/zotero.properties
+	chrome/locale/es-ES/zotero/preferences.dtd
+	chrome/locale/es-ES/zotero/zotero.dtd
+	chrome/locale/es-ES/zotero/zotero.properties
+	chrome/locale/et-EE/zotero/preferences.dtd
+	chrome/locale/et-EE/zotero/zotero.dtd
+	chrome/locale/et-EE/zotero/zotero.properties
+	chrome/locale/eu-ES/zotero/preferences.dtd
+	chrome/locale/eu-ES/zotero/zotero.dtd
+	chrome/locale/eu-ES/zotero/zotero.properties
+	chrome/locale/fa/zotero/preferences.dtd
+	chrome/locale/fa/zotero/zotero.dtd
+	chrome/locale/fa/zotero/zotero.properties
+	chrome/locale/fi-FI/zotero/preferences.dtd
+	chrome/locale/fi-FI/zotero/zotero.dtd
+	chrome/locale/fi-FI/zotero/zotero.properties
+	chrome/locale/fr-FR/zotero/preferences.dtd
+	chrome/locale/fr-FR/zotero/zotero.dtd
+	chrome/locale/fr-FR/zotero/zotero.properties
+	chrome/locale/gl-ES/zotero/preferences.dtd
+	chrome/locale/gl-ES/zotero/zotero.dtd
+	chrome/locale/gl-ES/zotero/zotero.properties
+	chrome/locale/he-IL/zotero/preferences.dtd
+	chrome/locale/he-IL/zotero/zotero.dtd
+	chrome/locale/he-IL/zotero/zotero.properties
+	chrome/locale/hr-HR/zotero/preferences.dtd
+	chrome/locale/hr-HR/zotero/zotero.dtd
+	chrome/locale/hr-HR/zotero/zotero.properties
+	chrome/locale/hu-HU/zotero/preferences.dtd
+	chrome/locale/hu-HU/zotero/zotero.dtd
+	chrome/locale/hu-HU/zotero/zotero.properties
+	chrome/locale/id-ID/zotero/preferences.dtd
+	chrome/locale/id-ID/zotero/zotero.dtd
+	chrome/locale/id-ID/zotero/zotero.properties
+	chrome/locale/is-IS/zotero/preferences.dtd
+	chrome/locale/is-IS/zotero/zotero.dtd
+	chrome/locale/is-IS/zotero/zotero.properties
+	chrome/locale/it-IT/zotero/preferences.dtd
+	chrome/locale/it-IT/zotero/zotero.dtd
+	chrome/locale/it-IT/zotero/zotero.properties
+	chrome/locale/ja-JP/zotero/preferences.dtd
+	chrome/locale/ja-JP/zotero/zotero.dtd
+	chrome/locale/ja-JP/zotero/zotero.properties
+	chrome/locale/km/zotero/preferences.dtd
+	chrome/locale/km/zotero/zotero.dtd
+	chrome/locale/km/zotero/zotero.properties
+	chrome/locale/ko-KR/zotero/preferences.dtd
+	chrome/locale/ko-KR/zotero/zotero.dtd
+	chrome/locale/ko-KR/zotero/zotero.properties
+	chrome/locale/lt-LT/zotero/preferences.dtd
+	chrome/locale/lt-LT/zotero/zotero.dtd
+	chrome/locale/lt-LT/zotero/zotero.properties
+	chrome/locale/mn-MN/zotero/preferences.dtd
+	chrome/locale/mn-MN/zotero/zotero.dtd
+	chrome/locale/mn-MN/zotero/zotero.properties
+	chrome/locale/nb-NO/zotero/preferences.dtd
+	chrome/locale/nb-NO/zotero/zotero.dtd
+	chrome/locale/nb-NO/zotero/zotero.properties
+	chrome/locale/nl-NL/zotero/preferences.dtd
+	chrome/locale/nl-NL/zotero/zotero.dtd
+	chrome/locale/nl-NL/zotero/zotero.properties
+	chrome/locale/nn-NO/zotero/preferences.dtd
+	chrome/locale/nn-NO/zotero/zotero.dtd
+	chrome/locale/nn-NO/zotero/zotero.properties
+	chrome/locale/pl-PL/zotero/preferences.dtd
+	chrome/locale/pl-PL/zotero/zotero.dtd
+	chrome/locale/pl-PL/zotero/zotero.properties
+	chrome/locale/pt-BR/zotero/preferences.dtd
+	chrome/locale/pt-BR/zotero/searchbox.dtd
+	chrome/locale/pt-BR/zotero/zotero.dtd
+	chrome/locale/pt-BR/zotero/zotero.properties
+	chrome/locale/pt-PT/zotero/preferences.dtd
+	chrome/locale/pt-PT/zotero/zotero.dtd
+	chrome/locale/pt-PT/zotero/zotero.properties
+	chrome/locale/ro-RO/zotero/preferences.dtd
+	chrome/locale/ro-RO/zotero/zotero.dtd
+	chrome/locale/ro-RO/zotero/zotero.properties
+	chrome/locale/ru-RU/zotero/preferences.dtd
+	chrome/locale/ru-RU/zotero/zotero.dtd
+	chrome/locale/ru-RU/zotero/zotero.properties
+	chrome/locale/sk-SK/zotero/preferences.dtd
+	chrome/locale/sk-SK/zotero/zotero.dtd
+	chrome/locale/sk-SK/zotero/zotero.properties
+	chrome/locale/sl-SI/zotero/preferences.dtd
+	chrome/locale/sl-SI/zotero/zotero.dtd
+	chrome/locale/sl-SI/zotero/zotero.properties
+	chrome/locale/sr-RS/zotero/preferences.dtd
+	chrome/locale/sr-RS/zotero/zotero.dtd
+	chrome/locale/sr-RS/zotero/zotero.properties
+	chrome/locale/sv-SE/zotero/preferences.dtd
+	chrome/locale/sv-SE/zotero/zotero.dtd
+	chrome/locale/sv-SE/zotero/zotero.properties
+	chrome/locale/th-TH/zotero/preferences.dtd
+	chrome/locale/th-TH/zotero/zotero.dtd
+	chrome/locale/th-TH/zotero/zotero.properties
+	chrome/locale/tr-TR/zotero/preferences.dtd
+	chrome/locale/tr-TR/zotero/zotero.dtd
+	chrome/locale/tr-TR/zotero/zotero.properties
+	chrome/locale/uk-UA/zotero/preferences.dtd
+	chrome/locale/uk-UA/zotero/zotero.dtd
+	chrome/locale/uk-UA/zotero/zotero.properties
+	chrome/locale/vi-VN/zotero/preferences.dtd
+	chrome/locale/vi-VN/zotero/zotero.dtd
+	chrome/locale/vi-VN/zotero/zotero.properties
+	chrome/locale/zh-CN/zotero/preferences.dtd
+	chrome/locale/zh-CN/zotero/zotero.dtd
+	chrome/locale/zh-CN/zotero/zotero.properties
+	chrome/locale/zh-TW/zotero/about.dtd
+	chrome/locale/zh-TW/zotero/preferences.dtd
+	chrome/locale/zh-TW/zotero/zotero.dtd
+	chrome/locale/zh-TW/zotero/zotero.properties
+
+
+------
+
+Updating install.rdf to version 4.0.27m2
+
+:commit:
+    `8629959 <https://github.com/Juris-M/zotero/commit/862995965bbaa0f8fb4567ebc95381574b1d0b08>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-26 00:46 (JST)
+

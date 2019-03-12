@@ -1,0 +1,104 @@
+========================================================
+v4.0.29.10m76-v4.0.29.10m77
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.10m77
+
+:commit:
+    `fd729c3 <https://github.com/Juris-M/zotero/commit/fd729c37a0e25d5fc23677049712fbbc0c880b81>`_
+:author:
+    fbennett
+:date:
+    2016-06-10 19:02 (JST)
+
+
+------
+
+Merge changes from upstream
+
+:commit:
+    `fcd09d9 <https://github.com/Juris-M/zotero/commit/fcd09d95038721269f844cc4e8b4f94fb2a83fda>`_
+:author:
+    fbennett
+:date:
+    2016-06-10 18:56 (JST)
+
+
+------
+
+Add England and Wales High Court divisions
+
+:commit:
+    `7742233 <https://github.com/Juris-M/zotero/commit/7742233d078c6d5286adab9e480bd5deaf3b1d83>`_
+:author:
+    fbennett
+:date:
+    2016-06-09 21:49 (JST)
+
+
+------
+
+Add Australia, Switzerland, Singapore data
+
+:commit:
+    `5b66e6b <https://github.com/Juris-M/zotero/commit/5b66e6b142e0f10252dcfc63416933ee4d809053>`_
+:author:
+    fbennett
+:date:
+    2016-06-09 19:51 (JST)
+
+
+------
+
+Update jurisdictions
+
+:commit:
+    `308010d <https://github.com/Juris-M/zotero/commit/308010d1e5dc2d6bdec4f964b2a748368b37013d>`_
+:author:
+    fbennett
+:date:
+    2016-06-08 08:41 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.107
+
+:commit:
+    `f261208 <https://github.com/Juris-M/zotero/commit/f2612086dd57cf389cbcb303892e37c1d2794832>`_
+:author:
+    fbennett
+:date:
+    2016-06-08 08:41 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `7b8ca77 <https://github.com/Juris-M/zotero/commit/7b8ca778a60fc5ec20af0cfc3eaf528d8cfc829e>`_
+:author:
+    fbennett
+:date:
+    2016-06-03 17:27 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.10m76
+
+:commit:
+    `8fa317e <https://github.com/Juris-M/zotero/commit/8fa317e4cd7721864ed5e1afdf18e3d040bebfc1>`_
+:author:
+    fbennett
+:date:
+    2016-06-03 17:25 (JST)
+

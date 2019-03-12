@@ -1,0 +1,453 @@
+========================================================
+v4.0.28.7m52-v4.0.28.7m53
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.28.7m53
+
+:commit:
+    `58cca03 <https://github.com/Juris-M/zotero/commit/58cca030eadef1f5474a555d901d6067676d7870>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 13:44 (JST)
+
+
+------
+
+Update build scripts
+
+:commit:
+    `3270db3 <https://github.com/Juris-M/zotero/commit/3270db32b13a17c381e82dbfda97786ed06679c2>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 13:44 (JST)
+
+
+------
+
+Add description
+
+:commit:
+    `c776fd4 <https://github.com/Juris-M/zotero/commit/c776fd4f838cf3c44e10f3e2ced7f20c770e88af>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 13:43 (JST)
+
+
+------
+
+Update FF version
+
+:commit:
+    `9b3fb23 <https://github.com/Juris-M/zotero/commit/9b3fb2313dcfdba842ab987ac0fecc3a197b1c52>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 08:06 (JST)
+
+
+------
+
+Update build scripts
+
+:commit:
+    `b979865 <https://github.com/Juris-M/zotero/commit/b979865d4589b0653a120a03cdd337b511998e10>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 07:29 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m53beta3
+
+:commit:
+    `5269f77 <https://github.com/Juris-M/zotero/commit/5269f7739bdca7c023a948cd1a4f8eeb52eea0f7>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 07:20 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.82
+
+:commit:
+    `9102715 <https://github.com/Juris-M/zotero/commit/910271504a1905c9c38de449c8f3aa12e2cbac4a>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 07:19 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m53beta2
+
+:commit:
+    `0eaacbb <https://github.com/Juris-M/zotero/commit/0eaacbb60774216dd570c0fb55e6dec25b023aff>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 06:22 (JST)
+
+
+------
+
+Add signed stub
+
+:commit:
+    `4340b9c <https://github.com/Juris-M/zotero/commit/4340b9cb612dfcbf4f75ad2df94a649497272efd>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 06:21 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m53beta1
+
+:commit:
+    `80f39a1 <https://github.com/Juris-M/zotero/commit/80f39a196f073f0b23690f9865b2c0bb1d75fbb8>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 06:18 (JST)
+
+
+------
+
+Fix script syntax error
+
+:commit:
+    `472facd <https://github.com/Juris-M/zotero/commit/472facdf1cba047d3a6b5a65e2444372cf66c307>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 06:10 (JST)
+
+
+------
+
+Update build scripts
+
+:commit:
+    `1377dc6 <https://github.com/Juris-M/zotero/commit/1377dc633fa4622aedd9750c0f89cc84acd36bd1>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 06:10 (JST)
+
+
+------
+
+Build translators from local source in alpha, remote source in beta and release
+
+:commit:
+    `7891a61 <https://github.com/Juris-M/zotero/commit/7891a618d4a4929ead95e8a0cb7163b3be683788>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 05:51 (JST)
+
+
+------
+
+Update jm-sh build scripts
+
+:commit:
+    `2511a09 <https://github.com/Juris-M/zotero/commit/2511a092ebf1c25770ce96ede3eb6f771f03cefe>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 05:51 (JST)
+
+
+------
+
+Update CSL locales
+
+:commit:
+    `ab7aee6 <https://github.com/Juris-M/zotero/commit/ab7aee6c51b17593c551e97824a96a52b5a9c42d>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 05:50 (JST)
+
+
+------
+
+Disable remote refactoring with NODATES comment in commit
+
+:commit:
+    `20d84bf <https://github.com/Juris-M/zotero/commit/20d84bf642728f9743d1a189793813097b92a4a6>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 05:48 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.81
+
+:commit:
+    `69648c1 <https://github.com/Juris-M/zotero/commit/69648c1db822c5523588a6e5f51d9cc082da9c38>`_
+:author:
+    fbennett
+:date:
+    2016-03-19 22:12 (JST)
+
+
+------
+
+Update install and update RDF
+
+:commit:
+    `8af049b <https://github.com/Juris-M/zotero/commit/8af049bb49ab962dcb3dd7a2b12128cfe8972a43>`_
+:author:
+    fbennett
+:date:
+    2016-03-19 12:30 (JST)
+
+
+------
+
+Add jm-sh submodule
+
+:commit:
+    `769c61d <https://github.com/Juris-M/zotero/commit/769c61db2b2ae4212bdba47d95aed666c3cdef9a>`_
+:author:
+    fbennett
+:date:
+    2016-03-19 12:30 (JST)
+
+
+------
+
+Remove stale scripts
+
+:commit:
+    `5090f71 <https://github.com/Juris-M/zotero/commit/5090f71118343ace6f8dfb2efef402394d842045>`_
+:author:
+    fbennett
+:date:
+    2016-03-18 22:01 (JST)
+
+
+------
+
+Fix path
+
+:commit:
+    `1febbb9 <https://github.com/Juris-M/zotero/commit/1febbb9efb9d8a002994d0ac8926e81e7c580c0a>`_
+:author:
+    fbennett
+:date:
+    2016-03-18 22:01 (JST)
+
+
+------
+
+Add .gitignore
+
+:commit:
+    `5a5aaf6 <https://github.com/Juris-M/zotero/commit/5a5aaf6c456e7eb62ccfdae038a8f9c04756aae2>`_
+:author:
+    fbennett
+:date:
+    2016-03-18 10:29 (JST)
+
+
+------
+
+Update install.rdf
+
+:commit:
+    `ee0ce1c <https://github.com/Juris-M/zotero/commit/ee0ce1c38ecbb56d2c1660957c4a2b8770b234f4>`_
+:author:
+    fbennett
+:date:
+    2016-03-18 10:25 (JST)
+
+
+------
+
+Merge branch 'jurism' of github.com:Juris-M/zotero into jurism
+
+:commit:
+    `11a4d11 <https://github.com/Juris-M/zotero/commit/11a4d116ad4f6c3cfcd429c6c73abeb7ffbf801d>`_
+:author:
+    fbennett
+:date:
+    2016-03-16 19:31 (JST)
+
+
+------
+
+Fix URL in install.rdf update, update FF versions
+
+:commit:
+    `d46c63e <https://github.com/Juris-M/zotero/commit/d46c63e14e2ecb47ce4f173173d813a43d4e88e5>`_
+:author:
+    fbennett
+:date:
+    2016-03-16 19:30 (JST)
+
+
+------
+
+Remove .gitignore from repo
+
+:commit:
+    `6fb9b2d <https://github.com/Juris-M/zotero/commit/6fb9b2d4718f51596ca4a4a95ff9b81bc4690c7f>`_
+:author:
+    Frank Bennett
+:date:
+    2016-03-16 14:14 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.81
+
+:commit:
+    `db961d5 <https://github.com/Juris-M/zotero/commit/db961d531fb78f83464093ecbf5fca873c97a00d>`_
+:author:
+    fbennett
+:date:
+    2016-03-16 13:41 (JST)
+
+
+------
+
+Debugging trace
+
+:commit:
+    `bb6bb31 <https://github.com/Juris-M/zotero/commit/bb6bb311a62bc4be10727549064a395683a32657>`_
+:author:
+    fbennett
+:date:
+    2016-03-15 20:29 (JST)
+
+
+------
+
+Do speak with Zotero-ish things, for now
+
+:commit:
+    `201e6e2 <https://github.com/Juris-M/zotero/commit/201e6e233e94410c7270c331aad2a10dd8dc1c2f>`_
+:author:
+    fbennett
+:date:
+    2016-03-15 13:53 (JST)
+
+
+------
+
+Pull translators from juris-m
+
+:commit:
+    `b1d26a6 <https://github.com/Juris-M/zotero/commit/b1d26a635ac2d0ff5d5523d4ff77cb4a16bc7a1b>`_
+:author:
+    fbennett
+:date:
+    2016-03-15 12:40 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.80
+
+:commit:
+    `7ca09cc <https://github.com/Juris-M/zotero/commit/7ca09cc70d7e07cfbff407e6c8f3d7b96b5105c9>`_
+:author:
+    fbennett
+:date:
+    2016-03-15 12:39 (JST)
+
+
+------
+
+Look for Jurism in IPC communication, and not Zotero
+
+:commit:
+    `4fd2459 <https://github.com/Juris-M/zotero/commit/4fd2459dd3c1435316d800a98fa15a5a945f88b3>`_
+:author:
+    fbennett
+:date:
+    2016-03-15 12:37 (JST)
+
+
+------
+
+Merge branch 'jurism' of github.com:Juris-M/zotero into jurism
+
+:commit:
+    `1b6f031 <https://github.com/Juris-M/zotero/commit/1b6f03124f30be9ac5a027625d735cfecb359558>`_
+:author:
+    fbennett
+:date:
+    2016-03-14 12:36 (JST)
+
+
+------
+
+Update jurisdictions
+
+:commit:
+    `4c236c9 <https://github.com/Juris-M/zotero/commit/4c236c993980ef77aa156e533f9342433c34b517>`_
+:author:
+    fbennett
+:date:
+    2016-03-14 12:35 (JST)
+
+
+------
+
+Merge pull request #14 from KarlHegbloom/karlheg-dev-fixStyleGet
+
+:commit:
+    `3e624cb <https://github.com/Juris-M/zotero/commit/3e624cbba9fa3f31f3efb8ee8fe27edff1af4abe>`_
+:author:
+    Frank Bennett
+:date:
+    2016-03-14 09:35 (JST)
+
+Fix Zotero.Style.get for juris-m.github.io based styles
+
+------
+
+Fix Zotero.Style.get for juris-m.github.io based styles
+
+:commit:
+    `4511d93 <https://github.com/Juris-M/zotero/commit/4511d930fcb732674112141cea41ba1df8080535>`_
+:author:
+    Karl Hegbloom
+:date:
+    2016-03-14 07:38 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m52
+
+:commit:
+    `660a2ef <https://github.com/Juris-M/zotero/commit/660a2ef4bfd1fe1509ba8d06c154a98d27f58b5e>`_
+:author:
+    fbennett
+:date:
+    2016-01-31 12:47 (JST)
+

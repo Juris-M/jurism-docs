@@ -1,0 +1,68 @@
+========================================================
+v4.0.27.5m39-v4.0.27.5m40
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27.5m40
+
+:commit:
+    `bf6978f <https://github.com/Juris-M/zotero/commit/bf6978f9300e269201f04833545f25ab15623a4e>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 16:57 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m40beta1
+
+:commit:
+    `b05a310 <https://github.com/Juris-M/zotero/commit/b05a310fecb17b2ee588000249bf7752f481a2a5>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 08:12 (JST)
+
+
+------
+
+Fix indenting
+
+:commit:
+    `1be025c <https://github.com/Juris-M/zotero/commit/1be025cfaf873f52f6bfd10cc7af88261c0e7f2b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 08:10 (JST)
+
+
+------
+
+Use version, not versionNumber, as field name for sync
+
+:commit:
+    `6af759b <https://github.com/Juris-M/zotero/commit/6af759b344df05f3854a280a47972e6b4204be76>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 08:09 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m39
+
+:commit:
+    `6865eec <https://github.com/Juris-M/zotero/commit/6865eec486994a047e2230bf394ca5d3601fe1c2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-14 06:53 (JST)
+

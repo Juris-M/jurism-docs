@@ -1,0 +1,109 @@
+========================================================
+v4.0.28.7m46-v4.0.28.7m47
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.28.7m47
+
+:commit:
+    `088d79e <https://github.com/Juris-M/zotero/commit/088d79e47b28f63953f079a3e40132abc06c493c>`_
+:author:
+    fbennett
+:date:
+    2016-01-17 21:03 (JST)
+
+
+------
+
+Update csl locales
+
+:commit:
+    `c1093f6 <https://github.com/Juris-M/zotero/commit/c1093f61608723ca7c9e2d7f8fe7a3955be55841>`_
+:author:
+    fbennett
+:date:
+    2016-01-17 21:03 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.68 (new number support)
+
+:commit:
+    `5ad49be <https://github.com/Juris-M/zotero/commit/5ad49be947449978fc1b4010ea579fbd5520b40b>`_
+:author:
+    fbennett
+:date:
+    2016-01-17 19:49 (JST)
+
+
+------
+
+Merge branch 'jurism' of github.com:Juris-M/zotero into jurism
+
+:commit:
+    `6e78fa5 <https://github.com/Juris-M/zotero/commit/6e78fa5637d988502a929c19e23f54b21680e4f2>`_
+:author:
+    fbennett
+:date:
+    2015-11-08 10:00 (JST)
+
+Conflicts:
+	chrome/content/zotero/xpcom/dateparser.js
+
+
+------
+
+Rely on citeproc-js date parser always
+
+:commit:
+    `9b5d69a <https://github.com/Juris-M/zotero/commit/9b5d69ac03dcbe33cfdcbb315440d9f42795649d>`_
+:author:
+    fbennett
+:date:
+    2015-11-08 07:04 (JST)
+
+
+------
+
+Merge pull request #12 from retorquere/patch-1
+
+:commit:
+    `5135b1a <https://github.com/Juris-M/zotero/commit/5135b1a8cf75ff642056efa4364af2dbed844036>`_
+:author:
+    Frank Bennett
+:date:
+    2015-10-15 17:49 (JST)
+
+Match non-ascii date parts
+
+------
+
+Match non-ascii date parts
+
+:commit:
+    `c2b97bf <https://github.com/Juris-M/zotero/commit/c2b97bf6ba98988dbe6599396777508d2ae83be9>`_
+:author:
+    retorquere
+:date:
+    2015-10-15 16:40 (JST)
+
+No idea whether this has collateral damage, but this change passes all the BBT tests, plus it parses März 1, 2008 correctly
+
+------
+
+Updating install.rdf to version 4.0.28.7m46
+
+:commit:
+    `820ea77 <https://github.com/Juris-M/zotero/commit/820ea7735d20788bb22ae4ed25a21cd7db8cedb3>`_
+:author:
+    fbennett
+:date:
+    2015-10-11 11:03 (JST)
+

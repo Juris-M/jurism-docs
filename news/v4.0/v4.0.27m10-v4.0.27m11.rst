@@ -1,0 +1,116 @@
+========================================================
+v4.0.27m10-v4.0.27m11
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m11
+
+:commit:
+    `7153d8f <https://github.com/Juris-M/zotero/commit/7153d8f46665ab34e9edee983b8d424d62601baf>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-16 07:56 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m11beta1
+
+:commit:
+    `29847d5 <https://github.com/Juris-M/zotero/commit/29847d59afe1e5e74a13bed9de2ef31e5b690e68>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-16 07:54 (JST)
+
+
+------
+
+Fix field variant swap bug
+
+:commit:
+    `e699bb7 <https://github.com/Juris-M/zotero/commit/e699bb7e2f2358182b689804362bd3e25cae3f08>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-16 07:45 (JST)
+
+
+------
+
+Remove stale tracing comment
+
+:commit:
+    `fd3d659 <https://github.com/Juris-M/zotero/commit/fd3d659e4a56ca919ef07b9864796ef266c718c2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-16 07:43 (JST)
+
+
+------
+
+Debugging comments
+
+:commit:
+    `a6dd4c9 <https://github.com/Juris-M/zotero/commit/a6dd4c94d086bdbb57fb1806d8498d659a787d24>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-16 07:41 (JST)
+
+
+------
+
+Add Convention Against Torture (treaty) as a U.N. sub-jurisdiction
+
+:commit:
+    `ec07f7c <https://github.com/Juris-M/zotero/commit/ec07f7c6030c8e42d0c32043d8af7e0dcf5e00a0>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-15 12:44 (JST)
+
+
+------
+
+Make hackUseCiteprocJsDateParser=true the default for new users
+
+:commit:
+    `e435baf <https://github.com/Juris-M/zotero/commit/e435baff800b5b1b5157aa0537b41df57933b0bc>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-15 11:56 (JST)
+
+
+------
+
+Add code as a multilingual field
+
+:commit:
+    `d3bb8ce <https://github.com/Juris-M/zotero/commit/d3bb8ceb4f39a9529bbfa70a400a9783a941807f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-15 11:56 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m10
+
+:commit:
+    `b4c120d <https://github.com/Juris-M/zotero/commit/b4c120d594f303c69295f1b82b39ad3d0608e4be>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-14 23:17 (JST)
+

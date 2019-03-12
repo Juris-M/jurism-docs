@@ -1,0 +1,56 @@
+========================================================
+v4.0.28.7m57-v4.0.28.7m58
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.28.7m58
+
+:commit:
+    `51805ac <https://github.com/Juris-M/zotero/commit/51805acf585515b69d9cffa552b5d6b0be2effff>`_
+:author:
+    fbennett
+:date:
+    2016-03-24 21:27 (JST)
+
+
+------
+
+Allow use with FF 38
+
+:commit:
+    `e36a546 <https://github.com/Juris-M/zotero/commit/e36a546a645363a0b17dcbe438583cf2c55d7261>`_
+:author:
+    fbennett
+:date:
+    2016-03-24 21:26 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `4b2e70d <https://github.com/Juris-M/zotero/commit/4b2e70dca353d1d6fb3fd1ee57c0518f91b17a65>`_
+:author:
+    fbennett
+:date:
+    2016-03-23 11:11 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m57
+
+:commit:
+    `9adb51a <https://github.com/Juris-M/zotero/commit/9adb51ab1b751a106387b8ccc660a6c2b22c8d35>`_
+:author:
+    fbennett
+:date:
+    2016-03-23 11:09 (JST)
+

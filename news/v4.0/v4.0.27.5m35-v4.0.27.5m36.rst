@@ -1,0 +1,44 @@
+========================================================
+v4.0.27.5m35-v4.0.27.5m36
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27.5m36
+
+:commit:
+    `fdd6082 <https://github.com/Juris-M/zotero/commit/fdd6082d99653081dbcfea67dd7db51004ea096d>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-24 14:13 (JST)
+
+
+------
+
+Allow itemToCSLJSON on unsaved object (for use in some translators)
+
+:commit:
+    `a85118a <https://github.com/Juris-M/zotero/commit/a85118af22e84b119ba91a2336bc803a2fbebed8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-24 14:11 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m35
+
+:commit:
+    `f912093 <https://github.com/Juris-M/zotero/commit/f912093a8af06db366136552fcbf4b2f062c6a52>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-23 21:58 (JST)
+

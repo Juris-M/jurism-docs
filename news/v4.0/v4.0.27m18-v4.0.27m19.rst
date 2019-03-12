@@ -1,0 +1,104 @@
+========================================================
+v4.0.27m18-v4.0.27m19
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m19
+
+:commit:
+    `40c2bf6 <https://github.com/Juris-M/zotero/commit/40c2bf6fae505f69d8d1fe81835a1e7d2ee175dc>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-21 19:12 (JST)
+
+
+------
+
+Update citeproc-js to version 1.1.29
+
+:commit:
+    `2eb530a <https://github.com/Juris-M/zotero/commit/2eb530a4b6b63032b802e98e8972ec102dfbb9fa>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-21 15:02 (JST)
+
+
+------
+
+Lose variable-to-name conversion in itemToCSLJSON()
+
+:commit:
+    `af5c54f <https://github.com/Juris-M/zotero/commit/af5c54f3a38cab77bda8eb4840e98b7a18174e8a>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-21 15:01 (JST)
+
+
+------
+
+Allow immediate release
+
+:commit:
+    `3561c66 <https://github.com/Juris-M/zotero/commit/3561c66058e5026adf3a410f117da1fbb83e4dea>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-21 14:42 (JST)
+
+
+------
+
+Update citeproc-js
+
+:commit:
+    `bc22385 <https://github.com/Juris-M/zotero/commit/bc2238541023ac9583af97873a25b972004dbfc8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-21 14:42 (JST)
+
+
+------
+
+Update jurisdictions
+
+:commit:
+    `7fbe03c <https://github.com/Juris-M/zotero/commit/7fbe03c4fefdf60e4ec7f166e572a6b90f463aae>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-21 14:41 (JST)
+
+
+------
+
+Make creator a name variable
+
+:commit:
+    `c416bd1 <https://github.com/Juris-M/zotero/commit/c416bd1026a6fe8385e2346d49ee4dc76da68e1e>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-21 14:39 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m18
+
+:commit:
+    `1002d18 <https://github.com/Juris-M/zotero/commit/1002d18bbfdacc1acfdcc587743c32f98e124bd0>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-20 12:06 (JST)
+

@@ -1,0 +1,80 @@
+========================================================
+v4.0.27.5m33-v4.0.27.5m35
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27.5m35
+
+:commit:
+    `f912093 <https://github.com/Juris-M/zotero/commit/f912093a8af06db366136552fcbf4b2f062c6a52>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-23 21:58 (JST)
+
+
+------
+
+Fix merge conflict
+
+:commit:
+    `3f230ff <https://github.com/Juris-M/zotero/commit/3f230ff3cbf9915bea8c5bde787b47a58c9b9ffe>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-23 21:56 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m34
+
+:commit:
+    `3ef3886 <https://github.com/Juris-M/zotero/commit/3ef3886bd609dbf86ab6a649b0e357ee92b97362>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-23 21:50 (JST)
+
+
+------
+
+Merge from upstream 4.0
+
+:commit:
+    `8fba749 <https://github.com/Juris-M/zotero/commit/8fba7492e716dc5d2940dbc90ac4e7925a0c29e3>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-23 19:50 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m34beta1
+
+:commit:
+    `2ba5fab <https://github.com/Juris-M/zotero/commit/2ba5fab8ebf24636e6cd524762c080a3c20a7573>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-23 13:38 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27.5m33
+
+:commit:
+    `c7be42b <https://github.com/Juris-M/zotero/commit/c7be42bf52144e8aacca046da3d492da1772c9f9>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-20 23:17 (JST)
+

@@ -1,0 +1,56 @@
+========================================================
+v4.0.27m30-v4.0.27.1m31
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27.1m31
+
+:commit:
+    `c23ffca <https://github.com/Juris-M/zotero/commit/c23ffcacacb1e982bf925070caa87d5afc0524e4>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 19:37 (JST)
+
+
+------
+
+Add rev-rev increment. Avoids plugin error on Windows systems.
+
+:commit:
+    `260c4d0 <https://github.com/Juris-M/zotero/commit/260c4d0a1e5ee287d0772306d03a091d48d5d10b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 19:35 (JST)
+
+
+------
+
+Properly spoof Zotero version number
+
+:commit:
+    `fc61e94 <https://github.com/Juris-M/zotero/commit/fc61e94590a73594134c1bbfd035366fcb0e8df9>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 16:04 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m30
+
+:commit:
+    `4a5ba52 <https://github.com/Juris-M/zotero/commit/4a5ba523d01a5c083d3278d93754aee152891f50>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 09:47 (JST)
+

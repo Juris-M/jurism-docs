@@ -1,0 +1,56 @@
+========================================================
+v4.0.27m14-v4.0.27m15
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m15
+
+:commit:
+    `5845712 <https://github.com/Juris-M/zotero/commit/58457126577663bd2ca05d6883afc97f167d4e0f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 12:40 (JST)
+
+
+------
+
+Fix multilingual bug in toJSON()
+
+:commit:
+    `11efaa3 <https://github.com/Juris-M/zotero/commit/11efaa3343ff6f163fc10e81f1cd3a9a1942b1d7>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 12:39 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m14
+
+:commit:
+    `563f821 <https://github.com/Juris-M/zotero/commit/563f82193bcf0a8f6c45ff8345dfba64176deb78>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 09:29 (JST)
+
+
+------
+
+Fix code-o
+
+:commit:
+    `ccef00c <https://github.com/Juris-M/zotero/commit/ccef00cd960a32b264bd9cf0d3202ed38f244015>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 09:25 (JST)
+

@@ -1,0 +1,56 @@
+========================================================
+v4.0.29.8m68-v4.0.29.8m69
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.8m69
+
+:commit:
+    `86c6f23 <https://github.com/Juris-M/zotero/commit/86c6f2392ba1d2f1f9dc9bd8a41f2766bd2dbfa2>`_
+:author:
+    fbennett
+:date:
+    2016-04-22 18:32 (JST)
+
+
+------
+
+Add conferenceName to multilingual fields and sort list
+
+:commit:
+    `acf8b54 <https://github.com/Juris-M/zotero/commit/acf8b547f4b01825627917e8176391b46ec109a2>`_
+:author:
+    fbennett
+:date:
+    2016-04-22 18:27 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `9e64d86 <https://github.com/Juris-M/zotero/commit/9e64d868cb20908426fef7d4d531680082a72265>`_
+:author:
+    fbennett
+:date:
+    2016-04-22 12:55 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.8m68
+
+:commit:
+    `0824c46 <https://github.com/Juris-M/zotero/commit/0824c463aea630b65c111688c47e8ee9af256182>`_
+:author:
+    fbennett
+:date:
+    2016-04-22 12:53 (JST)
+

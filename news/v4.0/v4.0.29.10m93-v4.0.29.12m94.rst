@@ -1,0 +1,68 @@
+========================================================
+v4.0.29.10m93-v4.0.29.12m94
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.12m94
+
+:commit:
+    `3978859 <https://github.com/Juris-M/zotero/commit/3978859250b80406f7e24b4a3a8c4893839d3b43>`_
+:author:
+    fbennett
+:date:
+    2016-09-08 10:06 (JST)
+
+
+------
+
+Bump build version
+
+:commit:
+    `fcf4791 <https://github.com/Juris-M/zotero/commit/fcf479117a0b6775f22ce69bb7ea03c95d360808>`_
+:author:
+    fbennett
+:date:
+    2016-09-08 10:05 (JST)
+
+
+------
+
+Changes from upstream Z4.0
+
+:commit:
+    `1be10a9 <https://github.com/Juris-M/zotero/commit/1be10a9e220474c18f1c2104901124bf00629d29>`_
+:author:
+    fbennett
+:date:
+    2016-09-08 09:55 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `fa7613f <https://github.com/Juris-M/zotero/commit/fa7613ff5db185cb75912081d02c79411e19d25b>`_
+:author:
+    fbennett
+:date:
+    2016-09-08 09:43 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.10m93
+
+:commit:
+    `bbc12a6 <https://github.com/Juris-M/zotero/commit/bbc12a64ca80c20c14aadc6d124d22bbb8609452>`_
+:author:
+    fbennett
+:date:
+    2016-09-08 09:41 (JST)
+

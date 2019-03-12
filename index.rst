@@ -18,10 +18,11 @@ Table of Contents
 -----------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 4
 
    introduction.rst
-   changes.rst
+   news/index.rst
    tutorial.rst
    jurism-extras.rst
    multilingual-usage.rst
+   

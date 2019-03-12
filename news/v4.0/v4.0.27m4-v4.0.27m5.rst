@@ -1,0 +1,56 @@
+========================================================
+v4.0.27m4-v4.0.27m5
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m5
+
+:commit:
+    `fbbae34 <https://github.com/Juris-M/zotero/commit/fbbae34c93db4c352c8d06795d15f4dda671e9e6>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-06 07:18 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m5beta1
+
+:commit:
+    `2fc27b7 <https://github.com/Juris-M/zotero/commit/2fc27b7624ae502dca7840f39b2831d468c402f3>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-06 07:12 (JST)
+
+
+------
+
+Fix data extraction issues
+
+:commit:
+    `948361b <https://github.com/Juris-M/zotero/commit/948361b943697f4f769144be62a6aa8a9e85f6f7>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-06 07:10 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m4
+
+:commit:
+    `7b0438c <https://github.com/Juris-M/zotero/commit/7b0438cbe1516b04b1f90de62cbf71a566426e61>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 18:37 (JST)
+

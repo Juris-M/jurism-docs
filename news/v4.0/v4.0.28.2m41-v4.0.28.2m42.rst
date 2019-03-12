@@ -1,0 +1,68 @@
+========================================================
+v4.0.28.2m41-v4.0.28.2m42
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.28.2m42
+
+:commit:
+    `7110c78 <https://github.com/Juris-M/zotero/commit/7110c783468b6bf515630dd5e66832b5bd3a1708>`_
+:author:
+    fbennett
+:date:
+    2015-08-19 20:25 (JST)
+
+
+------
+
+Drop McCoy. Doesn't work on 64-bit Linux system, and signing is apparently pointless with HTTPS
+
+:commit:
+    `4d30fa1 <https://github.com/Juris-M/zotero/commit/4d30fa1a291be6afa5f47d24112f1b4164961ca8>`_
+:author:
+    fbennett
+:date:
+    2015-08-19 20:24 (JST)
+
+
+------
+
+Fix update URL
+
+:commit:
+    `2f7191e <https://github.com/Juris-M/zotero/commit/2f7191e08591f616868a3b74a21403d07fe8a074>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-19 19:16 (JST)
+
+
+------
+
+Fix bug triggered by missing document items when group rewrite not in force
+
+:commit:
+    `00ce5a9 <https://github.com/Juris-M/zotero/commit/00ce5a96befb977fe2a3509fa78ff2b901b9a652>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-19 15:54 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.2m41
+
+:commit:
+    `1802f62 <https://github.com/Juris-M/zotero/commit/1802f62bf44f29537fa47fb87b7dae42b6f0bbb5>`_
+:author:
+    Frank Bennett
+:date:
+    2015-08-16 18:49 (JST)
+

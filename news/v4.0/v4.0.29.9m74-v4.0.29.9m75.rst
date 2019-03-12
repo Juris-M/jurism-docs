@@ -1,0 +1,80 @@
+========================================================
+v4.0.29.9m74-v4.0.29.9m75
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.9m75
+
+:commit:
+    `7bf2853 <https://github.com/Juris-M/zotero/commit/7bf285317cced6ce2682edbd765203996ac20a1d>`_
+:author:
+    fbennett
+:date:
+    2016-05-10 14:26 (JST)
+
+
+------
+
+Fix sync mask for genre field on patent type
+
+:commit:
+    `14216af <https://github.com/Juris-M/zotero/commit/14216af26418dead9b3c318b7aba89b36e162808>`_
+:author:
+    fbennett
+:date:
+    2016-05-10 14:23 (JST)
+
+
+------
+
+Merge branch 'jurism' of github.com:Juris-M/zotero into jurism
+
+:commit:
+    `42e18fb <https://github.com/Juris-M/zotero/commit/42e18fb3f0d279345425852e465c4c2469cbe0a4>`_
+:author:
+    fbennett
+:date:
+    2016-05-10 14:10 (JST)
+
+
+------
+
+Fix bugs in import translation of multilingual fields
+
+:commit:
+    `cc8bcdc <https://github.com/Juris-M/zotero/commit/cc8bcdc330ab7ae126519625585a25b75619b476>`_
+:author:
+    Frank Bennett
+:date:
+    2016-05-10 13:36 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `47f7c55 <https://github.com/Juris-M/zotero/commit/47f7c5504257895058a2a3e910471d6aa4d0069b>`_
+:author:
+    fbennett
+:date:
+    2016-05-09 12:36 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.9m74
+
+:commit:
+    `43c8a0c <https://github.com/Juris-M/zotero/commit/43c8a0c5b1a1586fedd0e6b459009b11b0c31057>`_
+:author:
+    fbennett
+:date:
+    2016-05-09 12:34 (JST)
+

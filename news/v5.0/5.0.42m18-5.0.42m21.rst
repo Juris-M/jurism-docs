@@ -1,0 +1,104 @@
+========================================================
+5.0.42m18-5.0.42m21
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Report out the pushed hash
+
+:commit:
+    `3a03cc3 <https://github.com/Juris-M/zotero/commit/3a03cc38fe5a64dbe57b1337f677d21dd30d804f>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-01 14:30 (JST)
+
+
+------
+
+Bump version again for update testing. Getting warmer.
+
+:commit:
+    `67ae2e0 <https://github.com/Juris-M/zotero/commit/67ae2e0d662881d7afc4bf3ac8737e2e95d40494>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-01 14:28 (JST)
+
+
+------
+
+Add CI spoofer script
+
+:commit:
+    `3f2bf2a <https://github.com/Juris-M/zotero/commit/3f2bf2a43a8e716cc169df6de159bfab96a2aff1>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-01 14:28 (JST)
+
+
+------
+
+Bump version again, to test updates with corrected update pref
+
+:commit:
+    `83f36a8 <https://github.com/Juris-M/zotero/commit/83f36a808d28ecbadb91088d9cb31c924bba09fb>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-01 13:33 (JST)
+
+
+------
+
+Update deployer
+
+:commit:
+    `c7284e8 <https://github.com/Juris-M/zotero/commit/c7284e85d60014d8b2a9b2eeecd8b792054335a6>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-01 10:26 (JST)
+
+
+------
+
+Merge changes from upstream
+
+:commit:
+    `0f73c04 <https://github.com/Juris-M/zotero/commit/0f73c045ec78e8a3b6435c62fd476b0e9fbde792>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-01 10:06 (JST)
+
+
+------
+
+Bump version to 5.0.42m19 to test updates
+
+:commit:
+    `54cdeac <https://github.com/Juris-M/zotero/commit/54cdeac721ba7544df782e61b0bece3f70b96505>`_
+:author:
+    Frank Bennett
+:date:
+    2018-04-01 09:59 (JST)
+
+
+------
+
+Merge changes from upstream
+
+:commit:
+    `14e067d <https://github.com/Juris-M/zotero/commit/14e067d60d645e4a41579f51bb7c12dc66769b30>`_
+:author:
+    Frank Bennett
+:date:
+    2018-03-31 09:40 (JST)
+

@@ -1,0 +1,176 @@
+========================================================
+v4.0.29.21m99-v4.0.29.21m100
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.21m100
+
+:commit:
+    `d7ea435 <https://github.com/Juris-M/zotero/commit/d7ea435ec35b177ed66513707a851303819d0a07>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-21 05:44 (JST)
+
+
+------
+
+Revert branch name
+
+:commit:
+    `3148607 <https://github.com/Juris-M/zotero/commit/3148607d7480a3fd56280229e8ac3acd66dc4966>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-21 05:43 (JST)
+
+
+------
+
+Fix repo address
+
+:commit:
+    `f07d344 <https://github.com/Juris-M/zotero/commit/f07d3444da05fbf693320fa38a4f88ad9fc6a540>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-21 05:42 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `adffff8 <https://github.com/Juris-M/zotero/commit/adffff8a9b3969a3a0ad9fce68ac2ae5a717ff26>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-20 00:11 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.21m99
+
+:commit:
+    `2f34988 <https://github.com/Juris-M/zotero/commit/2f34988872ecb55d427d6d833dd0ee923fdce1c3>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-20 00:09 (JST)
+
+
+------
+
+Restore about property
+
+:commit:
+    `697cf50 <https://github.com/Juris-M/zotero/commit/697cf5092c41ccc7cb6ec3a2c8d97906f71619f6>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-19 23:59 (JST)
+
+
+------
+
+Fix more install.rdf syntax errors again
+
+:commit:
+    `cfc3558 <https://github.com/Juris-M/zotero/commit/cfc355811b7f3794cd67d053a1266a8eaac4ad73>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-19 23:42 (JST)
+
+
+------
+
+Fix more install.rdf syntax errors
+
+:commit:
+    `5b40e64 <https://github.com/Juris-M/zotero/commit/5b40e64a60e4f1beef5075e056196453620d5a6d>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-19 23:39 (JST)
+
+
+------
+
+Fix install.rdf syntax error
+
+:commit:
+    `40555f8 <https://github.com/Juris-M/zotero/commit/40555f8e5428800422bb5fa3262eaff90ec55c46>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-19 23:35 (JST)
+
+
+------
+
+Fix for each loop
+
+:commit:
+    `d3d6cd8 <https://github.com/Juris-M/zotero/commit/d3d6cd88e37f408d52899414588b2161afd8d666>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-19 22:57 (JST)
+
+
+------
+
+Dev settings in build.sh
+
+:commit:
+    `a9e3ab3 <https://github.com/Juris-M/zotero/commit/a9e3ab34be85d32bb7daab719572d3d985e83fa3>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-19 22:11 (JST)
+
+
+------
+
+Fix non-ES6 loops
+
+:commit:
+    `b3a44ca <https://github.com/Juris-M/zotero/commit/b3a44ca746bef2426aa8f416122f14aa0eaa088b>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-19 21:48 (JST)
+
+
+------
+
+Merge upstream changes
+
+:commit:
+    `339338a <https://github.com/Juris-M/zotero/commit/339338aceaa4ab9ae1ddc8eba67bec7945e15339>`_
+:author:
+    Frank Bennett
+:date:
+    2017-06-19 21:36 (JST)
+
+
+------
+
+Fix paths
+
+:commit:
+    `6b3a360 <https://github.com/Juris-M/zotero/commit/6b3a3601228fd73f111951848ebb97a3d95c26d8>`_
+:author:
+    Frank Bennett
+:date:
+    2017-04-21 18:06 (JST)
+

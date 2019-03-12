@@ -1,0 +1,128 @@
+========================================================
+v4.0.28.7m59-v4.0.28.7m60
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.28.7m60
+
+:commit:
+    `509330e <https://github.com/Juris-M/zotero/commit/509330eb71bb3d81712592ce1922fa67b00f88b0>`_
+:author:
+    fbennett
+:date:
+    2016-03-27 08:52 (JST)
+
+
+------
+
+Merge branch 'jurism-mergeme' into jurism
+
+:commit:
+    `5cd3147 <https://github.com/Juris-M/zotero/commit/5cd3147ffe5c78987c307a98e1c831ab2ee03092>`_
+:author:
+    fbennett
+:date:
+    2016-03-27 08:44 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.90
+
+:commit:
+    `f7e9ccb <https://github.com/Juris-M/zotero/commit/f7e9ccbfe133190239914ac512bc280ef2016ccd>`_
+:author:
+    fbennett
+:date:
+    2016-03-27 08:43 (JST)
+
+
+------
+
+Merge branch '4.0' of https://github.com/zotero/zotero into jurism-mergeme
+
+:commit:
+    `ed300ab <https://github.com/Juris-M/zotero/commit/ed300ab903b7cca3457e683e066455b07ea9a94d>`_
+:author:
+    fbennett
+:date:
+    2016-03-27 05:36 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.88
+
+:commit:
+    `123af45 <https://github.com/Juris-M/zotero/commit/123af45bfe1f0dd5fe4f255559baceccb0f50864>`_
+:author:
+    fbennett
+:date:
+    2016-03-26 15:30 (JST)
+
+
+------
+
+Update build scripts
+
+:commit:
+    `f57a08e <https://github.com/Juris-M/zotero/commit/f57a08e50dc22064bcf9baeca3faa39643bf68db>`_
+:author:
+    fbennett
+:date:
+    2016-03-26 12:50 (JST)
+
+
+------
+
+Manage switching between plugin and standalone+connector
+
+:commit:
+    `46c08d3 <https://github.com/Juris-M/zotero/commit/46c08d3a398959bef8e59109b977cefa197d940f>`_
+:author:
+    fbennett
+:date:
+    2016-03-26 11:05 (JST)
+
+
+------
+
+Narrow language preferences panel content some
+
+:commit:
+    `287e1ca <https://github.com/Juris-M/zotero/commit/287e1cad91adf918d81a0399420fca89055c718d>`_
+:author:
+    fbennett
+:date:
+    2016-03-25 13:05 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `5203582 <https://github.com/Juris-M/zotero/commit/5203582cc15e668a239cb2b180566a0a56c89dd3>`_
+:author:
+    fbennett
+:date:
+    2016-03-25 07:57 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m59
+
+:commit:
+    `0371829 <https://github.com/Juris-M/zotero/commit/0371829da251d4ab4a580c80576cb03192b42ccc>`_
+:author:
+    fbennett
+:date:
+    2016-03-25 07:55 (JST)
+

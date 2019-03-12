@@ -1,0 +1,104 @@
+========================================================
+v4.0.28.7m60-v4.0.29.6m61
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.6m61
+
+:commit:
+    `0f874f1 <https://github.com/Juris-M/zotero/commit/0f874f1f7cd1531584e36ccf542a3a6df12b52db>`_
+:author:
+    fbennett
+:date:
+    2016-03-29 11:37 (JST)
+
+
+------
+
+Revert network protocol and commandlinehandler to zotero
+
+:commit:
+    `b3bcd00 <https://github.com/Juris-M/zotero/commit/b3bcd00d3a41a1a670678d5fd27ac4ba46aea610>`_
+:author:
+    fbennett
+:date:
+    2016-03-29 11:10 (JST)
+
+
+------
+
+Declare zotero on network protocol
+
+:commit:
+    `2fc440a <https://github.com/Juris-M/zotero/commit/2fc440a60374025fe5c756f3ed1a28f033a91112>`_
+:author:
+    fbennett
+:date:
+    2016-03-29 11:07 (JST)
+
+
+------
+
+Progress on integration groupID stuff
+
+:commit:
+    `1f824ce <https://github.com/Juris-M/zotero/commit/1f824ce2c250fcfa38d541e8bf0e9ef4ae60a1cf>`_
+:author:
+    fbennett
+:date:
+    2016-03-29 10:28 (JST)
+
+
+------
+
+Update version
+
+:commit:
+    `828766f <https://github.com/Juris-M/zotero/commit/828766f08699e566d791632741d49fab88b296c0>`_
+:author:
+    fbennett
+:date:
+    2016-03-29 10:28 (JST)
+
+
+------
+
+Remove .gitignore from repo
+
+:commit:
+    `55a8b1c <https://github.com/Juris-M/zotero/commit/55a8b1c56e58a8cfba6c24021a9c50f8d3118cf6>`_
+:author:
+    fbennett
+:date:
+    2016-03-27 19:20 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `8db4f9e <https://github.com/Juris-M/zotero/commit/8db4f9e63ac9ae1be57672fd03128cf7ed3ce4fb>`_
+:author:
+    fbennett
+:date:
+    2016-03-27 08:55 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m60
+
+:commit:
+    `509330e <https://github.com/Juris-M/zotero/commit/509330eb71bb3d81712592ce1922fa67b00f88b0>`_
+:author:
+    fbennett
+:date:
+    2016-03-27 08:52 (JST)
+

@@ -1,0 +1,140 @@
+========================================================
+v4.0.27m22-v4.0.27m23
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m23
+
+:commit:
+    `7acb11c <https://github.com/Juris-M/zotero/commit/7acb11cdd57271fce9f25dee1bc38332bb204f00>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-26 09:08 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m23beta1
+
+:commit:
+    `25ae05d <https://github.com/Juris-M/zotero/commit/25ae05d2877f4ddb0766dc17dce7c4d89c107c4c>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 10:35 (JST)
+
+
+------
+
+Fix code-o in merge conflict edit
+
+:commit:
+    `06dd977 <https://github.com/Juris-M/zotero/commit/06dd97770728bd2afb0731adf80874ad677aa242>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 10:29 (JST)
+
+
+------
+
+Fetch editor in csledit.js generateBibliography()
+
+:commit:
+    `1d3f765 <https://github.com/Juris-M/zotero/commit/1d3f7655ac61d71f96fcd5309a0af499d91bae99>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 10:22 (JST)
+
+
+------
+
+Use upstream csl locales
+
+:commit:
+    `2f9c1a9 <https://github.com/Juris-M/zotero/commit/2f9c1a9e8c11606e5145640139251c132680e4e2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 09:49 (JST)
+
+
+------
+
+Touch .gitmodules
+
+:commit:
+    `d218ec9 <https://github.com/Juris-M/zotero/commit/d218ec9e1774c78d939d83febc0595653bd7e8d2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 09:37 (JST)
+
+
+------
+
+Update locales from upstream 4.0
+
+:commit:
+    `9f9ad10 <https://github.com/Juris-M/zotero/commit/9f9ad10adc85babcbea1fe7ee5285b58be3bf85b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 09:17 (JST)
+
+
+------
+
+Adopt patch code for csledit list
+
+:commit:
+    `dbc89d6 <https://github.com/Juris-M/zotero/commit/dbc89d63395ef96e164c88aae4042297f75af6c8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 09:10 (JST)
+
+
+------
+
+Merge rmzelle locale patch from 4.0
+
+:commit:
+    `115e30b <https://github.com/Juris-M/zotero/commit/115e30bd1cbd6336f0bb1b0d2c56264131ec9453>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 08:54 (JST)
+
+
+------
+
+Merge changes from upstream 4.0
+
+:commit:
+    `50524ac <https://github.com/Juris-M/zotero/commit/50524ac93714c8c140aab0383a6420c7dadb408c>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 02:02 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m22
+
+:commit:
+    `f44dd3a <https://github.com/Juris-M/zotero/commit/f44dd3a9971ce3f507df7e9089ca36b3f1326dd1>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-25 00:37 (JST)
+

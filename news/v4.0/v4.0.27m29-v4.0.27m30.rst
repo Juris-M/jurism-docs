@@ -1,0 +1,92 @@
+========================================================
+v4.0.27m29-v4.0.27m30
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m30
+
+:commit:
+    `4a5ba52 <https://github.com/Juris-M/zotero/commit/4a5ba523d01a5c083d3278d93754aee152891f50>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 09:47 (JST)
+
+
+------
+
+Set up for McCoy-signed updates
+
+:commit:
+    `50c2370 <https://github.com/Juris-M/zotero/commit/50c23702b2b32c21d77cffbf8d63aed9abc3650e>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 09:43 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m30beta1
+
+:commit:
+    `12dbdb4 <https://github.com/Juris-M/zotero/commit/12dbdb4395d31195167a32cac132c08e2151277b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 07:16 (JST)
+
+
+------
+
+Fix Juris-M bugs in bibliography.js
+
+:commit:
+    `da25b3e <https://github.com/Juris-M/zotero/commit/da25b3ec1457774b8eccdba32a3ab80894cea37b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 07:13 (JST)
+
+
+------
+
+Locale strings for upstream 4.0 merge
+
+:commit:
+    `2442f04 <https://github.com/Juris-M/zotero/commit/2442f0436897d207a4469bfc25dc5f3d80647cfc>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 06:42 (JST)
+
+
+------
+
+Merge changes from upstream 4.0
+
+:commit:
+    `55844f6 <https://github.com/Juris-M/zotero/commit/55844f6c85e578171c074589a551954e43c9b427>`_
+:author:
+    Frank Bennett
+:date:
+    2015-07-02 06:33 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m29
+
+:commit:
+    `413f59d <https://github.com/Juris-M/zotero/commit/413f59d750a3cd380f8ca6dfd40033a1102dcba4>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-29 21:20 (JST)
+

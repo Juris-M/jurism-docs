@@ -1,0 +1,536 @@
+========================================================
+5.0.52m40-HEAD
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Update translators
+
+:commit:
+    `15a050c <https://github.com/Juris-M/zotero/commit/15a050cbbd842c40ed804d9da05f9375af5d90af>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-13 05:49 (JST)
+
+
+------
+
+Update styles
+
+:commit:
+    `f6975ea <https://github.com/Juris-M/zotero/commit/f6975ea1f9a9f96d3380e197b3920c1b73552cd2>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-10 21:16 (JST)
+
+
+------
+
+Merge changes from upstream Zotero
+
+:commit:
+    `ee54fa9 <https://github.com/Juris-M/zotero/commit/ee54fa945f94aa8701a441b6c9615eb0d933dcf7>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-09 10:31 (JST)
+
+
+------
+
+Bump repotime again
+
+:commit:
+    `fb3aef6 <https://github.com/Juris-M/zotero/commit/fb3aef62aba547ee1854dc2cd44aa98acb82bdf3>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-09 10:17 (JST)
+
+
+------
+
+Update repotime
+
+:commit:
+    `da06880 <https://github.com/Juris-M/zotero/commit/da06880d3c87f6b1cf7f097219ecb61e3af25941>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-09 09:25 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.220
+
+:commit:
+    `f9b33b4 <https://github.com/Juris-M/zotero/commit/f9b33b4c4a54bfeaf544a01176f22af8aaf0fb2c>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-09 09:25 (JST)
+
+
+------
+
+Merge locales from upstream Zotero
+
+:commit:
+    `3742739 <https://github.com/Juris-M/zotero/commit/37427398de47bd64091ae8c88b68eba03f3827f1>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-05 07:23 (JST)
+
+
+------
+
+Extend timeout in two tests
+
+:commit:
+    `0d636ee <https://github.com/Juris-M/zotero/commit/0d636ee00d2184a7bbf4f52da56700caa51cda3d>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-05 07:20 (JST)
+
+
+------
+
+Merge changes from upstream Zotero
+
+:commit:
+    `7fa0f6c <https://github.com/Juris-M/zotero/commit/7fa0f6c7251162c34b5e16e971928a87701e0f02>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-05 07:20 (JST)
+
+
+------
+
+Fix lagginess in creator editing
+
+:commit:
+    `09039c9 <https://github.com/Juris-M/zotero/commit/09039c904d056e9621e8412d4ec3ade156d79ce2>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-04 23:49 (JST)
+
+
+------
+
+itembox.xul: fix bug in creators, remove code that maybe clobbered input during sync.
+
+:commit:
+    `62ca058 <https://github.com/Juris-M/zotero/commit/62ca058545f08eda93520815026be525a7b25b56>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-04 17:58 (JST)
+
+
+------
+
+Assume all fields are set to LANG if LANG is preregistered and set in language field.
+
+:commit:
+    `fdce76e <https://github.com/Juris-M/zotero/commit/fdce76e9e531dfc674699318b196c1419a9a01a5>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-03 05:40 (JST)
+
+
+------
+
+Update styles
+
+:commit:
+    `7875c72 <https://github.com/Juris-M/zotero/commit/7875c724668ecc1606da97ed0657842f969f90cc>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-03 03:39 (JST)
+
+
+------
+
+Add pull script
+
+:commit:
+    `4679fbb <https://github.com/Juris-M/zotero/commit/4679fbbd662e04d40ab5c50c3838924d4a2d60be>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-02 18:27 (JST)
+
+
+------
+
+Checkin of package info
+
+:commit:
+    `250e50c <https://github.com/Juris-M/zotero/commit/250e50c3491ea3df33de422639a31dc1c7c145d8>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-02 12:15 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-6.0
+
+:commit:
+    `cbc3e24 <https://github.com/Juris-M/zotero/commit/cbc3e24085d8a2343280c9613188f7d5da51f243>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-02 10:37 (JST)
+
+
+------
+
+Update chai and mocha
+
+:commit:
+    `87efcdc <https://github.com/Juris-M/zotero/commit/87efcdcbeea0c91130fe5b628d8c55647226e3c5>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-01 13:26 (JST)
+
+
+------
+
+Merge branch 'jurism-5.0' of github.com:Juris-M/zotero into jurism-5.0
+
+:commit:
+    `373ea2c <https://github.com/Juris-M/zotero/commit/373ea2c9c55ebe92fbf591bfe9fba03cc8565e7c>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-01 13:05 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.218
+
+:commit:
+    `5058014 <https://github.com/Juris-M/zotero/commit/505801419d262030857002d09fc912d4d3791985>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-01 13:03 (JST)
+
+
+------
+
+Fix for citeproc
+
+:commit:
+    `7240e5c <https://github.com/Juris-M/zotero/commit/7240e5ca4824164b380785f1c9dc9f9171e799ed>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-01 08:12 (JST)
+
+
+------
+
+Update CSL styles and locales
+
+:commit:
+    `d4db7f2 <https://github.com/Juris-M/zotero/commit/d4db7f29ea67c87b4c466301c0b596c60fc19139>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-28 20:11 (JST)
+
+
+------
+
+Add juris-m.github.io to list of valid style sources
+
+:commit:
+    `b5899b1 <https://github.com/Juris-M/zotero/commit/b5899b1bae951b05aadc2c823aeb003c0db24f77>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-28 13:17 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.217
+
+:commit:
+    `7cb9484 <https://github.com/Juris-M/zotero/commit/7cb94842519ca8847c7433522c6cf1e4a36311b4>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-28 10:00 (JST)
+
+
+------
+
+Update package-lock.json
+
+:commit:
+    `21e64ca <https://github.com/Juris-M/zotero/commit/21e64caf53eb5ba72020492b9d61fb765064094a>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-28 09:51 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `a2d2d56 <https://github.com/Juris-M/zotero/commit/a2d2d562e3f8114489faaec55f94c9ce26338900>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-28 09:28 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `37f6406 <https://github.com/Juris-M/zotero/commit/37f6406e631b0dfacb20f887dbcd3778ca89b31f>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-27 22:51 (JST)
+
+
+------
+
+Adjust test for multilingual
+
+:commit:
+    `0172ae1 <https://github.com/Juris-M/zotero/commit/0172ae19cb403d659b4bbd217e74043a13cdcfc3>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-27 22:29 (JST)
+
+
+------
+
+Locale update from upstream Zotero
+
+:commit:
+    `959d6fe <https://github.com/Juris-M/zotero/commit/959d6fe80b6627403cec4fbaad78c9b7a9b462d6>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-27 21:34 (JST)
+
+
+------
+
+Merge from upstream Zotero
+
+:commit:
+    `fde6c95 <https://github.com/Juris-M/zotero/commit/fde6c95163bb5b6dcfa508141f297c7f832a34d8>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-27 21:31 (JST)
+
+
+------
+
+Changes from upstream Zotero
+
+:commit:
+    `27306cc <https://github.com/Juris-M/zotero/commit/27306ccee490902360c90050ecd1e8f3d3dc78c0>`_
+:author:
+    Frank Bennett
+:date:
+    2019-02-09 06:58 (JST)
+
+
+------
+
+Update min plugin version
+
+:commit:
+    `6d3200b <https://github.com/Juris-M/zotero/commit/6d3200b62a4afedf74b1d57d16be836695f8da6d>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-27 15:33 (JST)
+
+
+------
+
+Fix test result string
+
+:commit:
+    `8d26036 <https://github.com/Juris-M/zotero/commit/8d26036fe7cd4bffa015ee1ade0ae7088325a161>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-26 08:39 (JST)
+
+
+------
+
+Mod test to expect two fields (not sure why, this could be a JM bug)
+
+:commit:
+    `031cb56 <https://github.com/Juris-M/zotero/commit/031cb56c417cc9b25de00e2c5e3f3e4dbbfeea9d>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-26 08:38 (JST)
+
+
+------
+
+Use async/await in test to avoid subsequent failure
+
+:commit:
+    `e84c559 <https://github.com/Juris-M/zotero/commit/e84c559250fcf2546689943ce38f60e3067058a2>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-26 08:37 (JST)
+
+
+------
+
+Remove JM obscenity and other chatter from test runner
+
+:commit:
+    `18bc9eb <https://github.com/Juris-M/zotero/commit/18bc9ebb8f0385249e61509577d80960bc23f1d3>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-26 08:30 (JST)
+
+
+------
+
+Update locales from upstream Zotero
+
+:commit:
+    `3bf0e0b <https://github.com/Juris-M/zotero/commit/3bf0e0b01a8686355bcc5aa48a43c5ef0a27500a>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-25 14:51 (JST)
+
+
+------
+
+Update CSL locales
+
+:commit:
+    `80c3198 <https://github.com/Juris-M/zotero/commit/80c3198b1a9b87f3f2048f972cdcd3d78b6ceef8>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-25 14:45 (JST)
+
+
+------
+
+Update package-lock.json
+
+:commit:
+    `d7d859f <https://github.com/Juris-M/zotero/commit/d7d859ff99b9b7c1964c9fe4a6cac3769800378f>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-25 14:43 (JST)
+
+
+------
+
+Update styles
+
+:commit:
+    `cfa91c3 <https://github.com/Juris-M/zotero/commit/cfa91c36d3325be97d2e0e960a0a95010b768091>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-25 14:43 (JST)
+
+
+------
+
+Update deployer
+
+:commit:
+    `b22e80c <https://github.com/Juris-M/zotero/commit/b22e80c0067bbb4fc68339b8d656dc56aff7d6e5>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-25 14:38 (JST)
+
+
+------
+
+Merge changes from upstream Zotero
+
+:commit:
+    `c8e4750 <https://github.com/Juris-M/zotero/commit/c8e4750b435f29a0d109d7691de50a5ca3143680>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-25 12:10 (JST)
+
+
+------
+
+Update citeproc-js to 210
+
+:commit:
+    `e404a77 <https://github.com/Juris-M/zotero/commit/e404a77cce09d164c378076bc72b7868e9b2db5a>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-25 11:14 (JST)
+
+
+------
+
+Require getDescendants for recursive search in search.js
+
+:commit:
+    `951db59 <https://github.com/Juris-M/zotero/commit/951db59e81d0dd65fbd3592261a3c8aa689c523b>`_
+:author:
+    Frank Bennett
+:date:
+    2018-11-25 11:13 (JST)
+
+
+------
+
+Update translators, tweak lookup test, bump version to m40
+
+:commit:
+    `543b7c5 <https://github.com/Juris-M/zotero/commit/543b7c5dc4066f7a1065795a285532166d7cb5ee>`_
+:author:
+    Frank Bennett
+:date:
+    2018-07-06 10:20 (JST)
+

@@ -1,0 +1,284 @@
+========================================================
+v4.0.27m3-v4.0.27m4
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m4
+
+:commit:
+    `7b0438c <https://github.com/Juris-M/zotero/commit/7b0438cbe1516b04b1f90de62cbf71a566426e61>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 18:37 (JST)
+
+
+------
+
+Force jurisdiction if necesssary in itemFromCSLJSON()
+
+:commit:
+    `000cf64 <https://github.com/Juris-M/zotero/commit/000cf64ff3791d617479fb17ecbad251f83eb8a8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 16:00 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m4beta3
+
+:commit:
+    `1642b2c <https://github.com/Juris-M/zotero/commit/1642b2cc17d570a0bdd204095185db9b6162f02f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 08:42 (JST)
+
+
+------
+
+Set the itemType correctly when decoding from JSON object
+
+:commit:
+    `ba9c9a3 <https://github.com/Juris-M/zotero/commit/ba9c9a306c6dbf9aeff28600e5285757edde7795>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 08:40 (JST)
+
+
+------
+
+Show dates as dates
+
+:commit:
+    `9e11a16 <https://github.com/Juris-M/zotero/commit/9e11a16e02509acd46731c6d12bf604c56311674>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 08:39 (JST)
+
+
+------
+
+versionNumber is the new version
+
+:commit:
+    `e3e68ec <https://github.com/Juris-M/zotero/commit/e3e68ec9447a0ed7567a2e4fbadf3121ea086e9d>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 08:39 (JST)
+
+
+------
+
+Fix code-o
+
+:commit:
+    `e620615 <https://github.com/Juris-M/zotero/commit/e62061509707ff8c9a6f076fecd0dc5ee43fd9dd>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 08:38 (JST)
+
+
+------
+
+Remove redundant code
+
+:commit:
+    `a77250e <https://github.com/Juris-M/zotero/commit/a77250e004932a9b0b06d96262204a7bc81dece8>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 05:36 (JST)
+
+
+------
+
+Remove debugging comments
+
+:commit:
+    `4a13b66 <https://github.com/Juris-M/zotero/commit/4a13b66b4375539df138841e3004252fb585afbc>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-05 05:32 (JST)
+
+
+------
+
+Align change flags with ops in setField(), remove _lsts everywhere
+
+:commit:
+    `439ec39 <https://github.com/Juris-M/zotero/commit/439ec39fd5f85b65e0bf31ca800909d9f36dd00b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-04 21:43 (JST)
+
+
+------
+
+Fix WIP. Not done yet, but the bug is now understood, and being slowly crushed.
+
+:commit:
+    `2c8036b <https://github.com/Juris-M/zotero/commit/2c8036b6d5ef53a964406a9a380479a9d1fb389d>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-04 18:07 (JST)
+
+
+------
+
+Remove change flags from action branches. Function needs to be simpler.
+
+:commit:
+    `a87b931 <https://github.com/Juris-M/zotero/commit/a87b931522378db9d8d559219199d56bf115b523>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-04 12:53 (JST)
+
+
+------
+
+Patches, stage 1
+
+:commit:
+    `d9fbe24 <https://github.com/Juris-M/zotero/commit/d9fbe2417799170b9582e4afa9ba2e3637c2a44c>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-04 12:27 (JST)
+
+
+------
+
+Remove very bad itemTreeView workarounds
+
+:commit:
+    `99f598e <https://github.com/Juris-M/zotero/commit/99f598eb13ef2b54ab3960b2096f39812b571d6f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-04 11:49 (JST)
+
+
+------
+
+Tracing comment
+
+:commit:
+    `ee36ac0 <https://github.com/Juris-M/zotero/commit/ee36ac0a3f0398bef183794f6281f7a9c591264f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-03 14:50 (JST)
+
+
+------
+
+Update install.rdf
+
+:commit:
+    `95fcdbe <https://github.com/Juris-M/zotero/commit/95fcdbef208fe133fd5a2c0a3aa5b89051879ae7>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-03 09:14 (JST)
+
+
+------
+
+Clean up the multilingual field change flag mess
+
+:commit:
+    `ada75ef <https://github.com/Juris-M/zotero/commit/ada75efc2483a0b7a9c24baa942f6fc3304806da>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-03 09:13 (JST)
+
+
+------
+
+More changes
+
+:commit:
+    `8bdc4a3 <https://github.com/Juris-M/zotero/commit/8bdc4a3aaa93023952b387bd14244971d919ce7d>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-02 19:18 (JST)
+
+
+------
+
+Adjustments to build script
+
+:commit:
+    `d20923e <https://github.com/Juris-M/zotero/commit/d20923ea0de77c642be2accefd998bbfdf6307d2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-02 18:15 (JST)
+
+
+------
+
+Work in progress
+
+:commit:
+    `48e1c1d <https://github.com/Juris-M/zotero/commit/48e1c1deb157d6a9fe2531bee0cb199558642739>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-02 18:14 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m4beta1
+
+:commit:
+    `f4405cc <https://github.com/Juris-M/zotero/commit/f4405ccbec42ff390faeefff00aed94d71308cd4>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-01 09:04 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.25
+
+:commit:
+    `6bc5606 <https://github.com/Juris-M/zotero/commit/6bc5606a1cfca6b9a70c00afe7ac1b45ffd3bca5>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-01 09:02 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m3
+
+:commit:
+    `a796284 <https://github.com/Juris-M/zotero/commit/a79628444233978c21669dab17ed8ba4698bbdf9>`_
+:author:
+    Frank Bennett
+:date:
+    2015-05-31 09:26 (JST)
+

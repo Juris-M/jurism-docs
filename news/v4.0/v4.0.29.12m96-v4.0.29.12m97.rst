@@ -1,0 +1,56 @@
+========================================================
+v4.0.29.12m96-v4.0.29.12m97
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.12m97
+
+:commit:
+    `15d83b9 <https://github.com/Juris-M/zotero/commit/15d83b9f934a58c8b1ec485c75aaff97bae79f86>`_
+:author:
+    fbennett
+:date:
+    2016-09-25 07:00 (JST)
+
+
+------
+
+Fix bugs in sync affecting extended creators
+
+:commit:
+    `4cfe640 <https://github.com/Juris-M/zotero/commit/4cfe6408ed4f527a6b81722a9ee2d6bdcd1c4571>`_
+:author:
+    fbennett
+:date:
+    2016-09-25 06:58 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `f8aac1e <https://github.com/Juris-M/zotero/commit/f8aac1ed9e0a54f87867382dc6599239f81cdbc5>`_
+:author:
+    fbennett
+:date:
+    2016-09-24 15:56 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.12m96
+
+:commit:
+    `e3419f3 <https://github.com/Juris-M/zotero/commit/e3419f3ede8b0036af93a621b8de78011ef41d63>`_
+:author:
+    fbennett
+:date:
+    2016-09-24 15:54 (JST)
+

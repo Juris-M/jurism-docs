@@ -1,0 +1,92 @@
+========================================================
+5.0.47m34-5.0.47m35
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Bump version to 5.0.47m35
+
+:commit:
+    `17b4e77 <https://github.com/Juris-M/zotero/commit/17b4e770d85b551d4ec4f208343df8e297ea541d>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-05 17:29 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `d4d4772 <https://github.com/Juris-M/zotero/commit/d4d4772b2760688911262140b97f42e728441499>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-05 17:20 (JST)
+
+
+------
+
+Move encodeMlzContents and decodeMlzContents to Zotoero.Utilities, for connectors
+
+:commit:
+    `d38a80a <https://github.com/Juris-M/zotero/commit/d38a80a0f4e505c7af23d233dd4bea06a724c79b>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-05 15:01 (JST)
+
+
+------
+
+Upgrade citeproc-js to 1.1.206
+
+:commit:
+    `6a5b213 <https://github.com/Juris-M/zotero/commit/6a5b213eb38d4f8a14726889ef32d9e973c6515e>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-05 14:59 (JST)
+
+
+------
+
+Adjust return values in test fixture
+
+:commit:
+    `962557f <https://github.com/Juris-M/zotero/commit/962557fa07b4d8b74f37dd069182ffdf7c627c50>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-04 13:52 (JST)
+
+
+------
+
+Change error to notice
+
+:commit:
+    `523605a <https://github.com/Juris-M/zotero/commit/523605a6a8817e6d311e428d576f3ac681347c62>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-04 13:22 (JST)
+
+
+------
+
+Update repotime
+
+:commit:
+    `d7a9bbb <https://github.com/Juris-M/zotero/commit/d7a9bbb6b343268f09b160c541a719cf578d23b8>`_
+:author:
+    Frank Bennett
+:date:
+    2018-05-04 11:43 (JST)
+

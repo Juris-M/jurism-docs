@@ -1,0 +1,56 @@
+========================================================
+v4.0.29.10m88-v4.0.29.10m89
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.10m89
+
+:commit:
+    `8e93df9 <https://github.com/Juris-M/zotero/commit/8e93df905ff666c4e8efc0757fe871f0c3cff881>`_
+:author:
+    fbennett
+:date:
+    2016-07-21 09:32 (JST)
+
+
+------
+
+Demote testimonyBy to secondary contributor, map to author. It is redundant, but works.
+
+:commit:
+    `ecd79bb <https://github.com/Juris-M/zotero/commit/ecd79bbf431f5c6503ea139391e425ff7fcbcca4>`_
+:author:
+    fbennett
+:date:
+    2016-07-21 09:31 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `17af36d <https://github.com/Juris-M/zotero/commit/17af36dd5b2ba9999d1a5decef61e22a2b1152b3>`_
+:author:
+    fbennett
+:date:
+    2016-07-20 17:20 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.10m88
+
+:commit:
+    `6c17497 <https://github.com/Juris-M/zotero/commit/6c1749750a9b6ff71900d55514da00c9d095ac9d>`_
+:author:
+    fbennett
+:date:
+    2016-07-20 17:18 (JST)
+

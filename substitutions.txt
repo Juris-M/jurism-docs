@@ -1,4 +1,4 @@
-.. |CCBYSA| image:: ./media/cc-by-sa-80x15.png
+.. |CCBYSA| image:: cc-by-sa-80x15.png
 
 .. _CCBYSA: http://creativecommons.org/licenses/by-sa/3.0/
 
@@ -17,6 +17,10 @@
 .. |jurism| raw:: html
 
    <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">Juris-M</span>
+
+.. |zotero| raw:: html
+
+   <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">Zotero</span>
 
 .. |cites-button| raw:: html
 

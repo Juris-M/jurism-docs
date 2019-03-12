@@ -1,0 +1,104 @@
+========================================================
+v4.0.27m13-v4.0.27m14
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m14
+
+:commit:
+    `810d75d <https://github.com/Juris-M/zotero/commit/810d75de8e910d3299a9aed94152935c53bc4ff2>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 09:24 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m14beta1
+
+:commit:
+    `95dcea6 <https://github.com/Juris-M/zotero/commit/95dcea6106fc48429c84b5fa411d96de86219c24>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 09:21 (JST)
+
+
+------
+
+Update citeproc-js to version 1.1.26
+
+:commit:
+    `bafa8cd <https://github.com/Juris-M/zotero/commit/bafa8cd81b46d949f08f25fcd4806a5cdd8217bd>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 08:37 (JST)
+
+
+------
+
+Fix language split
+
+:commit:
+    `c6b0545 <https://github.com/Juris-M/zotero/commit/c6b0545183964aeb04b005072e03ac71ba777900>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 08:36 (JST)
+
+
+------
+
+Add language name hook and use it
+
+:commit:
+    `a49bb27 <https://github.com/Juris-M/zotero/commit/a49bb278296e7f5190f9c8311595920f855d5235>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-19 07:25 (JST)
+
+
+------
+
+Unsigned release code
+
+:commit:
+    `bdc4a6c <https://github.com/Juris-M/zotero/commit/bdc4a6cf8e90f38338e666fa9b3547e5a8aa7021>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-18 22:50 (JST)
+
+
+------
+
+Fix extraction. Maybe.
+
+:commit:
+    `fdfdaed <https://github.com/Juris-M/zotero/commit/fdfdaed0268826186b282cffa47d185ee2eddc61>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-17 09:20 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m13
+
+:commit:
+    `4de2a9d <https://github.com/Juris-M/zotero/commit/4de2a9ddd2eb9c6c53edc9a7c0518fb65ebef760>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-17 07:05 (JST)
+

@@ -1,0 +1,56 @@
+========================================================
+v4.0.29.10m79-v4.0.29.10m80
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.10m80
+
+:commit:
+    `3c2bb39 <https://github.com/Juris-M/zotero/commit/3c2bb398c5e46a594302bdf91aad6c38adb38541>`_
+:author:
+    fbennett
+:date:
+    2016-06-20 19:10 (JST)
+
+
+------
+
+Pass Z/J native genre value to CSL
+
+:commit:
+    `22fdbbc <https://github.com/Juris-M/zotero/commit/22fdbbcca48718e31e6057c0f0b3bedb4879e6e4>`_
+:author:
+    fbennett
+:date:
+    2016-06-20 19:08 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `2b700c3 <https://github.com/Juris-M/zotero/commit/2b700c3b49ddfe13d92b8490b2b77339a88a0e13>`_
+:author:
+    fbennett
+:date:
+    2016-06-15 06:19 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.10m79
+
+:commit:
+    `757677f <https://github.com/Juris-M/zotero/commit/757677f1ff99b0e1db634d5cf74e79503a421d0a>`_
+:author:
+    fbennett
+:date:
+    2016-06-15 06:17 (JST)
+

@@ -1,0 +1,104 @@
+========================================================
+v4.0.28.7m53-v4.0.28.7m54
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.28.7m54
+
+:commit:
+    `e594f62 <https://github.com/Juris-M/zotero/commit/e594f62143e58b0d6e3f6a5dc7f9f0c08abfab48>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 18:49 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m54beta1
+
+:commit:
+    `7eb175d <https://github.com/Juris-M/zotero/commit/7eb175de707befa5e10e8dbf0ce240e5015f43fa>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 18:45 (JST)
+
+
+------
+
+Update mocha
+
+:commit:
+    `876f5cc <https://github.com/Juris-M/zotero/commit/876f5cc64ecb7d1815771ccbf23baf45b54caa24>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 18:44 (JST)
+
+
+------
+
+Update locales from upstream 4.0
+
+:commit:
+    `a380ea3 <https://github.com/Juris-M/zotero/commit/a380ea3915f2718054f40fa55061dd75e7ce546e>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 17:48 (JST)
+
+
+------
+
+Merge from upstream 4.0
+
+:commit:
+    `ad03310 <https://github.com/Juris-M/zotero/commit/ad033109bc13f5ccee0744e70ce582eaa38d2b32>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 17:43 (JST)
+
+
+------
+
+Rearrange attribution to avoid confusion
+
+:commit:
+    `12819cf <https://github.com/Juris-M/zotero/commit/12819cf64bc205aad1bf5f25ea6ea66efc1242ab>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 13:50 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `e05e254 <https://github.com/Juris-M/zotero/commit/e05e2546d842616f5ddd2a7a0bdf1133bc26bdf3>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 13:46 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.28.7m53
+
+:commit:
+    `58cca03 <https://github.com/Juris-M/zotero/commit/58cca030eadef1f5474a555d901d6067676d7870>`_
+:author:
+    fbennett
+:date:
+    2016-03-20 13:44 (JST)
+

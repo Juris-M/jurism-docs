@@ -1,0 +1,44 @@
+========================================================
+v4.0.27m26-v4.0.27m27
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m27
+
+:commit:
+    `dc21663 <https://github.com/Juris-M/zotero/commit/dc216630c9db45b7e81a8650e485377aac23112b>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-29 06:12 (JST)
+
+
+------
+
+Avoid error when generating bibliography from JM UI
+
+:commit:
+    `daf5264 <https://github.com/Juris-M/zotero/commit/daf52645d641728ed35add1108a3b25fb0a809fa>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-29 06:10 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m26
+
+:commit:
+    `86779ff <https://github.com/Juris-M/zotero/commit/86779ff91240480d91e7a6de5cbcac0e37e8b2cb>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-29 05:40 (JST)
+

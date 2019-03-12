@@ -1,0 +1,56 @@
+========================================================
+v4.0.27m17-v4.0.27m18
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.27m18
+
+:commit:
+    `1002d18 <https://github.com/Juris-M/zotero/commit/1002d18bbfdacc1acfdcc587743c32f98e124bd0>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-20 12:06 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m18beta1
+
+:commit:
+    `4f1adc2 <https://github.com/Juris-M/zotero/commit/4f1adc232123d4c48f7093499f9409adb0395c99>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-20 12:04 (JST)
+
+
+------
+
+Fix code-o affecting institutional names
+
+:commit:
+    `cae5983 <https://github.com/Juris-M/zotero/commit/cae5983b6a585e5faf9c93d792d517cb74d47db3>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-20 12:03 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.27m17
+
+:commit:
+    `6cf3ee0 <https://github.com/Juris-M/zotero/commit/6cf3ee0cb81aabe0aa801ebbc076d10ba5caef5f>`_
+:author:
+    Frank Bennett
+:date:
+    2015-06-20 11:01 (JST)
+

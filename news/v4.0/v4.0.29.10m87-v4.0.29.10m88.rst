@@ -1,0 +1,56 @@
+========================================================
+v4.0.29.10m87-v4.0.29.10m88
+========================================================
+
+.. include:: ../../substitutions.txt
+|CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
+
+
+   
+------
+
+Updating install.rdf to version 4.0.29.10m88
+
+:commit:
+    `6c17497 <https://github.com/Juris-M/zotero/commit/6c1749750a9b6ff71900d55514da00c9d095ac9d>`_
+:author:
+    fbennett
+:date:
+    2016-07-20 17:18 (JST)
+
+
+------
+
+Do not remove testimonyBy in sync, but map to CSL
+
+:commit:
+    `619d570 <https://github.com/Juris-M/zotero/commit/619d570bb3f6af464dba2b4bad76003d78e28c2f>`_
+:author:
+    fbennett
+:date:
+    2016-07-20 17:16 (JST)
+
+
+------
+
+Refresh update-TEMPLATE.rdf
+
+:commit:
+    `885b01f <https://github.com/Juris-M/zotero/commit/885b01f94cb047403bde30ac9143d5a4d053ce7f>`_
+:author:
+    fbennett
+:date:
+    2016-07-08 14:28 (JST)
+
+
+------
+
+Updating install.rdf to version 4.0.29.10m87
+
+:commit:
+    `7629c1b <https://github.com/Juris-M/zotero/commit/7629c1bd86d7cfce12c022ca46aeff84402bc4da>`_
+:author:
+    fbennett
+:date:
+    2016-07-08 14:26 (JST)
+
