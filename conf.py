@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Juris-M'
-copyright = u'2016, Frank Bennett'
+copyright = u'2016-2019, Frank Bennett'
 author = u'Frank Bennett'
 
 # The version info for the project you're documenting, acts as replacement for

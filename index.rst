@@ -23,6 +23,5 @@ Table of Contents
    introduction.rst
    news/index.rst
    tutorial.rst
+   tutorial-ja.rst
    jurism-extras.rst
-   multilingual-usage.rst
-   
