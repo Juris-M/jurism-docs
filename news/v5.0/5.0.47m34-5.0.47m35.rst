@@ -5,8 +5,6 @@
 .. include:: ../../substitutions.txt
 |CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
 
-
-   
 ------
 
 Bump version to 5.0.47m35

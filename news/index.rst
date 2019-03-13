@@ -11,7 +11,6 @@ Changes
    :hidden:
    
    v5.0/index.rst
-   v4.0/index.rst
 
 
 As of this writing, |jurism| is nearing its tenth anniversary. Since

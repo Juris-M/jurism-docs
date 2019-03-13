@@ -1,5 +1,4 @@
-========================
-Juris-M changes for v5.0
+========================Juris-M changes for v5.0
 ========================
 
 .. include:: ../../substitutions.txt
@@ -8,7 +7,7 @@ Juris-M changes for v5.0
 
 .. toctree::
    :maxdepth: 1
-   
+
    5.0.52m40-HEAD.rst
    5.0.47m36-5.0.52m40.rst
    5.0.47m35-5.0.47m36.rst

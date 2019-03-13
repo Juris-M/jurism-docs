@@ -5,8 +5,6 @@
 .. include:: ../../substitutions.txt
 |CCBYSA|_ Frank Bennett <https://twitter.com/fgbjr>_
 
-
-   
 ------
 
 Update translators, tweak lookup test, bump version to m40
