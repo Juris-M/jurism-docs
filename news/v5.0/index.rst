@@ -1,4 +1,5 @@
-========================Juris-M changes for v5.0
+========================
+Juris-M changes for v5.0
 ========================
 
 .. include:: ../../substitutions.txt
