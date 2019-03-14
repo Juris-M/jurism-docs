@@ -16,11 +16,11 @@
 
 .. |jurism| raw:: html
 
-   <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">Juris-M</span>
+   Juris-M
 
 .. |zotero| raw:: html
 
-   <span style="background:#cccccc;border-radius:0.5em;padding-left:0.25em;padding-right:0.25em;font-weight:bold;font-family:'Courier New', Courier, monospace">Zotero</span>
+   Zotero
 
 .. |cites-button| raw:: html
 
