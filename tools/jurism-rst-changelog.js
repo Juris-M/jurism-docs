@@ -20,8 +20,8 @@ function getPairs(tags) {
 	for (var tag of tags) {
 		var mytag = tag.replace(/^v/, "");
 		var firstchar = mytag.slice(0, 1);
-		// if (firstchar !== "4" && firstchar != "5") {
-		if (firstchar !== "5") {
+		if (firstchar !== "4" && firstchar != "5") {
+		//if (firstchar !== "5") {
 			continue;
 		}
 		if (mytag.indexOf("beta") > -1) {
@@ -128,10 +128,12 @@ function run () {
     var tags = getTags();
     var pairs = getPairs(tags);
     var logIdx = {};
+    logIdx["4"] = setIndexHeader("4");
     logIdx["5"] = setIndexHeader("5");
     for (var pair of pairs) {
         var logname = pair.join("-");
-        var version = logname.replace(/v?([5]).*/, "$1");
+        var version = logname.replace(/v?([45]).*/, "$1");
+    	if (version === "4") continue;
         if (version === "5") {
             outdir="../jurism-docs/news/v5.0"
         } else if (version === "4") {
@@ -146,6 +148,8 @@ function run () {
         var outFile = path.join(docsPath, "news", "v" + version + ".0", logname + ".rst");
         fs.writeFileSync(outFile, logTxt);
     }
+    //var outFile =  path.join(docsPath, "news", "v4.0", "index.rst");
+    //fs.writeFileSync(outFile, logIdx["4"]);
     var outFile =  path.join(docsPath, "news", "v5.0", "index.rst");
     fs.writeFileSync(outFile, logIdx["5"]);
 }
