@@ -20,8 +20,9 @@ Table of Contents
 .. toctree::
    :maxdepth: 4
 
-   introduction.rst
-   news/index.rst
-   tutorial.rst
-   tutorial-ja.rst
-   jurism-extras.rst
+   introduction
+   news/index
+   tutorial
+   tutorial-ja
+   jurism-extras
+   development

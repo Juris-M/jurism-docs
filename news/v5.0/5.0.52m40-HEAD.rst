@@ -7,6 +7,118 @@
 
 ------
 
+Update citeproc-js to 1.1.234
+
+:commit:
+    `571fd4a <https://github.com/Juris-M/zotero/commit/571fd4a3e9174b839bf33f3b622c7517ac2a0592>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-04 13:11 (JST)
+
+
+------
+
+Blink on language field if implicitly updated
+
+:commit:
+    `d978528 <https://github.com/Juris-M/zotero/commit/d978528370dd7af401d62acddf8e86f8e92bb843>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-04 12:22 (JST)
+
+
+------
+
+Be careful with popup in test
+
+:commit:
+    `315a9ec <https://github.com/Juris-M/zotero/commit/315a9ec57614f7eadba413e824c9a66afdf34dc4>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-04 12:19 (JST)
+
+
+------
+
+Add a second test of title lang -> language field
+
+:commit:
+    `01cbda0 <https://github.com/Juris-M/zotero/commit/01cbda0f85fce4de6047588a9adb2cd2d7c654b4>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-04 08:39 (JST)
+
+
+------
+
+Test of title lang -> language field write
+
+:commit:
+    `6b18195 <https://github.com/Juris-M/zotero/commit/6b181951375b16d6264faec135ef27309c2a85d1>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 23:15 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.233
+
+:commit:
+    `9e336ec <https://github.com/Juris-M/zotero/commit/9e336ec42bd0919e0632d6cb28331c9cd894ae2d>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 16:27 (JST)
+
+
+------
+
+Two bugfixes 
+
+* Write the title lang to the language field if empty, not the other   way around. 
+
+* Fix tabbing bug in the jurisdiction field. Was attempting to set   an empty field (permitted on newspaper and journal articles, and   standards) to undefined, and that broke tabbing.
+
+:commit:
+    `0c1e84c <https://github.com/Juris-M/zotero/commit/0c1e84c075deb59b31dc4c0ac740c774ffad5e65>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 16:25 (JST)
+
+
+------
+
+Read shortTitle or title-short, write title-short
+
+:commit:
+    `bf8710b <https://github.com/Juris-M/zotero/commit/bf8710b86ca88da441eae1fd9eff844a43ca1580>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 12:19 (JST)
+
+
+------
+
+Used title-short in test fixtures
+
+:commit:
+    `b4b5c59 <https://github.com/Juris-M/zotero/commit/b4b5c5953b452978daf000c10d14fd26188dc001>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 12:18 (JST)
+
+
+------
+
 Bump version
 
 :commit:

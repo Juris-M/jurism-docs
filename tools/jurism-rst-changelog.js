@@ -95,6 +95,7 @@ function getGitLog(from, to) {
 	];
 	var res = spawnSync("git", args, {cwd: jurismPath});
     res = res.stdout.toString();
+    res = res.replace(/\*/g, "\n\n*")
     return res;
 }
 
