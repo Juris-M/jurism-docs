@@ -7,6 +7,214 @@
 
 ------
 
+Tweak ISBN fixtures AGAIN, remove broken function call.
+
+:commit:
+    `748738b <https://github.com/Juris-M/zotero/commit/748738bae30597b4cefd69c142df06f25bf9ca4a>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-09 13:45 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `564fe73 <https://github.com/Juris-M/zotero/commit/564fe732bd1f1eae41c2eda8edcd2fb0f6321c8a>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-09 06:19 (JST)
+
+
+------
+
+Revert 43af7883 and successors
+
+:commit:
+    `d049496 <https://github.com/Juris-M/zotero/commit/d0494967ddd04f384560784a4ce47ce819f7c6a2>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 17:38 (JST)
+
+
+
+* Patch rejected by upstream. Reverting to adopt upstream
+  changes.
+
+
+------
+
+Fix duplicates view
+
+:commit:
+    `25ff7c6 <https://github.com/Juris-M/zotero/commit/25ff7c60c6d44750801e60e47fd62eaf243fcfe4>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 16:05 (JST)
+
+
+------
+
+Align symlinks build script with upstream Zotero
+
+:commit:
+    `e1ea452 <https://github.com/Juris-M/zotero/commit/e1ea452613a860b15f06f1e379e0f37fd8aafb14>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 07:14 (JST)
+
+
+------
+
+Test adjustments
+
+:commit:
+    `5cd9548 <https://github.com/Juris-M/zotero/commit/5cd95486937dbf05a3aaa486b14be78607b3bdd2>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 06:19 (JST)
+
+
+------
+
+Initialize only once in previewFn
+
+:commit:
+    `07512a7 <https://github.com/Juris-M/zotero/commit/07512a7b9692e73c99005d85ef4074d5f2daca87>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:53 (JST)
+
+
+------
+
+Bump version
+
+:commit:
+    `a36fda8 <https://github.com/Juris-M/zotero/commit/a36fda886816ff14c7bc4608a396082f9e56d834>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:32 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `bacd3f1 <https://github.com/Juris-M/zotero/commit/bacd3f171a67cdc8fbf8e7afbc6cf85296b2f98c>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:31 (JST)
+
+
+------
+
+Merge branch 'jurism-5.0' of github.com:Juris-M/zotero into jurism-5.0
+
+:commit:
+    `9983211 <https://github.com/Juris-M/zotero/commit/9983211d5959948b4329a834e64008686cdc2bc6>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:07 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.237
+
+:commit:
+    `dd23456 <https://github.com/Juris-M/zotero/commit/dd23456a69b265b5eccf93b304031d24113ac926>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:05 (JST)
+
+
+------
+
+There were several facets to this. This change companions with citeproc-js tag 1.1.236.
+
+:commit:
+    `43af788 <https://github.com/Juris-M/zotero/commit/43af78838e1da0cf6cdf203dd6cd80de3a0fbb00>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-06 09:58 (JST)
+
+
+
+* When `previewFn` was run via the Classic dialog before updating
+  citations [1], the `citations` array returned by `getCiteprocLists`
+  was of zero length, but the function would process index positions
+  (`idx`) based on the field position within the document. The preview
+  operation would succeed, and could be canceled without error, but that
+  left the processor initialized with an empty registry, and subsequent
+  operations crashed on attempts to access unregistered citationIDs.
+
+
+
+* Performing an implicit hard refresh in `previewFn` when an empty array
+  is encountered cleared the issue above, but exposed a crashing bug in
+  citeproc-js preview mode, which erroneously assumed that the previewed
+  citation would always be present in the registry, which is not the case.
+
+
+
+* Addressing the citation registry bug above exposed a further problem in
+  rendering context. There seem to have been two issues here, one in the
+  processor and one in Zotero.
+
+  - In the processor, it seems that previewing a citation under a
+    citationID already in the registry erroneously caused the processor
+    to trigger an ibid citation for the preview. I'm not clear on the
+    details, but removing the citationID from the previewed citation and
+    allowing citeproc-js to cut a fresh citationID for it seemed to remedy
+    all but one "ibid" failure condition. That brings us to the last item
+    in the journey.
+
+  - In Zotero, the values in the second array returned from
+    `getCiteprocLists` (`fieldToCitationIdxMapping`) were set as numeric
+    strings drawn from a walk over the keys in the `citationsByIndex` object.
+    In `previewFn`, the index of the predecessor to the previewed citation
+    is set by adding one to the array value. For the string value we were
+    getting things like "0" -> "01" and "3" -> "31". As a result, extra
+    citationID tuples were included in `citationsPre`, many of which would
+    be prior to the current citation note position, and were repeated in
+    `citationsPost`. Processor behavior under those conditions is undefined,
+    but in preview mode it seems to have been relatively harmless, apart
+    from messing up the context of the preview. A consistent failure was to
+    render the last citation in the document always as ibid in preview
+    (because all citations, including the last, were included in
+    `citationsPre`).
+
+
+------
+
+Merge pull request #54 from mvwestendorp/jurism-5.0
+
+:commit:
+    `4a63bb0 <https://github.com/Juris-M/zotero/commit/4a63bb0cd40d1552d7c325015edf5467310b0db7>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-06 07:19 (JST)
+
+Fix permission error for deployer submodule
+
+------
+
 Update citeproc-js to 1.1.234
 
 :commit:
@@ -907,4 +1115,16 @@ Update translators, tweak lookup test, bump version to m40
     Frank Bennett
 :date:
     2018-07-06 10:20 (JST)
+
+
+------
+
+ssh to https circumvent permission error
+
+:commit:
+    `f869b45 <https://github.com/Juris-M/zotero/commit/f869b457e3328146659a248d110767a12d8144fd>`_
+:author:
+    Mathijs
+:date:
+    2018-06-21 05:44 (JST)
 
