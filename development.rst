@@ -13,7 +13,7 @@ Development proposals
 
    dev-sync-simplification
    dev-language-preferences
-
+   dev-citeproc-test-runner-upgrade
 
 This area contains information on changes to Jurism that I am
 contemplating.  Things described here will involve a significant
@@ -22,6 +22,17 @@ they will need to be planned carefully and thoroughly tested before
 deployment---and I am *very much open* to collaboration in the coding
 and testing. Comments posted to the Jurism support list are also very
 much welcome.
+
+--------------
+
+`Improvements to Citeproc Test Runner`_
+
+    Although not a feature of Jurism *per se*, style tests are an
+    important supporting feature for CSL and CSL-M style development.
+    The `Citeproc Test Runner`_ can currently be used to build
+    style-specific test fixtures from CSL JSON source files. This
+    is more convenient than hand-crafting each test fixture from
+    scratch, but the workflow can be improved.
 
 --------------
 
@@ -57,3 +68,4 @@ __ https://github.com/zotero/zotero/issues/1674
 
 .. _Simplified Jurism sync data: dev-sync-simplification.html
 
+.. _Improvements to Citeproc Test Runner: dev-citeproc-test-runner-upgrade.html
