@@ -22,6 +22,8 @@ Table of Contents
 
    introduction
    news/index
+   sample-library
+   abbrevs           
    tutorial
    tutorial-ja
    jurism-extras
