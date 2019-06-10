@@ -22,9 +22,9 @@ Table of Contents
 
    introduction
    news/index
-   sample-library
    abbrevs           
    tutorial
+   sample-library
    tutorial-ja
    jurism-extras
    development
