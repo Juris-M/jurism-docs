@@ -7,6 +7,590 @@
 
 ------
 
+Tweak ISBN fixtures AGAIN, remove broken function call.
+
+:commit:
+    `748738b <https://github.com/Juris-M/zotero/commit/748738bae30597b4cefd69c142df06f25bf9ca4a>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-09 13:45 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `564fe73 <https://github.com/Juris-M/zotero/commit/564fe732bd1f1eae41c2eda8edcd2fb0f6321c8a>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-09 06:19 (JST)
+
+
+------
+
+Revert 43af7883 and successors
+
+:commit:
+    `d049496 <https://github.com/Juris-M/zotero/commit/d0494967ddd04f384560784a4ce47ce819f7c6a2>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 17:38 (JST)
+
+
+
+* Patch rejected by upstream. Reverting to adopt upstream
+  changes.
+
+
+------
+
+Fix duplicates view
+
+:commit:
+    `25ff7c6 <https://github.com/Juris-M/zotero/commit/25ff7c60c6d44750801e60e47fd62eaf243fcfe4>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 16:05 (JST)
+
+
+------
+
+Align symlinks build script with upstream Zotero
+
+:commit:
+    `e1ea452 <https://github.com/Juris-M/zotero/commit/e1ea452613a860b15f06f1e379e0f37fd8aafb14>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 07:14 (JST)
+
+
+------
+
+Test adjustments
+
+:commit:
+    `5cd9548 <https://github.com/Juris-M/zotero/commit/5cd95486937dbf05a3aaa486b14be78607b3bdd2>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 06:19 (JST)
+
+
+------
+
+Initialize only once in previewFn
+
+:commit:
+    `07512a7 <https://github.com/Juris-M/zotero/commit/07512a7b9692e73c99005d85ef4074d5f2daca87>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:53 (JST)
+
+
+------
+
+Bump version
+
+:commit:
+    `a36fda8 <https://github.com/Juris-M/zotero/commit/a36fda886816ff14c7bc4608a396082f9e56d834>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:32 (JST)
+
+
+------
+
+Merge branch 'master' of https://github.com/zotero/zotero into jurism-5.0
+
+:commit:
+    `bacd3f1 <https://github.com/Juris-M/zotero/commit/bacd3f171a67cdc8fbf8e7afbc6cf85296b2f98c>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:31 (JST)
+
+
+------
+
+Merge branch 'jurism-5.0' of github.com:Juris-M/zotero into jurism-5.0
+
+:commit:
+    `9983211 <https://github.com/Juris-M/zotero/commit/9983211d5959948b4329a834e64008686cdc2bc6>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:07 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.237
+
+:commit:
+    `dd23456 <https://github.com/Juris-M/zotero/commit/dd23456a69b265b5eccf93b304031d24113ac926>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-08 05:05 (JST)
+
+
+------
+
+There were several facets to this. This change companions with citeproc-js tag 1.1.236.
+
+:commit:
+    `43af788 <https://github.com/Juris-M/zotero/commit/43af78838e1da0cf6cdf203dd6cd80de3a0fbb00>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-06 09:58 (JST)
+
+
+
+* When `previewFn` was run via the Classic dialog before updating
+  citations [1], the `citations` array returned by `getCiteprocLists`
+  was of zero length, but the function would process index positions
+  (`idx`) based on the field position within the document. The preview
+  operation would succeed, and could be canceled without error, but that
+  left the processor initialized with an empty registry, and subsequent
+  operations crashed on attempts to access unregistered citationIDs.
+
+
+
+* Performing an implicit hard refresh in `previewFn` when an empty array
+  is encountered cleared the issue above, but exposed a crashing bug in
+  citeproc-js preview mode, which erroneously assumed that the previewed
+  citation would always be present in the registry, which is not the case.
+
+
+
+* Addressing the citation registry bug above exposed a further problem in
+  rendering context. There seem to have been two issues here, one in the
+  processor and one in Zotero.
+
+  - In the processor, it seems that previewing a citation under a
+    citationID already in the registry erroneously caused the processor
+    to trigger an ibid citation for the preview. I'm not clear on the
+    details, but removing the citationID from the previewed citation and
+    allowing citeproc-js to cut a fresh citationID for it seemed to remedy
+    all but one "ibid" failure condition. That brings us to the last item
+    in the journey.
+
+  - In Zotero, the values in the second array returned from
+    `getCiteprocLists` (`fieldToCitationIdxMapping`) were set as numeric
+    strings drawn from a walk over the keys in the `citationsByIndex` object.
+    In `previewFn`, the index of the predecessor to the previewed citation
+    is set by adding one to the array value. For the string value we were
+    getting things like "0" -> "01" and "3" -> "31". As a result, extra
+    citationID tuples were included in `citationsPre`, many of which would
+    be prior to the current citation note position, and were repeated in
+    `citationsPost`. Processor behavior under those conditions is undefined,
+    but in preview mode it seems to have been relatively harmless, apart
+    from messing up the context of the preview. A consistent failure was to
+    render the last citation in the document always as ibid in preview
+    (because all citations, including the last, were included in
+    `citationsPre`).
+
+
+------
+
+Merge pull request #54 from mvwestendorp/jurism-5.0
+
+:commit:
+    `4a63bb0 <https://github.com/Juris-M/zotero/commit/4a63bb0cd40d1552d7c325015edf5467310b0db7>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-06 07:19 (JST)
+
+Fix permission error for deployer submodule
+
+------
+
+Update citeproc-js to 1.1.234
+
+:commit:
+    `571fd4a <https://github.com/Juris-M/zotero/commit/571fd4a3e9174b839bf33f3b622c7517ac2a0592>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-04 13:11 (JST)
+
+
+------
+
+Blink on language field if implicitly updated
+
+:commit:
+    `d978528 <https://github.com/Juris-M/zotero/commit/d978528370dd7af401d62acddf8e86f8e92bb843>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-04 12:22 (JST)
+
+
+------
+
+Be careful with popup in test
+
+:commit:
+    `315a9ec <https://github.com/Juris-M/zotero/commit/315a9ec57614f7eadba413e824c9a66afdf34dc4>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-04 12:19 (JST)
+
+
+------
+
+Add a second test of title lang -> language field
+
+:commit:
+    `01cbda0 <https://github.com/Juris-M/zotero/commit/01cbda0f85fce4de6047588a9adb2cd2d7c654b4>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-04 08:39 (JST)
+
+
+------
+
+Test of title lang -> language field write
+
+:commit:
+    `6b18195 <https://github.com/Juris-M/zotero/commit/6b181951375b16d6264faec135ef27309c2a85d1>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 23:15 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.233
+
+:commit:
+    `9e336ec <https://github.com/Juris-M/zotero/commit/9e336ec42bd0919e0632d6cb28331c9cd894ae2d>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 16:27 (JST)
+
+
+------
+
+Two bugfixes 
+
+* Write the title lang to the language field if empty, not the other   way around. 
+
+* Fix tabbing bug in the jurisdiction field. Was attempting to set   an empty field (permitted on newspaper and journal articles, and   standards) to undefined, and that broke tabbing.
+
+:commit:
+    `0c1e84c <https://github.com/Juris-M/zotero/commit/0c1e84c075deb59b31dc4c0ac740c774ffad5e65>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 16:25 (JST)
+
+
+------
+
+Read shortTitle or title-short, write title-short
+
+:commit:
+    `bf8710b <https://github.com/Juris-M/zotero/commit/bf8710b86ca88da441eae1fd9eff844a43ca1580>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 12:19 (JST)
+
+
+------
+
+Used title-short in test fixtures
+
+:commit:
+    `b4b5c59 <https://github.com/Juris-M/zotero/commit/b4b5c5953b452978daf000c10d14fd26188dc001>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-03 12:18 (JST)
+
+
+------
+
+Bump version
+
+:commit:
+    `e6ab517 <https://github.com/Juris-M/zotero/commit/e6ab517a2ff85ed133b808cac130048c0e80cd85>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 15:57 (JST)
+
+
+------
+
+Update styles
+
+:commit:
+    `17aa4a4 <https://github.com/Juris-M/zotero/commit/17aa4a4dd35cb504908ea15014efdb1a3665e34c>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 15:56 (JST)
+
+
+------
+
+Extend timeout again for identifier tests.
+
+:commit:
+    `de8f1e6 <https://github.com/Juris-M/zotero/commit/de8f1e6f4f7c3a5a912e972e03092abd7bd84322>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 15:54 (JST)
+
+
+------
+
+Update repotime.txt
+
+:commit:
+    `fdd682b <https://github.com/Juris-M/zotero/commit/fdd682bf1de2b333f64dcc335046aafab6d45599>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 15:53 (JST)
+
+
+------
+
+Set Language field from title main language
+
+:commit:
+    `21d1202 <https://github.com/Juris-M/zotero/commit/21d120286d8d30dbcfdbfa5dee2c7f5bef3bb2ea>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 15:53 (JST)
+
+
+------
+
+Update translators
+
+:commit:
+    `cad3d7f <https://github.com/Juris-M/zotero/commit/cad3d7f4798484e637da222e75c48221e5f6e969>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 13:53 (JST)
+
+
+------
+
+Merge locale info from upstream Zotero
+
+:commit:
+    `02506f2 <https://github.com/Juris-M/zotero/commit/02506f2ed003715e4535ccc9152e73d046343124>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 13:22 (JST)
+
+
+------
+
+Merge changes from upstream Zotero
+
+:commit:
+    `de71acf <https://github.com/Juris-M/zotero/commit/de71acfef20129ff78bb7c07fa459e7b03d0e3de>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 13:19 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.232
+
+:commit:
+    `4432707 <https://github.com/Juris-M/zotero/commit/4432707faea3e6d4f75f73aaf3cc1415c1101775>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-02 12:52 (JST)
+
+
+------
+
+Revert MLZ change to duplicates detection
+
+:commit:
+    `133b4d9 <https://github.com/Juris-M/zotero/commit/133b4d98db3f83a8f4ddfd00d5b6104ea75171a3>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-01 15:42 (JST)
+
+
+------
+
+Ålign dupes code line with upstream Zotero
+
+:commit:
+    `7acfd49 <https://github.com/Juris-M/zotero/commit/7acfd49271afcf13d113b5d45c05604a7ed20b48>`_
+:author:
+    Frank Bennett
+:date:
+    2019-04-01 15:28 (JST)
+
+
+------
+
+Update citeproc.js to 1.1.229
+
+:commit:
+    `d790eb8 <https://github.com/Juris-M/zotero/commit/d790eb85765a425e77c5689e5f2da7faffd21cc1>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-31 22:32 (JST)
+
+
+------
+
+Merge from upstream Zotero
+
+:commit:
+    `97710aa <https://github.com/Juris-M/zotero/commit/97710aaa943c64d0f91ce1aed58bcedc85c55823>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-31 16:17 (JST)
+
+
+------
+
+Fix
+
+:commit:
+    `4608648 <https://github.com/Juris-M/zotero/commit/4608648c7f62c9811b74d239b0b29dbf7d2a7b16>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-31 16:05 (JST)
+
+
+------
+
+Fix
+
+:commit:
+    `512ad84 <https://github.com/Juris-M/zotero/commit/512ad84a95ffa7a8ac023e0d01303c481ad7695e>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-31 16:01 (JST)
+
+
+------
+
+Show container title really
+
+:commit:
+    `4a22dc4 <https://github.com/Juris-M/zotero/commit/4a22dc4cba7e390326261bf2083da421197a8b44>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-31 15:51 (JST)
+
+
+------
+
+Show container title in center pane if no title
+
+:commit:
+    `da762d0 <https://github.com/Juris-M/zotero/commit/da762d0f4fc8c06413155ec67e5404d3e5a18e1f>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-31 15:44 (JST)
+
+
+------
+
+Align mapping of podcast to broadcast with Zotero
+
+:commit:
+    `94efaee <https://github.com/Juris-M/zotero/commit/94efaeebe9d125a28ab37859953600ede700a94e>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-21 21:21 (JST)
+
+
+------
+
+Fix a merge d'oh
+
+:commit:
+    `4f79aaa <https://github.com/Juris-M/zotero/commit/4f79aaad451c7cb7696662cfd5101a4fd6eea066>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-21 21:20 (JST)
+
+
+------
+
+Update styles
+
+:commit:
+    `422dad9 <https://github.com/Juris-M/zotero/commit/422dad964594a2a76f739b183a03090019b8c418>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-20 23:29 (JST)
+
+
+------
+
+Update citeproc-js to 1.1.222
+
+:commit:
+    `ab98b91 <https://github.com/Juris-M/zotero/commit/ab98b911b75e9dc0fda7bdbdeac1296b62bf2acd>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-20 23:28 (JST)
+
+
+------
+
+Merge changes from upstream Zotero
+
+:commit:
+    `81b751c <https://github.com/Juris-M/zotero/commit/81b751c3021bfefd71d7e7f7327ca0f4e63d5681>`_
+:author:
+    Frank Bennett
+:date:
+    2019-03-20 23:28 (JST)
+
+
+------
+
 Update translators
 
 :commit:
@@ -531,4 +1115,16 @@ Update translators, tweak lookup test, bump version to m40
     Frank Bennett
 :date:
     2018-07-06 10:20 (JST)
+
+
+------
+
+ssh to https circumvent permission error
+
+:commit:
+    `f869b45 <https://github.com/Juris-M/zotero/commit/f869b457e3328146659a248d110767a12d8144fd>`_
+:author:
+    Mathijs
+:date:
+    2018-06-21 05:44 (JST)
 

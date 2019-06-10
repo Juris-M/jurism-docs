@@ -31,3 +31,6 @@ The links here provide a view of the changes made to Zotero and
 |jurism| at each tag release of the client, as extracted from the
 commit logs of the project on `GitHub
 <https://github.com/juris-m/zotero>`_.
+
+For changes to the citation processor, see `the citeproc-js change
+logs <https://citeproc-js.readthedocs.io/en/latest/news/index.html>`.

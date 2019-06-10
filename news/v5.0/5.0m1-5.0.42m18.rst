@@ -4100,7 +4100,9 @@ Report: https://forums.zotero.org/discussion/comment/298804#Comment_298804
 
 ------
 
-Run deploys from Travis on *-hotfix branches
+Run deploys from Travis on 
+
+*-hotfix branches
 
 :commit:
     `a1b6f07 <https://github.com/Juris-M/zotero/commit/a1b6f072c1eae63926a239bd4dfc9dfa4f1c81b8>`_
@@ -6800,7 +6802,13 @@ Update locales from Transifex
 
 ------
 
-Adjust ignore mask in build script to #*, not just #*.*
+Adjust ignore mask in build script to #
+
+*, not just #
+
+*.
+
+*
 
 :commit:
     `225fa2b <https://github.com/Juris-M/zotero/commit/225fa2b5e2b441cc2a85aa7b3cb73d4bf2d172ab>`_
@@ -11473,7 +11481,9 @@ Fix crash from tag name collision with Object properties in tag selector
 
 ------
 
-Use DOM_VK_* codes in itemTreeView keypress listener
+Use DOM_VK_
+
+* codes in itemTreeView keypress listener
 
 :commit:
     `4ffbf6f <https://github.com/Juris-M/zotero/commit/4ffbf6fca55f83a190345d8c730e777276f380f4>`_
@@ -12960,12 +12970,26 @@ Better build process (#1248)
 :date:
     2017-06-21 08:18 (JST)
 
+
+
 * Remove gulp, replace with custom scripts
+
+
 * Symlink entire dirs where possible (fixes #1232)
+
+
 * Significantly speed up subsequent builds (fixes #1238)
+
+
 * Watch process now observes new/removed files, not only changed
+
+
 * Add ignoreMask, exclude all files with names starting with a #
+
+
 * Better logging during builds
+
+
 * Update travis.yml to use new, non-gulp-based build
 
 ------
@@ -13884,6 +13908,8 @@ Add support for glob in babel-worker ignored paths
 :date:
     2017-06-04 00:50 (JST)
 
+
+
 * Also fixes an issue with handling paths on Windows
 
 
@@ -13910,7 +13936,11 @@ Ensure build process exits with non-zero result on failure
 :date:
     2017-06-02 22:18 (JST)
 
+
+
 * During build, error is printed out with stack and process exits
+
+
 * During development, initial build behaves as above, however when
   watching files, errors are displayed but watch process does not
   exit allowing fixes without a complete rebuild.
@@ -14159,6 +14189,8 @@ Tweak test syntax that breaks with current version of chai-as-promised
 :date:
     2017-06-01 01:20 (JST)
 
+
+
 * Second parameter should be an optional message, however is treated
   as a string that should be contained in the error message
 
@@ -14173,6 +14205,8 @@ Remove "Error:" expected in error messages.
     Tom Najdek
 :date:
     2017-06-01 00:52 (JST)
+
+
 
 * "Error:" seems to have been injected into the message by Bluebird,
   but that's no longer the case
@@ -14201,6 +14235,8 @@ Add a shutdown hook in Zotero.Prefs to unregister observer
 :date:
     2017-06-01 00:36 (JST)
 
+
+
 * Without this, preference change observers stack, triggering multiple
   times if Zotero is re-initialized multiple times within the same
   browser instance (like in tests)
@@ -14217,6 +14253,8 @@ Re-introduce custom implementation of setTimeout
 :date:
     2017-06-01 00:32 (JST)
 
+
+
 * Resolves issues with some tests failing
 
 
@@ -14230,6 +14268,8 @@ Support generators in tests via coMocha, instead of custom code
     Tom Najdek
 :date:
     2017-06-01 00:30 (JST)
+
+
 
 * coMocha offers better error stack trace
 
@@ -14245,16 +14285,28 @@ Fixes and tweaks to make tests work with babelized code
 :date:
     2017-06-01 00:28 (JST)
 
+
+
 * Use mocha, chai & sinon from the npm. As of sinon 2.0
   sinon-as-promised is no longer required so it is removed
+
+
 * Tweak code to re-use the same loader with the same environment
   throghout the code
+
+
 * Introduce browserify step for testing tools that only provide
   node-compatible libraries (sinon, chai-as-promised)
+
+
 * Introduce copy step for test data to resolve multiple issues with
   tests depending on files not being symlinks
+
+
 * Re-introduce custom implementation of setTimeout to resolve issues
   with few tests
+
+
 * Re-introduce custom Bluebird Promises config & monkey patch
 
 
@@ -14604,12 +14656,22 @@ Introduce a build system
 :date:
     2017-05-23 08:01 (JST)
 
+
+
 * Add a multi-process, gulp-based build system to support es6 features,
   async/await, jsx and scss
+
+
 * Add a package.json to support dependency management and allow starting
   the build process via npm
+
+
 * Replace embedded Bluebird library with npm-installed one
+
+
 * Add react, react-dom and web-library
+
+
 * Introduce a custom require() loader in include.js as well as a minimal
   local require() implementation in various other places
 
@@ -14909,7 +14971,9 @@ alone, or that are too difficult to do that way.
 
 ------
 
-Use COUNT(*) > 1 for DB integrity check queries
+Use COUNT(
+
+*) > 1 for DB integrity check queries
 
 :commit:
     `caf61be <https://github.com/Juris-M/zotero/commit/caf61bec2feaf09fb4fdfdf9afccef1d84e8e840>`_
@@ -20734,14 +20798,18 @@ Merge pull request #1148
 :date:
     2017-01-09 14:11 (JST)
 
-Remove tmp-* directories when attachment download fails. Closes #1128
+Remove tmp-
+
+* directories when attachment download fails. Closes #1128
 
 Closes #1148
 
 
 ------
 
-Remove tmp-* directories when attachment download fails. Closes #1128
+Remove tmp-
+
+* directories when attachment download fails. Closes #1128
 
 :commit:
     `74d358b <https://github.com/Juris-M/zotero/commit/74d358bd1932e5dafb51b4ac2d08b5c1eba4dc52>`_
@@ -22285,8 +22353,14 @@ Saner feed database management (#1131)
 :date:
     2016-12-13 23:07 (JST)
 
+
+
 * Mark feedItems read in a single batch SQL update
+
+
 * Automatically remove old feed items
+
+
 * User-facing preference globally and per-feed for feed item expiration
 
 ------
