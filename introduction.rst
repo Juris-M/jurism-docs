@@ -27,11 +27,11 @@ The project began life in 2010 as the "Multilingual
 Zotero" plugin for the Firefox browser (MLZ). When changes to
 Firefox announced in 2015 threatened to make plugin distribution more
 difficult, the project was rebranded as "Juris-M," and
-for a few months the client was distributed as a standalone program
+is now distributed as a standalone program
 only.
 
 
 | Frank Bennett
 | Nagoya
-| 14 March 2019
+| 10 June 2019
 
